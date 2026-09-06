@@ -1,8 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306 361" role="img" aria-labelledby="title">
-  <title id="title">Governance Assurance shield</title>
-  <path fill="#3a444d" d="M153 10 17 57 10 68v103c0 68 38 111 80 145 23 19 49 34 63 41 14-7 40-22 63-41 42-34 80-77 80-145V68l-7-11L153 10Z"/>
-  <path fill="#fff" d="M153 39 38 78v96c0 49 29 86 65 115 19 15 40 27 50 32 10-5 31-17 50-32 36-29 65-66 65-115V78L153 39Z"/>
-  <circle cx="153" cy="105" r="29" fill="#b69246"/>
-  <circle cx="153" cy="183" r="29" fill="#49a1a3"/>
-  <circle cx="153" cy="260" r="29" fill="#3a444d"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 142" role="img" aria-labelledby="title">
+  <title id="title">SGAF shield mark</title>
+  <!-- Heater shield: navy outline, white interior, three stacked equal dots -->
+  <path fill="#1a3a5c" d="M60 4 10 22v46c0 28 18 48 38 64 6 5 10 8 12 9 2-1 6-4 12-9 20-16 38-36 38-64V22L60 4Z"/>
+  <path fill="#ffffff" d="M60 14 18 29v38c0 24 15 41 32 55 5 4 8 6 10 7 2-1 5-3 10-7 17-14 32-31 32-55V29L60 14Z"/>
+  <circle cx="60" cy="48" r="11" fill="#b69246"/>
+  <circle cx="60" cy="74" r="11" fill="#3d8e8f"/>
+  <circle cx="60" cy="100" r="11" fill="#1a3a5c"/>
 </svg>

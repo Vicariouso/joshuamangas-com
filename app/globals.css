@@ -1,20 +1,15 @@
 @import "tailwindcss";
 
 :root {
-  /* Dark scaffold (permanent) */
   --bg: #0e0e12;
   --fg: #ebe8e1;
   --muted: #9a9690;
-  --accent: #c9b8a0;
-  --border: #2a2a30;
   --subtle: #6b6862;
+  --border: #2a2a30;
+  --accent: #c9b8a0;
   --accent-soft: #1a1916;
   --paper: #ebe8e1;
   --ink: #0e0e12;
-  --paper-raised: #16161c;
-  --line: #2a2a30;
-  --ink-muted: #9a9690;
-  --focus: #c9b8a0;
   --background: var(--bg);
   --foreground: var(--fg);
 }
@@ -25,16 +20,12 @@
   --color-bg: var(--bg);
   --color-fg: var(--fg);
   --color-muted: var(--muted);
-  --color-border: var(--border);
   --color-subtle: var(--subtle);
+  --color-border: var(--border);
   --color-accent: var(--accent);
   --color-accent-soft: var(--accent-soft);
   --color-paper: var(--paper);
-  --color-paper-raised: var(--paper-raised);
   --color-ink: var(--ink);
-  --color-ink-muted: var(--ink-muted);
-  --color-line: var(--line);
-  --color-focus: var(--focus);
   --font-sans: var(--font-source-sans);
   --font-display: var(--font-fraunces);
 }
@@ -51,7 +42,10 @@ body {
   background: var(--bg);
   color: var(--fg);
   font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.7;
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 ::selection {
@@ -64,15 +58,59 @@ a {
 }
 
 :focus-visible {
-  outline: 2px solid var(--focus);
-  outline-offset: 2px;
-}
-
-.hairline {
-  height: 1px;
-  background: var(--line);
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
 }
 
 .font-display {
   font-family: var(--font-display), Georgia, "Times New Roman", serif;
+}
+
+.masthead {
+  font-family: var(--font-display), Georgia, "Times New Roman", serif;
+  font-size: clamp(3.5rem, 12vw, 7.5rem);
+  font-weight: 600;
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+}
+
+.section-title {
+  font-family: var(--font-display), Georgia, "Times New Roman", serif;
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.meta {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.hairline {
+  height: 1px;
+  background: var(--border);
+  border: 0;
+}
+
+.site-shell {
+  width: min(100% - 2.5rem, 68rem);
+  margin-inline: auto;
+}
+
+.site-shell-narrow {
+  width: min(100% - 2.5rem, 42rem);
+  margin-inline: auto;
+}
+
+@media (min-width: 640px) {
+  .site-shell {
+    width: min(100% - 4rem, 68rem);
+  }
+
+  .site-shell-narrow {
+    width: min(100% - 4rem, 42rem);
+  }
 }
