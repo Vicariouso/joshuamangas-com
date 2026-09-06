@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical: "https://joshuamangas.com/workshop/",
   },
   openGraph: {
-    title: "How I build · Joshua Mangas",
+    title: "How I build by Joshua Mangas",
     description:
       "How Joshua Mangas researches, designs, builds and tests complete products with AI.",
     url: "https://joshuamangas.com/workshop/",
@@ -222,9 +222,7 @@ export default function WorkshopPage() {
             <a href="/#highlight" className="link-quiet">
               Explore the work →
             </a>
-            <span aria-hidden className="mx-3 text-border-strong">
-              ·
-            </span>
+            <span aria-hidden className="mx-3" />
             <a href="/#contact" className="link-quiet">
               Start a conversation →
             </a>
@@ -246,7 +244,7 @@ export default function WorkshopPage() {
         >
           <div className="shell-prose px-6 py-12 sm:px-8 sm:py-16">
             <h2 id="literal-heading" className="type-h2 text-text">
-              Full stack, in the literal sense.
+              From the problem to the live product.
             </h2>
             <div
               className="mt-8 space-y-5 text-text-2"
@@ -273,7 +271,7 @@ export default function WorkshopPage() {
           aria-labelledby="inventory-heading"
         >
           <h2 id="inventory-heading" className="type-h2 text-text">
-            Capability inventory
+            What I can do
           </h2>
 
           <div className="mt-10">
