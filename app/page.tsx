@@ -203,9 +203,10 @@ export default function Home() {
                 NetCall — courtside netball, without the paperwork pile
               </h3>
               <p className="mt-4 text-text-2" style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}>
-                Prepare the match, stay with the game, share a clean result.
-                Built for social league umpires; deeper tools for coaches and PE
-                without cluttering the umpire flow.
+                Built as a gift around my wife&apos;s courtside umpire workflow —
+                prepare the match, stay with the game, share a clean result.
+                Deeper tools for coaches and PE without cluttering the umpire
+                flow.
               </p>
               <p className="mt-4 text-muted" style={{ fontSize: "0.875rem" }}>
                 iPhone £2.99. Android beta open.
