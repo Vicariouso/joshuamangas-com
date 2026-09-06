@@ -49,7 +49,7 @@ const writing = [
 
 const proofChips = [
   "Founder of SGAF",
-  "AI product developer",
+  "AI developer",
   "Serving chair",
   "Nearly 500 schools",
 ] as const;
@@ -248,7 +248,7 @@ export default function Home() {
           <div className="shell-experience px-6 py-12 sm:px-8 sm:py-16 lg:py-24">
             <p className="meta text-accent">Workshop</p>
             <h2 id="workshop-heading" className="type-h2 mt-4 text-text">
-              Full stack, in the literal sense.
+              I work across the whole product.
             </h2>
             <div
               className="mt-8 max-w-[42rem] space-y-5 text-text-2"
