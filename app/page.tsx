@@ -1,31 +1,3 @@
-const content = [
-  {
-    title: "What chairs actually assure",
-    abstract:
-      "Assurance is not a longer agenda. It is knowing which questions prove the board is doing its job.",
-  },
-  {
-    title: "Board effectiveness without the theatre",
-    abstract:
-      "Papers, challenge, and decisions that leave a trail — how high-performing boards stay disciplined.",
-  },
-  {
-    title: "The chair’s operating rhythm",
-    abstract:
-      "A practical cadence for agendas, clerking, and follow-through that survives a busy term.",
-  },
-  {
-    title: "Trust governance at scale",
-    abstract:
-      "Local committees and the trust board: clarifying the seams so neither becomes ornamental.",
-  },
-  {
-    title: "Training that changes the room",
-    abstract:
-      "Why governor development sticks when it is rooted in real decisions, not generic modules.",
-  },
-] as const;
-
 function ExtLink({
   href,
   children,
@@ -47,38 +19,76 @@ function ExtLink({
   );
 }
 
+const writing = [
+  {
+    title: "Why SGAF exists",
+    abstract:
+      "Boards were already doing the work. The record was too fragile.",
+    href: "https://governanceassurance.co.uk/about",
+  },
+  {
+    title: "Governors, when was the last time you spoke about swimming?",
+    abstract:
+      "Turn a news story into a board-ready comparison: school issue, local pattern, or strength to celebrate.",
+    href: "https://www.linkedin.com/posts/joshuamangas_schoolgovernance-educationdata-governorchallenge-activity-7493319460536373248-wXTY",
+  },
+  {
+    title: "Recruiting governors isn’t the hard part",
+    abstract:
+      "STEM ambassadors, social mobility, and putting careers outreach on the board agenda.",
+    href: "https://www.linkedin.com/posts/joshuamangas_latest-edition-of-its-really-not-that-hard-activity-7492616875982548992-0lrS",
+  },
+] as const;
+
+const proofStrip = [
+  "Founder @GAFSchools",
+  "Serving chair",
+  "Previously SLT",
+  "500+ boards",
+  "Practitioner, not a software company",
+] as const;
+
 export default function Home() {
   return (
     <>
       <a
         href="#main"
-        className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-accent focus:px-3 focus:py-2 focus:text-ink"
+        className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-accent-soft focus:px-3 focus:py-2 focus:text-ink"
       >
         Skip to content
       </a>
 
-      <header className="border-b border-border/80">
-        <div className="mx-auto flex w-full max-w-5xl items-center justify-between px-6 py-5 sm:px-8">
-          <p className="font-serif text-lg tracking-tight text-paper">
+      <header className="border-b border-line">
+        <div className="mx-auto flex w-full max-w-[720px] items-center justify-between px-6 py-5 sm:px-8 lg:max-w-[1100px]">
+          <p className="font-[family-name:var(--font-outfit)] text-base font-semibold tracking-tight text-ink">
             Joshua Mangas
           </p>
           <nav
             aria-label="Primary"
-            className="hidden gap-6 text-sm text-muted sm:flex"
+            className="flex gap-5 text-sm text-ink-muted sm:gap-6"
           >
-            <a href="#who" className="transition-colors hover:text-paper">
+            <a
+              href="#who"
+              className="transition-colors duration-150 hover:text-ink"
+            >
               Who
             </a>
-            <a href="#sgaf" className="transition-colors hover:text-paper">
-              SGAF
+            <a
+              href="#highlight"
+              className="hidden transition-colors duration-150 hover:text-ink sm:inline"
+            >
+              Highlight
             </a>
-            <a href="#netcall" className="transition-colors hover:text-paper">
-              NetCall
+            <a
+              href="#writing"
+              className="transition-colors duration-150 hover:text-ink"
+            >
+              Writing
             </a>
-            <a href="#content" className="transition-colors hover:text-paper">
-              Content
-            </a>
-            <a href="#contact" className="transition-colors hover:text-paper">
+            <a
+              href="#contact"
+              className="transition-colors duration-150 hover:text-ink"
+            >
               Contact
             </a>
           </nav>
@@ -86,205 +96,217 @@ export default function Home() {
       </header>
 
       <main id="main" className="flex-1">
-        {/* Hero */}
-        <section className="relative overflow-hidden">
-          <div
-            aria-hidden
-            className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--accent-soft),_transparent_55%)]"
-          />
-          <div className="relative mx-auto max-w-5xl px-6 pb-20 pt-16 sm:px-8 sm:pb-28 sm:pt-24">
-            <p className="mb-5 text-xs font-semibold uppercase tracking-[0.22em] text-accent">
-              Personal site · UK
-            </p>
-            <h1 className="max-w-3xl font-serif text-4xl leading-[1.12] tracking-tight text-paper sm:text-5xl md:text-6xl">
-              Governance that holds under pressure.
-            </h1>
-            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted sm:text-xl">
-              Founder of SGAF. Serving chair of governors. Previously SLT.
-              Practitioner voice on school and academy trust governance —
-              written for people who sit in the room.
-            </p>
-          </div>
-        </section>
-
-        <div className="rule mx-auto max-w-5xl" />
-
         {/* Who */}
-        <section id="who" className="mx-auto max-w-5xl px-6 py-16 sm:px-8 sm:py-20">
-          <div className="grid gap-10 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.4fr)] md:gap-16">
-            <div>
-              <h2 className="font-serif text-3xl tracking-tight text-paper sm:text-4xl">
-                Who
-              </h2>
-              <p className="mt-3 text-sm uppercase tracking-[0.18em] text-accent">
-                Joshua Mangas
-              </p>
-            </div>
-            <div className="space-y-5 text-base leading-relaxed text-muted sm:text-lg">
-              <p>
-                I build systems and habits that help boards know what they are
-                assuring — and prove it when it matters.
-              </p>
-              <p>
-                I founded{" "}
-                <strong className="font-semibold text-paper">
-                  SGAF (School Governance Assurance Framework)
-                </strong>
-                , a Governance Operating System for UK schools and academy
-                trusts. I serve as a chair of governors, having previously worked
-                in senior leadership. Across governor training and board
-                effectiveness work I have supported{" "}
-                <strong className="font-semibold text-paper">
-                  500+ boards and schools
-                </strong>
-                .
-              </p>
-              <p>
-                The tone here is practitioner first: clear English, fewer
-                frameworks for their own sake, and a bias toward decisions that
-                leave an audit trail.
-              </p>
-            </div>
+        <section
+          id="who"
+          className="mx-auto max-w-[720px] px-6 py-16 sm:px-8 sm:py-20 lg:py-24"
+        >
+          <h1 className="font-[family-name:var(--font-outfit)] text-3xl font-semibold leading-tight tracking-tight text-ink sm:text-4xl">
+            Governance practitioner. Founder of SGAF. Serving chair.
+          </h1>
+          <p className="mt-6 text-base leading-relaxed text-ink-muted sm:text-lg">
+            I build systems for school governance from twenty years inside the
+            work — still chairing a board, previously in school senior
+            leadership, and after training and board design with more than 500
+            schools. Practitioner first. Not a software company.
+          </p>
+          <ul className="mt-8 flex flex-wrap gap-x-3 gap-y-2 text-sm text-ink-muted">
+            {proofStrip.map((item, i) => (
+              <li key={item} className="flex items-center gap-3">
+                {i > 0 && (
+                  <span aria-hidden className="text-line">
+                    ·
+                  </span>
+                )}
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+          <div className="mt-10 flex flex-wrap gap-3">
+            <ExtLink
+              href="https://governanceassurance.co.uk"
+              className="inline-flex items-center rounded-full bg-accent px-5 py-2.5 text-sm font-medium text-paper-raised transition-opacity duration-150 hover:opacity-90"
+            >
+              View SGAF
+            </ExtLink>
+            <a
+              href="#contact"
+              className="inline-flex items-center rounded-full border border-line bg-paper-raised px-5 py-2.5 text-sm font-medium text-ink transition-colors duration-150 hover:border-ink-muted"
+            >
+              Get in touch
+            </a>
           </div>
         </section>
 
-        <div className="rule mx-auto max-w-5xl" />
+        <div className="hairline mx-auto max-w-[720px]" />
 
-        {/* SGAF */}
-        <section id="sgaf" className="mx-auto max-w-5xl px-6 py-16 sm:px-8 sm:py-20">
-          <div className="rounded-2xl border border-border bg-subtle/60 p-8 sm:p-10">
-            <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
-              <div className="max-w-2xl">
-                <p className="text-xs font-semibold uppercase tracking-[0.22em] text-accent">
-                  Product
-                </p>
-                <h2 className="mt-3 font-serif text-3xl tracking-tight text-paper sm:text-4xl">
-                  SGAF
-                </h2>
-                <p className="mt-4 text-base leading-relaxed text-muted sm:text-lg">
-                  The School Governance Assurance Framework — a Governance
-                  Operating System for UK schools and academy trusts. Built for
-                  chairs, clerks, and trust leaders who need assurance that is
-                  usable in the boardroom, not just presentable in a binder.
-                </p>
-              </div>
-              <ExtLink
-                href="https://governanceassurance.co.uk"
-                className="inline-flex items-center justify-center gap-2 self-start rounded-full border border-accent/40 bg-accent-soft px-5 py-3 text-sm font-semibold text-accent transition-colors hover:border-accent hover:bg-accent hover:text-ink"
-              >
-                Visit governanceassurance.co.uk
-                <span aria-hidden>↗</span>
-              </ExtLink>
-            </div>
-          </div>
+        {/* Highlight — SGAF */}
+        <section
+          id="highlight"
+          className="mx-auto max-w-[720px] px-6 py-16 sm:px-8 sm:py-20 lg:py-24"
+        >
+          <p className="text-xs font-medium uppercase tracking-[0.18em] text-ink-muted">
+            Highlight
+          </p>
+          <h2 className="mt-3 font-[family-name:var(--font-outfit)] text-2xl font-semibold tracking-tight text-ink sm:text-3xl">
+            SGAF — the governance operating system boards were missing
+          </h2>
+          <p className="mt-5 text-base leading-relaxed text-ink-muted sm:text-lg">
+            School improvement has systems. Governance mostly had papers,
+            memory, and whoever knew where the last pack lived. SGAF is the
+            practical response: audits, risks, visit plans and the annual
+            statement on one connected record for UK schools and academy trusts.
+          </p>
+          <p className="mt-5 text-base font-medium leading-relaxed text-ink sm:text-lg">
+            The board does the governance once. The evidence is created as it
+            goes.
+          </p>
+          <p className="mt-4 text-sm text-ink-muted">
+            Built from how boards actually work. Membership from £229 per school
+            per year.
+          </p>
+          <p className="mt-8">
+            <ExtLink
+              href="https://governanceassurance.co.uk"
+              className="text-sm font-medium text-ink underline decoration-line underline-offset-4 transition-colors duration-150 hover:decoration-ink"
+            >
+              See SGAF →
+            </ExtLink>
+          </p>
         </section>
 
-        {/* NetCall */}
-        <section id="netcall" className="mx-auto max-w-5xl px-6 pb-16 sm:px-8 sm:pb-20">
-          <div className="rounded-2xl border border-border bg-subtle/40 p-8 sm:p-10">
-            <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
-              <div className="max-w-2xl">
-                <p className="text-xs font-semibold uppercase tracking-[0.22em] text-accent">
-                  Side project
-                </p>
-                <h2 className="mt-3 font-serif text-3xl tracking-tight text-paper sm:text-4xl">
-                  NetCall
-                </h2>
-                <p className="mt-4 text-base leading-relaxed text-muted sm:text-lg">
-                  Courtside netball umpire app — score, timer, and centre pass.
-                  Offline-first for match day. Available on iPhone for £2.99;
-                  Android coming.
-                </p>
-              </div>
-              <ExtLink
-                href="https://netcallumpire.com/"
-                className="inline-flex items-center justify-center gap-2 self-start rounded-full border border-border px-5 py-3 text-sm font-semibold text-paper transition-colors hover:border-accent/50 hover:text-accent"
-              >
-                Visit netcallumpire.com
-                <span aria-hidden>↗</span>
-              </ExtLink>
-            </div>
-          </div>
-        </section>
+        <div className="hairline mx-auto max-w-[720px]" />
 
-        <div className="rule mx-auto max-w-5xl" />
-
-        {/* Selected content */}
-        <section id="content" className="mx-auto max-w-5xl px-6 py-16 sm:px-8 sm:py-20">
-          <div className="mb-10 max-w-2xl">
-            <h2 className="font-serif text-3xl tracking-tight text-paper sm:text-4xl">
-              Selected content
-            </h2>
-            <p className="mt-4 text-base leading-relaxed text-muted sm:text-lg">
-              Curated notes on chairing and governance themes. Links will land
-              here as pieces are published.
-            </p>
-          </div>
-          <ul className="grid gap-4 sm:grid-cols-2">
-            {content.map((item) => (
-              <li key={item.title}>
-                <a
-                  href="#"
-                  className="group flex h-full flex-col rounded-xl border border-border bg-background/40 p-6 transition-colors hover:border-accent/35 hover:bg-subtle/80"
+        {/* Also building */}
+        <section
+          id="also-building"
+          className="mx-auto max-w-[720px] px-6 py-16 sm:px-8 sm:py-20 lg:py-24"
+        >
+          <h2 className="font-[family-name:var(--font-outfit)] text-2xl font-semibold tracking-tight text-ink sm:text-3xl">
+            Also building
+          </h2>
+          <ul className="mt-10 divide-y divide-line border-y border-line">
+            <li className="py-8">
+              <h3 className="font-[family-name:var(--font-outfit)] text-lg font-semibold tracking-tight text-ink sm:text-xl">
+                NetCall — courtside netball, without the paperwork pile
+              </h3>
+              <p className="mt-3 text-base leading-relaxed text-ink-muted">
+                Prepare the match, stay with the game, share a clean result.
+                Built for social league umpires; deeper tools for coaches and PE
+                without cluttering the umpire flow.
+              </p>
+              <p className="mt-3 text-sm text-ink-muted">
+                iPhone £2.99. Android beta open.
+              </p>
+              <p className="mt-4">
+                <ExtLink
+                  href="https://netcallumpire.com"
+                  className="text-sm font-medium text-ink underline decoration-line underline-offset-4 transition-colors duration-150 hover:decoration-ink"
                 >
-                  <h3 className="font-serif text-xl tracking-tight text-paper group-hover:text-accent">
+                  Visit NetCall →
+                </ExtLink>
+              </p>
+            </li>
+            <li className="py-8">
+              <h3 className="font-[family-name:var(--font-outfit)] text-lg font-semibold tracking-tight text-ink sm:text-xl">
+                Free checks boards can run today
+              </h3>
+              <p className="mt-3 text-base leading-relaxed text-ink-muted">
+                Website, school data, safeguarding readiness and more — open
+                tools I needed for the daily work, so boards can use them
+                without a sales call.
+              </p>
+              <p className="mt-3 text-sm text-ink-muted">
+                No catch on the free set.
+              </p>
+              <p className="mt-4">
+                <ExtLink
+                  href="https://governanceassurance.co.uk/free/"
+                  className="text-sm font-medium text-ink underline decoration-line underline-offset-4 transition-colors duration-150 hover:decoration-ink"
+                >
+                  Open free tools →
+                </ExtLink>
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <div className="hairline mx-auto max-w-[720px]" />
+
+        {/* Selected writing */}
+        <section
+          id="writing"
+          className="mx-auto max-w-[720px] px-6 py-16 sm:px-8 sm:py-20 lg:py-24"
+        >
+          <h2 className="font-[family-name:var(--font-outfit)] text-2xl font-semibold tracking-tight text-ink sm:text-3xl">
+            Selected writing
+          </h2>
+          <p className="mt-3 text-base text-ink-muted">
+            A few pieces that sound like the work, not a feed.
+          </p>
+          <ul className="mt-10 divide-y divide-line border-y border-line">
+            {writing.map((item) => (
+              <li key={item.href} className="py-6">
+                <ExtLink
+                  href={item.href}
+                  className="group block transition-opacity duration-150 hover:opacity-80"
+                >
+                  <h3 className="font-[family-name:var(--font-outfit)] text-lg font-semibold tracking-tight text-ink group-hover:underline group-hover:decoration-line group-hover:underline-offset-4">
                     {item.title}
                   </h3>
-                  <p className="mt-3 flex-1 text-sm leading-relaxed text-muted sm:text-base">
+                  <p className="mt-2 text-base leading-relaxed text-ink-muted">
                     {item.abstract}
                   </p>
-                  <span className="mt-5 text-xs uppercase tracking-[0.16em] text-muted/80">
-                    Forthcoming
-                  </span>
-                </a>
+                </ExtLink>
               </li>
             ))}
           </ul>
         </section>
 
-        <div className="rule mx-auto max-w-5xl" />
+        <div className="hairline mx-auto max-w-[720px]" />
 
         {/* Contact */}
-        <section id="contact" className="mx-auto max-w-5xl px-6 py-16 sm:px-8 sm:py-24">
-          <h2 className="font-serif text-3xl tracking-tight text-paper sm:text-4xl">
+        <section
+          id="contact"
+          className="mx-auto max-w-[720px] px-6 py-16 sm:px-8 sm:py-20 lg:py-24"
+        >
+          <h2 className="font-[family-name:var(--font-outfit)] text-2xl font-semibold tracking-tight text-ink sm:text-3xl">
             Contact
           </h2>
-          <p className="mt-4 max-w-xl text-base leading-relaxed text-muted sm:text-lg">
-            For SGAF, governance conversations, or press — get in touch.
+          <p className="mt-4 text-base leading-relaxed text-ink-muted sm:text-lg">
+            For SGAF, NetCall, or governance work — email me.
           </p>
-          <ul className="mt-10 space-y-4 text-base sm:text-lg">
+          <ul className="mt-8 space-y-3 text-base">
             <li>
               <a
                 href="mailto:joshua@governanceassurance.co.uk"
-                className="text-paper underline decoration-border underline-offset-4 transition-colors hover:decoration-accent"
+                className="font-medium text-ink underline decoration-line underline-offset-4 transition-colors duration-150 hover:decoration-ink"
               >
                 joshua@governanceassurance.co.uk
               </a>
             </li>
-            <li>
+            <li className="flex flex-wrap gap-x-4 gap-y-2 text-ink-muted">
               <ExtLink
                 href="https://www.linkedin.com/in/joshuamangas"
-                className="text-paper underline decoration-border underline-offset-4 transition-colors hover:decoration-accent"
+                className="underline decoration-line underline-offset-4 transition-colors duration-150 hover:text-ink hover:decoration-ink"
               >
-                LinkedIn — joshuamangas
+                LinkedIn
               </ExtLink>
-            </li>
-            <li>
               <ExtLink
-                href="https://x.com/joshuamangas"
-                className="text-paper underline decoration-border underline-offset-4 transition-colors hover:decoration-accent"
+                href="https://x.com/JoshuaMangas"
+                className="underline decoration-line underline-offset-4 transition-colors duration-150 hover:text-ink hover:decoration-ink"
               >
-                X — @JoshuaMangas
+                X @JoshuaMangas
               </ExtLink>
             </li>
           </ul>
         </section>
       </main>
 
-      <footer className="border-t border-border/80">
-        <div className="mx-auto flex w-full max-w-5xl flex-col gap-2 px-6 py-8 text-sm text-muted sm:flex-row sm:items-center sm:justify-between sm:px-8">
+      <footer className="border-t border-line">
+        <div className="mx-auto flex w-full max-w-[720px] flex-col gap-2 px-6 py-8 text-sm text-ink-muted sm:flex-row sm:items-center sm:justify-between sm:px-8 lg:max-w-[1100px]">
           <p>© {new Date().getFullYear()} Joshua Mangas</p>
-          <p className="text-muted/80">joshuamangas.com</p>
+          <p>joshuamangas.com</p>
         </div>
       </footer>
     </>
