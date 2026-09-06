@@ -26,16 +26,19 @@ const siteUrl = "https://joshuamangas.com";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Joshua Mangas: Governance practitioner · Founder of SGAF",
-    template: "%s · Joshua Mangas",
+    default: "Joshua Mangas. AI developer and product builder.",
+    template: "%s by Joshua Mangas",
   },
   description:
-    "Joshua Mangas builds systems for school governance from twenty years inside the work. Founder of SGAF. Serving chair.",
+    "Joshua Mangas designs and builds AI products, web applications and mobile tools grounded in real work.",
   applicationName: "Joshua Mangas",
   authors: [{ name: "Joshua Mangas", url: siteUrl }],
   creator: "Joshua Mangas",
   keywords: [
     "Joshua Mangas",
+    "AI developer",
+    "full-stack product builder",
+    "product design",
     "school governance",
     "academy trusts",
     "board effectiveness",
@@ -50,14 +53,14 @@ export const metadata: Metadata = {
     locale: "en_GB",
     url: siteUrl,
     siteName: "Joshua Mangas",
-    title: "Joshua Mangas: Governance practitioner · Founder of SGAF",
+    title: "Joshua Mangas. AI developer and product builder.",
     description:
-      "Founder of SGAF. Serving chair of governors. Practitioner voice on UK school and academy trust governance.",
+      "AI developer and product builder behind SGAF, NetCall and practical tools for people doing real work.",
   },
   twitter: {
     card: "summary",
     title: "Joshua Mangas",
-    description: "Governance practitioner. Founder of SGAF. Serving chair.",
+    description: "AI developer and product builder. Founder of SGAF and creator of NetCall.",
     creator: "@JoshuaMangas",
   },
   alternates: {
