@@ -204,8 +204,8 @@ export default function Home() {
                 NetCall is the courtside netball app I built for my wife Rachel,
                 who umpires. Prepare the match. Score live. Track the centre
                 pass. Share a clean result when the final whistle goes. Designed
-                around her courtside workflow — deeper tools for coaches and PE
-                without cluttering the umpire flow.
+                around her courtside workflow: fast, readable, usable while the
+                game refuses to stand still.
               </p>
               <p className="mt-4 text-muted" style={{ fontSize: "0.875rem" }}>
                 iPhone £2.99. Android beta open.
