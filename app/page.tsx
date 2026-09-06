@@ -84,7 +84,7 @@ export default function Home() {
           </h1>
           <p className="mt-8 max-w-[42ch] text-text-2" style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}>
             I build systems for school governance from twenty years inside the
-            work — still chairing a board, previously in school senior
+            work: still chairing a board, previously in school senior
             leadership, and after training and board design with nearly 500
             schools.
           </p>
@@ -110,7 +110,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 2. Highlight — full-bleed band, one filled CTA */}
+        {/* 2. Highlight: full-bleed band, one filled CTA */}
         <section
           id="highlight"
           aria-labelledby="highlight-heading"
@@ -128,7 +128,7 @@ export default function Home() {
                   id="highlight-heading"
                   className="type-h2-highlight mt-6 text-text"
                 >
-                  SGAF — the governance operating system boards were missing
+                  SGAF, the governance operating system boards were missing
                 </h2>
                 <p
                   className="mt-8 max-w-[42rem] text-text-2"
@@ -179,7 +179,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 3. Also building — 2-col hairlines, radius 0 */}
+        {/* 3. Also building: 2-col hairlines, radius 0 */}
         <section
           id="also-building"
           className="shell-experience px-6 py-12 sm:px-8 sm:py-16 lg:py-24"
@@ -198,7 +198,7 @@ export default function Home() {
               aria-labelledby="netcall-heading"
             >
               <h3 id="netcall-heading" className="type-h3 also-title text-text transition-colors duration-150">
-                NetCall — courtside netball, without the paperwork pile
+                NetCall: courtside netball, without the paperwork pile
               </h3>
               <p className="mt-4 text-text-2" style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}>
                 NetCall is the courtside netball app I built for my wife Rachel,
@@ -227,7 +227,7 @@ export default function Home() {
                 Free checks boards can run today
               </h3>
               <p className="mt-4 text-text-2" style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}>
-                Website, school data, safeguarding readiness and more — open
+                Website, school data, safeguarding readiness and more: open
                 tools I needed for the daily work, so boards can use them
                 without a sales call.
               </p>
@@ -243,7 +243,7 @@ export default function Home() {
         </section>
 
 
-        {/* 3b. Workshop — full stack capability (after Also building, before Writing) */}
+        {/* 3b. Workshop: full stack capability (after Also building, before Writing) */}
         <section
           id="workshop"
           className="highlight-band"
@@ -289,7 +289,7 @@ export default function Home() {
                 },
                 {
                   title: "AI product engineering",
-                  body: "Where models earn their place — with evaluation, escalation, and human ownership.",
+                  body: "Where models earn their place, with evaluation, escalation, and human ownership.",
                 },
                 {
                   title: "Mobile",
@@ -347,7 +347,7 @@ export default function Home() {
           aria-hidden
         />
 
-        {/* 4. Writing — list rows + source labels */}
+        {/* 4. Writing: list rows + source labels */}
         <section
           id="writing"
           className="shell-prose px-6 py-12 sm:px-8 sm:py-16 lg:py-24"
@@ -385,7 +385,7 @@ export default function Home() {
           aria-hidden
         />
 
-        {/* 5. Contact — LinkedIn primary + X + EmailMe (no plain email in HTML) */}
+        {/* 5. Contact: LinkedIn primary + X + EmailMe (no plain email in HTML) */}
         <section
           id="contact"
           className="shell-prose px-6 py-12 sm:px-8 sm:py-16 lg:py-24"
@@ -395,7 +395,7 @@ export default function Home() {
             Contact
           </h2>
           <p className="mt-5 text-text-2" style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}>
-            For SGAF, NetCall, or governance work — reach me on LinkedIn, or
+            For SGAF, NetCall, or governance work, reach me on LinkedIn, or
             email.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-4">

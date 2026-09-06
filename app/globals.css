@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  /* Surfaces — Researchy §2.1 warm charcoal */
+  /* Surfaces: Researchy §2.1 warm charcoal */
   --bg: #12110f;
   --bg-band: #181714;
   --surface: #1c1b18;
@@ -17,7 +17,7 @@
   --border: #2e2c28;
   --border-strong: #3f3c36;
 
-  /* Accent — SGAF gold */
+  /* Accent: SGAF gold */
   --accent: #b69246;
   --accent-hover: #c9a866;
 
@@ -94,7 +94,7 @@ a {
   font-synthesis: none;
 }
 
-/* Type scale — Jost display, Inter body (CoS override: no serif) */
+/* Type scale: Jost display, Inter body (CoS override: no serif) */
 .type-wordmark,
 .type-h1,
 .type-h2-highlight,
@@ -431,7 +431,7 @@ a {
   }
 }
 
-/* Workshop — additive capability grid, inventory, AI table, stack list */
+/* Workshop: additive capability grid, inventory, AI table, stack list */
 .workshop-cap-grid {
   list-style: none;
   margin: 0;

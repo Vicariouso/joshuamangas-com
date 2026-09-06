@@ -26,7 +26,7 @@ const siteUrl = "https://joshuamangas.com";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Joshua Mangas — Governance practitioner · Founder of SGAF",
+    default: "Joshua Mangas: Governance practitioner · Founder of SGAF",
     template: "%s · Joshua Mangas",
   },
   description:
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     locale: "en_GB",
     url: siteUrl,
     siteName: "Joshua Mangas",
-    title: "Joshua Mangas — Governance practitioner · Founder of SGAF",
+    title: "Joshua Mangas: Governance practitioner · Founder of SGAF",
     description:
       "Founder of SGAF. Serving chair of governors. Practitioner voice on UK school and academy trust governance.",
   },

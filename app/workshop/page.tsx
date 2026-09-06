@@ -5,14 +5,14 @@ import { SiteHeader } from "../site-header";
 export const metadata: Metadata = {
   title: "How I build",
   description:
-    "Full stack, in the literal sense — from the first awkward conversation to the live service. Workshop inventory behind SGAF, NetCall, and the open board tools.",
+    "Full stack, in the literal sense: from the first awkward conversation to the live service. Workshop inventory behind SGAF, NetCall, and the open board tools.",
   alternates: {
     canonical: "https://joshuamangas.com/workshop/",
   },
   openGraph: {
     title: "How I build · Joshua Mangas",
     description:
-      "Full stack, in the literal sense — capability inventory, how AI is used, and a quiet working stack. No logo wall.",
+      "Full stack, in the literal sense: capability inventory, how AI is used, and a quiet working stack. No logo wall.",
     url: "https://joshuamangas.com/workshop/",
   },
 };
@@ -21,7 +21,7 @@ const inventory = [
   {
     id: "product-discovery",
     title: "Product discovery and strategy",
-    body: "Finding product opportunities inside real workflows. Domain and user research. Stakeholder conversations. Field observation. Problem definition. Positioning. Service design. Prioritisation and validation. Turning specialist knowledge — and the workarounds people already tolerate — into usable systems.",
+    body: "Finding product opportunities inside real workflows. Domain and user research. Stakeholder conversations. Field observation. Problem definition. Positioning. Service design. Prioritisation and validation. Turning specialist knowledge (and the workarounds people already tolerate) into usable systems.",
     proof:
       "SGAF began as governance work that only held together through papers, memory, and goodwill. Free board checks exist because boards needed something they could run without a sales call.",
   },
@@ -30,21 +30,21 @@ const inventory = [
     title: "User experience design",
     body: "Journey mapping. Information architecture. Interaction and workflow design. Task analysis. Navigation and hierarchy. Forms and data entry. Dashboards and complex professional interfaces. Empty, loading, error, and recovery states. Responsive and mobile-first thinking. Accessible patterns. Prototypes. Usability review. Live-product UX audits.",
     proof:
-      "Board and courtside products are designed for people who are already carrying the job — not for demo day.",
+      "Board and courtside products are designed for people who are already carrying the job, not for demo day.",
   },
   {
     id: "interface",
     title: "Interface and visual design",
     body: "Design systems and components. Typography and layout. Responsive composition. Tokens and hierarchy. Product art direction and brand application. Editorial web design. Data presentation. Document and report design. Turning a visual concept into a working interface.",
     proof:
-      "Personal site and product surfaces stay distinct — SGAF keeps its mark; the personal page stays a CV, not a product paste.",
+      "Personal site and product surfaces stay distinct: SGAF keeps its mark; the personal page stays a CV, not a product paste.",
   },
   {
     id: "content",
     title: "Content and communication design",
     body: "Functional product copy. Onboarding and guidance. Complex information made understandable. Training resources. Structured publishing. Long-form editorial. Positioning. Generated reports and documents. Source-led policy content. Content governance and voice systems.",
     proof:
-      "Selected writing and SGAF explainers stay useful after the room empties — not a feed dump.",
+      "Selected writing and SGAF explainers stay useful after the room empties, not a feed dump.",
   },
   {
     id: "frontend",
@@ -61,7 +61,7 @@ const inventory = [
     title: "Data and database design",
     body: "PostgreSQL and Supabase. Relational modelling. Migrations. Row-level security and tenant isolation. Query design. Imports and exports. Structured evidence and audit history. Cached external data. Data-quality checks. Privacy-conscious architecture. Turning fragmented information into a system of record.",
     proof:
-      "Governance evidence only helps if it stays connected — audits, risks, visits, and statements on one record.",
+      "Governance evidence only helps if it stays connected: audits, risks, visits, and statements on one record.",
   },
   {
     id: "ai",
@@ -75,12 +75,12 @@ const inventory = [
     title: "Mobile product development",
     body: "Native iOS with SwiftUI. Mobile workflow design. Real-time interaction. Offline and unreliable-network thinking. App Store delivery. Designing for movement, interruption, and time pressure. Cross-platform planning. Android testing and release preparation.",
     proof:
-      "NetCall — courtside netball scoring built for my wife Rachel, who umpires. Prepare the match, score live, share a clean result. iPhone £2.99. Android coming soon (invite-only beta).",
+      "NetCall: courtside netball scoring built for my wife Rachel, who umpires. Prepare the match, score live, share a clean result. iPhone £2.99. Android coming soon (invite-only beta).",
   },
   {
     id: "quality",
     title: "Quality and assurance",
-    body: "Test-driven development. Unit and integration tests. End-to-end browser tests. Real journey verification. AI evaluation suites. Regression protection. Accessibility and responsive checks. Security-conscious review. Permission and tenant-isolation tests. Fresh-eyes review. Generated-document inspection. Production verification — checking the experience, not only a green build.",
+    body: "Test-driven development. Unit and integration tests. End-to-end browser tests. Real journey verification. AI evaluation suites. Regression protection. Accessibility and responsive checks. Security-conscious review. Permission and tenant-isolation tests. Fresh-eyes review. Generated-document inspection. Production verification: checking the experience, not only a green build.",
   },
   {
     id: "delivery",
@@ -204,7 +204,7 @@ export default function WorkshopPage() {
             className="mt-8 max-w-[42ch] text-text-2"
             style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
           >
-            Full stack, in the literal sense — from the first awkward
+            Full stack, in the literal sense: from the first awkward
             conversation to the live service.
           </p>
           <p
@@ -391,7 +391,7 @@ export default function WorkshopPage() {
             className="mt-4 text-muted"
             style={{ fontSize: "0.9375rem", lineHeight: 1.55 }}
           >
-            Text only — named tools can change. Capability stays the headline.
+            Text only. Named tools can change. Capability stays the headline.
           </p>
 
           <ul className="workshop-stack-list mt-10">

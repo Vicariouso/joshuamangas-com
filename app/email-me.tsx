@@ -6,7 +6,7 @@ type EmailMeProps = {
 };
 
 /**
- * Assembles the mail link on click from split parts — no address string in HTML source.
+ * Assembles the mail link on click from split parts: no address string in HTML source.
  */
 export function EmailMe({
   className = "",
