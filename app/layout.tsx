@@ -8,6 +8,8 @@ const inter = Inter({
   weight: ["400", "500", "600"],
   style: ["normal", "italic"],
   display: "swap",
+  preload: true,
+  adjustFontFallback: true,
 });
 
 const jost = Jost({
@@ -15,6 +17,8 @@ const jost = Jost({
   subsets: ["latin"],
   weight: ["500", "600", "700"],
   display: "swap",
+  preload: true,
+  adjustFontFallback: true,
 });
 
 const siteUrl = "https://joshuamangas.com";
@@ -74,7 +78,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en-GB"
       className={`${inter.variable} ${jost.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-bg text-text font-sans">
+      {/* inter.className applies real Inter family on body (Safari-safe if CSS vars lag) */}
+      <body className={`${inter.className} min-h-full flex flex-col bg-bg text-text font-sans`}>
         {children}
       </body>
     </html>
