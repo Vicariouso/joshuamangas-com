@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     template: "%s · Joshua Mangas",
   },
   description:
-    "Joshua Mangas builds systems for school governance from twenty years inside the work. Founder of SGAF. Serving chair. Practitioner first — not a software company.",
+    "Joshua Mangas builds systems for school governance from twenty years inside the work. Founder of SGAF. Serving chair.",
   applicationName: "Joshua Mangas",
   authors: [{ name: "Joshua Mangas", url: siteUrl }],
   creator: "Joshua Mangas",

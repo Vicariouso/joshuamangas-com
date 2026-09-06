@@ -48,11 +48,10 @@ const writing = [
 ] as const;
 
 const proofChips = [
-  "Founder @GAFSchools",
+  "Founder of SGAF",
   "Serving chair",
   "Previously SLT",
-  "500+ boards",
-  "Practitioner, not a software company",
+  "Nearly 500 schools",
 ] as const;
 
 const artefactNouns = [
@@ -86,8 +85,8 @@ export default function Home() {
           <p className="mt-8 max-w-[42ch] text-text-2" style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}>
             I build systems for school governance from twenty years inside the
             work — still chairing a board, previously in school senior
-            leadership, and after training and board design with more than 500
-            schools. Practitioner first. Not a software company.
+            leadership, and after training and board design with nearly 500
+            schools.
           </p>
 
           <ul className="mt-10 flex max-w-[42rem] flex-wrap gap-2">
@@ -149,8 +148,7 @@ export default function Home() {
                   className="mt-6 text-muted"
                   style={{ fontSize: "0.875rem", lineHeight: 1.45 }}
                 >
-                  Built from how boards actually work. Membership from £229 per
-                  school per year.
+                  Built from how boards actually work.
                 </p>
                 <p className="mt-10">
                   <ExtLink
@@ -203,10 +201,11 @@ export default function Home() {
                 NetCall — courtside netball, without the paperwork pile
               </h3>
               <p className="mt-4 text-text-2" style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}>
-                Built as a gift around my wife&apos;s courtside umpire workflow —
-                prepare the match, stay with the game, share a clean result.
-                Deeper tools for coaches and PE without cluttering the umpire
-                flow.
+                NetCall is the courtside netball app I built for my wife Rachel,
+                who umpires. Prepare the match. Score live. Track the centre
+                pass. Share a clean result when the final whistle goes. Designed
+                around her courtside workflow — deeper tools for coaches and PE
+                without cluttering the umpire flow.
               </p>
               <p className="mt-4 text-muted" style={{ fontSize: "0.875rem" }}>
                 iPhone £2.99. Android beta open.
@@ -320,7 +319,6 @@ export default function Home() {
       <footer className="border-t border-border">
         <div className="shell-experience flex flex-col gap-2 px-6 py-6 text-[0.8125rem] leading-[1.4] text-muted sm:flex-row sm:items-center sm:justify-between sm:px-8 sm:gap-4">
           <p>© {new Date().getFullYear()} Joshua Mangas</p>
-          <p>Practitioner, not a software company</p>
           <p>joshuamangas.com</p>
         </div>
       </footer>
