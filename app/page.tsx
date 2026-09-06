@@ -208,7 +208,7 @@ export default function Home() {
                 game refuses to stand still.
               </p>
               <p className="mt-4 text-muted" style={{ fontSize: "0.875rem" }}>
-                iPhone £2.99. Android beta open.
+                iPhone £2.99. Android coming soon (invite-only beta).
               </p>
               <p className="mt-6 text-sm font-semibold text-text-2">
                 Visit NetCall →
