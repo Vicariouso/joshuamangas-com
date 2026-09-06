@@ -34,14 +34,14 @@ const writing = [
   {
     title: "Governors, when was the last time you spoke about swimming?",
     abstract:
-      "Turn a news story into a board-ready comparison: school issue, local pattern, or strength to celebrate.",
+      "Turn a news story into a board-ready comparison: school issue, local pattern or strength to celebrate.",
     href: "https://www.linkedin.com/posts/joshuamangas_schoolgovernance-educationdata-governorchallenge-activity-7493319460536373248-wXTY",
     source: "On LinkedIn",
   },
   {
     title: "Recruiting governors isn’t the hard part",
     abstract:
-      "STEM ambassadors, social mobility, and putting careers outreach on the board agenda.",
+      "STEM ambassadors, social mobility and putting careers outreach on the board agenda.",
     href: "https://www.linkedin.com/posts/joshuamangas_latest-edition-of-its-really-not-that-hard-activity-7492616875982548992-0lrS",
     source: "On LinkedIn",
   },
@@ -49,8 +49,8 @@ const writing = [
 
 const proofChips = [
   "Founder of SGAF",
+  "AI developer",
   "Serving chair",
-  "Previously SLT",
   "Nearly 500 schools",
 ] as const;
 
@@ -80,13 +80,13 @@ export default function Home() {
           className="shell-prose px-6 py-12 sm:px-8 sm:py-16 lg:py-24"
         >
           <h1 className="type-h1 text-text">
-            Governance practitioner. Founder of SGAF. Serving chair.
+            I design and build AI products.
           </h1>
           <p className="mt-8 max-w-[42ch] text-text-2" style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}>
-            I build systems for school governance from twenty years inside the
-            work: still chairing a board, previously in school senior
-            leadership, and after training and board design with nearly 500
-            schools.
+            I find problems in real work, understand them properly and build
+            the complete product. That includes the interface, the code, the
+            data and the AI behind it. My background in education and governance
+            means I usually know where to look.
           </p>
 
           <ul className="mt-10 flex max-w-[42rem] flex-wrap gap-2">
@@ -98,12 +98,9 @@ export default function Home() {
           </ul>
 
           <div className="mt-10 flex flex-wrap items-center gap-6">
-            <ExtLink
-              href="https://governanceassurance.co.uk"
-              className="link-quiet text-sm font-semibold"
-            >
-              View SGAF →
-            </ExtLink>
+            <a href="#workshop" className="link-quiet text-sm font-semibold">
+              See how I build →
+            </a>
             <a href="#contact" className="btn-ghost">
               Get in touch
             </a>
@@ -121,21 +118,21 @@ export default function Home() {
               <div className="highlight-copy min-w-0">
                 <p className="meta text-accent">Highlight</p>
                 <p className="noun-rail mt-4">
-                  Audits · Risks · Visit plans · Annual statement · UK schools
+                  Audits, risks, visit plans and annual statements for UK schools
                   and academy trusts
                 </p>
                 <h2
                   id="highlight-heading"
                   className="type-h2-highlight mt-6 text-text"
                 >
-                  SGAF, the governance operating system boards were missing
+                  SGAF. The governance operating system boards were missing.
                 </h2>
                 <p
                   className="mt-8 max-w-[42rem] text-text-2"
                   style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
                 >
                   School improvement has systems. Governance mostly had papers,
-                  memory, and whoever knew where the last pack lived. SGAF is
+                  memory and whoever knew where the last pack lived. SGAF is
                   the practical response: audits, risks, visit plans and the
                   annual statement on one connected record for UK schools and
                   academy trusts.
@@ -198,7 +195,7 @@ export default function Home() {
               aria-labelledby="netcall-heading"
             >
               <h3 id="netcall-heading" className="type-h3 also-title text-text transition-colors duration-150">
-                NetCall: courtside netball, without the paperwork pile
+                NetCall. Courtside netball without the paperwork pile.
               </h3>
               <p className="mt-4 text-text-2" style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}>
                 NetCall is the courtside netball app I built for my wife Rachel,
@@ -227,9 +224,8 @@ export default function Home() {
                 Free checks boards can run today
               </h3>
               <p className="mt-4 text-text-2" style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}>
-                Website, school data, safeguarding readiness and more: open
-                tools I needed for the daily work, so boards can use them
-                without a sales call.
+                I built these free checks because I needed them in my own work.
+                Now any board can use them without a sales call.
               </p>
               <p className="mt-4 text-muted" style={{ fontSize: "0.875rem" }}>
                 No catch on the free set.
@@ -252,24 +248,22 @@ export default function Home() {
           <div className="shell-experience px-6 py-12 sm:px-8 sm:py-16 lg:py-24">
             <p className="meta text-accent">Workshop</p>
             <h2 id="workshop-heading" className="type-h2 mt-4 text-text">
-              Full stack, in the literal sense.
+              I work across the whole product.
             </h2>
             <div
               className="mt-8 max-w-[42rem] space-y-5 text-text-2"
               style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
             >
               <p>
-                I do not mean that I can recite a long list of technologies.
+                I work across the whole product.
               </p>
               <p>
-                I mean I can follow a problem from the first uncomfortable
-                conversation to the live service people depend on: research,
-                product framing, user journeys, interface design, architecture,
-                code, testing, release and operation.
+                I research the problem, design the journey, build the system,
+                test it and keep it running.
               </p>
               <p className="text-text">
-                AI makes the workshop larger. It does not make judgement
-                optional.
+                I use AI throughout that work. It helps me research, explore
+                designs, write code, test ideas and find faults.
               </p>
             </div>
 
@@ -281,23 +275,23 @@ export default function Home() {
                 },
                 {
                   title: "Experience and interface design",
-                  body: "Journeys, hierarchy, and interfaces people can use under pressure.",
+                  body: "Journeys, hierarchy and interfaces people can use under pressure.",
                 },
                 {
                   title: "Build",
-                  body: "Front-end, back-end, and data for products that have to stay up.",
+                  body: "Front end, back end and data for products that have to stay up.",
                 },
                 {
                   title: "AI product engineering",
-                  body: "Where models earn their place, with evaluation, escalation, and human ownership.",
+                  body: "I use AI when it improves the product. I test it, constrain it and keep a person responsible.",
                 },
                 {
                   title: "Mobile",
                   body: "Courtside and pocket-scale products (NetCall) designed for interruption.",
                 },
                 {
-                  title: "Quality, delivery, and operations",
-                  body: "Tests, release, and keeping the thing honest after launch.",
+                  title: "Quality, delivery and operations",
+                  body: "Testing, release and keeping the thing honest after launch.",
                 },
               ].map((item) => (
                 <li key={item.title} className="workshop-cap-item">
@@ -314,14 +308,14 @@ export default function Home() {
 
             <div className="workshop-ai-teaser mt-12 max-w-[42rem]">
               <p className="type-h3 text-text">
-                A bigger workshop. The same accountability.
+                I use AI every day.
               </p>
               <p
                 className="mt-4 text-text-2"
                 style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
               >
-                AI can help draft the plan, write the code and challenge the
-                decision. It cannot own the consequences. I do.
+                It helps me work faster and see more possibilities. I do not ask
+                it to approve its own work.
               </p>
             </div>
 
@@ -335,9 +329,7 @@ export default function Home() {
               className="mt-10 max-w-[36rem] text-muted"
               style={{ fontSize: "0.9375rem", lineHeight: 1.55 }}
             >
-              Some people specialise in one layer.
-              <br />
-              I get interested in what happens between them.
+              The interesting problems usually sit between the layers.
             </p>
           </div>
         </section>
@@ -395,8 +387,8 @@ export default function Home() {
             Contact
           </h2>
           <p className="mt-5 text-text-2" style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}>
-            For SGAF, NetCall, or governance work, reach me on LinkedIn, or
-            email.
+            Want to discuss a product, some governance work or an interesting
+            problem? Find me on LinkedIn or send an email.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-4">
             <ExtLink

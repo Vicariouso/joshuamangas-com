@@ -5,14 +5,14 @@ import { SiteHeader } from "../site-header";
 export const metadata: Metadata = {
   title: "How I build",
   description:
-    "Full stack, in the literal sense: from the first awkward conversation to the live service. Workshop inventory behind SGAF, NetCall, and the open board tools.",
+    "I work across the whole product, from the first awkward conversation to the live service. See how I design, build and use AI.",
   alternates: {
     canonical: "https://joshuamangas.com/workshop/",
   },
   openGraph: {
-    title: "How I build · Joshua Mangas",
+    title: "How I build by Joshua Mangas",
     description:
-      "Full stack, in the literal sense: capability inventory, how AI is used, and a quiet working stack. No logo wall.",
+      "How Joshua Mangas researches, designs, builds and tests complete products with AI.",
     url: "https://joshuamangas.com/workshop/",
   },
 };
@@ -21,71 +21,71 @@ const inventory = [
   {
     id: "product-discovery",
     title: "Product discovery and strategy",
-    body: "Finding product opportunities inside real workflows. Domain and user research. Stakeholder conversations. Field observation. Problem definition. Positioning. Service design. Prioritisation and validation. Turning specialist knowledge (and the workarounds people already tolerate) into usable systems.",
+    body: "I find product ideas inside real workflows. I research the domain, talk to users, observe the work, define the problem and decide what is worth building. I turn specialist knowledge and tolerated workarounds into useful systems.",
     proof:
-      "SGAF began as governance work that only held together through papers, memory, and goodwill. Free board checks exist because boards needed something they could run without a sales call.",
+      "SGAF began as governance work that only held together through papers, memory and goodwill. Free board checks exist because boards needed something they could run without a sales call.",
   },
   {
     id: "ux",
     title: "User experience design",
-    body: "Journey mapping. Information architecture. Interaction and workflow design. Task analysis. Navigation and hierarchy. Forms and data entry. Dashboards and complex professional interfaces. Empty, loading, error, and recovery states. Responsive and mobile-first thinking. Accessible patterns. Prototypes. Usability review. Live-product UX audits.",
+    body: "I map journeys, organise information and design the interactions people need to complete the job. I cover forms, dashboards, navigation, errors, recovery, responsive behaviour and accessibility. I prototype early and test the live product.",
     proof:
       "Board and courtside products are designed for people who are already carrying the job, not for demo day.",
   },
   {
     id: "interface",
     title: "Interface and visual design",
-    body: "Design systems and components. Typography and layout. Responsive composition. Tokens and hierarchy. Product art direction and brand application. Editorial web design. Data presentation. Document and report design. Turning a visual concept into a working interface.",
+    body: "I design interfaces, components and systems that work across screen sizes. That includes typography, layout, visual hierarchy, product art direction, data presentation and generated documents. I can take the visual idea into working code.",
     proof:
-      "Personal site and product surfaces stay distinct: SGAF keeps its mark; the personal page stays a CV, not a product paste.",
+      "Each product keeps its own identity. The personal site shows the builder behind the work.",
   },
   {
     id: "content",
     title: "Content and communication design",
-    body: "Functional product copy. Onboarding and guidance. Complex information made understandable. Training resources. Structured publishing. Long-form editorial. Positioning. Generated reports and documents. Source-led policy content. Content governance and voice systems.",
+    body: "I write the words people need to understand and use the product. That includes onboarding, guidance, training, positioning, reports, generated documents and publishing systems grounded in reliable sources.",
     proof:
-      "Selected writing and SGAF explainers stay useful after the room empties, not a feed dump.",
+      "Selected writing and SGAF explainers should stay useful after the room empties. They are not there to fill a feed.",
   },
   {
     id: "frontend",
     title: "Front-end engineering",
-    body: "Next.js, React, TypeScript, JavaScript, HTML and CSS. Responsive interfaces. Component architecture. Client and server rendering. Interactive dashboards. Form state and validation. Data visualisation. Accessible UI. Authentication journeys. Performance. Document rendering. Production debugging.",
+    body: "I build web products with Next.js, React, TypeScript, JavaScript, HTML and CSS. I work across components, rendering, dashboards, forms, validation, data visualisation, authentication, accessibility, performance and production debugging.",
   },
   {
     id: "backend",
     title: "Back-end engineering",
-    body: "API design. Server-side logic. Validation. Background workflows. Document-generation pipelines. Email and notifications. Integrations. Secure handling. Multi-tenant architecture. Permissions and roles. Serverless functions. Error handling and observability. Operational tooling.",
+    body: "I design APIs and server-side logic, connect external services and build background workflows. I also handle validation, permissions, multi-tenant boundaries, email, notifications, document generation, errors and observability.",
   },
   {
     id: "data",
     title: "Data and database design",
-    body: "PostgreSQL and Supabase. Relational modelling. Migrations. Row-level security and tenant isolation. Query design. Imports and exports. Structured evidence and audit history. Cached external data. Data-quality checks. Privacy-conscious architecture. Turning fragmented information into a system of record.",
+    body: "I use PostgreSQL and Supabase to design relational data, migrations, queries, imports, exports and audit histories. I build row-level security and tenant isolation into the data model rather than treating them as a final check.",
     proof:
-      "Governance evidence only helps if it stays connected: audits, risks, visits, and statements on one record.",
+      "Governance evidence only helps if it stays connected. SGAF keeps audits, risks, visits and statements on one record.",
   },
   {
     id: "ai",
     title: "AI product engineering",
-    body: "Where AI is genuinely useful. Feature and workflow design. Model selection and API integration. Prompt and context design. Structured outputs. Extraction, classification, synthesis. Verification passes. Confidence and escalation. Multi-stage workflows. Human-in-the-loop. Evaluation fixtures and scoring. Cost control. Safety boundaries and redaction. Failure and fallback design. Keeping AI out of workflows that should stay deterministic.",
+    body: "I decide first whether a problem needs AI at all. When it does, I design the model workflow, context, prompts, structured outputs, evaluation, verification and escalation. I account for cost, privacy, failure and the point where a person must take over.",
     rule:
-      "write ≠ push ≠ merge ≠ verified experience. External actions stay gated until a human owns them.",
+      "Writing code is not pushing it. Pushing it is not merging it. A merge is not proof that the product works.",
   },
   {
     id: "mobile",
     title: "Mobile product development",
-    body: "Native iOS with SwiftUI. Mobile workflow design. Real-time interaction. Offline and unreliable-network thinking. App Store delivery. Designing for movement, interruption, and time pressure. Cross-platform planning. Android testing and release preparation.",
+    body: "I build native iOS products with SwiftUI and design mobile workflows for movement, interruption and unreliable connections. I work through App Store delivery, cross-platform planning, Android testing and release preparation.",
     proof:
-      "NetCall: courtside netball scoring built for my wife Rachel, who umpires. Prepare the match, score live, share a clean result. iPhone £2.99. Android coming soon (invite-only beta).",
+      "NetCall is courtside netball scoring built for my wife Rachel, who umpires. Prepare the match, score live and share a clean result. It is available on iPhone, with Android testing under way.",
   },
   {
     id: "quality",
     title: "Quality and assurance",
-    body: "Test-driven development. Unit and integration tests. End-to-end browser tests. Real journey verification. AI evaluation suites. Regression protection. Accessibility and responsive checks. Security-conscious review. Permission and tenant-isolation tests. Fresh-eyes review. Generated-document inspection. Production verification: checking the experience, not only a green build.",
+    body: "I use test-driven development, unit tests, integration tests, browser journeys and AI evaluations. I check accessibility, responsive behaviour, security, permissions, tenant isolation and generated documents. Then I inspect the production experience. A green build is useful, but it is not proof.",
   },
   {
     id: "delivery",
     title: "Delivery and operations",
-    body: "Git and GitHub workflows. Continuous integration. Release planning. Vercel. Cloudflare Pages and Workers. Supabase operations. Monitoring. Diagnosis with Sentry. Performance and incident work. Safe release gates and rollback. Maintaining products after launch.",
+    body: "I use Git and GitHub for controlled delivery, with continuous integration and deliberate release checks. I deploy and operate products on Vercel, Cloudflare and Supabase, monitor them with tools such as Sentry and investigate performance and production failures.",
   },
 ] as const;
 
@@ -108,7 +108,7 @@ const aiRows = [
   {
     layer: "AI inside products",
     ai: "Prototypes, eval harnesses, structured outputs",
-    human: "Safety, escalation, and “should this be AI at all?”",
+    human: "Safety, escalation and whether AI belongs there",
   },
   {
     layer: "Testing and review",
@@ -118,12 +118,12 @@ const aiRows = [
   {
     layer: "Content",
     ai: "First drafts, structure, consistency passes",
-    human: "Voice, claims, and what we publish",
+    human: "Voice, claims and what gets published",
   },
   {
     layer: "Operations",
     ai: "Triage notes, log reading",
-    human: "Release, rollback, and accountability",
+    human: "Release, rollback and responsibility",
   },
 ] as const;
 
@@ -131,7 +131,7 @@ const stack = [
   {
     label: "Product and design",
     items:
-      "Figma, structured briefs, journey maps, design systems, prototypes, live-product audits.",
+      "Figma, structured briefs, journey maps, design systems, prototypes and live-product audits.",
   },
   {
     label: "Web",
@@ -140,21 +140,21 @@ const stack = [
   {
     label: "Data and services",
     items:
-      "PostgreSQL, Supabase, APIs, authentication, permissions, serverless workflows.",
+      "PostgreSQL, Supabase, APIs, authentication, permissions and serverless workflows.",
   },
   {
     label: "AI",
     items:
-      "Codex, ChatGPT, Claude, model APIs, structured outputs, evaluation harnesses, multi-agent review.",
+      "Codex, ChatGPT, Claude, model APIs, structured outputs, evaluation harnesses and multi-agent review.",
   },
   {
     label: "Mobile",
-    items: "SwiftUI, native iOS, cross-platform testing.",
+    items: "SwiftUI, native iOS and cross-platform testing.",
   },
   {
     label: "Quality",
     items:
-      "Vitest, Playwright, accessibility review, security review, live verification.",
+      "Vitest, Playwright, accessibility review, security review and live verification.",
   },
   {
     label: "Delivery",
@@ -204,16 +204,15 @@ export default function WorkshopPage() {
             className="mt-8 max-w-[42ch] text-text-2"
             style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
           >
-            Full stack, in the literal sense: from the first awkward
+            I work across the whole product, from the first awkward
             conversation to the live service.
           </p>
           <p
             className="mt-5 max-w-[42rem] text-text-2"
             style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
           >
-            This page is the workshop inventory behind SGAF, NetCall, and the
-            open board tools. Named tools can change. The capability is the
-            point.
+            This is how I research, design, build and test products such as
+            SGAF and NetCall. The tools will change. The work will not.
           </p>
 
           <p
@@ -223,9 +222,7 @@ export default function WorkshopPage() {
             <a href="/#highlight" className="link-quiet">
               Explore the work →
             </a>
-            <span aria-hidden className="mx-3 text-border-strong">
-              ·
-            </span>
+            <span aria-hidden className="mx-3" />
             <a href="/#contact" className="link-quiet">
               Start a conversation →
             </a>
@@ -247,24 +244,22 @@ export default function WorkshopPage() {
         >
           <div className="shell-prose px-6 py-12 sm:px-8 sm:py-16">
             <h2 id="literal-heading" className="type-h2 text-text">
-              Full stack, in the literal sense.
+              From the problem to the live product.
             </h2>
             <div
               className="mt-8 space-y-5 text-text-2"
               style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
             >
               <p>
-                I do not mean that I can recite a long list of technologies.
+                I work across the whole product.
               </p>
               <p>
-                I mean I can follow a problem from the first uncomfortable
-                conversation to the live service people depend on: research,
-                product framing, user journeys, interface design, architecture,
-                code, testing, release and operation.
+                I research the problem, design the journey, build the system,
+                test it and keep it running.
               </p>
               <p className="text-text">
-                AI makes the workshop larger. It does not make judgement
-                optional.
+                I use AI throughout that work. It helps me research, explore
+                designs, write code, test ideas and find faults.
               </p>
             </div>
           </div>
@@ -276,7 +271,7 @@ export default function WorkshopPage() {
           aria-labelledby="inventory-heading"
         >
           <h2 id="inventory-heading" className="type-h2 text-text">
-            Capability inventory
+            What I can do
           </h2>
 
           <div className="mt-10">
@@ -332,20 +327,20 @@ export default function WorkshopPage() {
             How I use AI
           </h2>
           <p className="type-h3 mt-6 text-text">
-            A bigger workshop. The same accountability.
+            I use AI every day.
           </p>
           <p
             className="mt-5 max-w-[42rem] text-text-2"
             style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
           >
-            AI can help draft the plan, write the code and challenge the
-            decision. It cannot own the consequences. I do.
+            It helps me research, explore designs, write code, test ideas and
+            find faults. I do not ask it to approve its own work.
           </p>
 
           <div className="workshop-ai-table-wrap mt-10">
             <table className="workshop-ai-table">
               <caption className="sr-only">
-                How AI shows up at each layer, and what stays human
+                How AI shows up at each layer and what stays human
               </caption>
               <thead>
                 <tr>
@@ -370,7 +365,8 @@ export default function WorkshopPage() {
             className="mt-8 text-muted"
             style={{ fontSize: "0.9375rem", lineHeight: 1.55 }}
           >
-            External actions remain gated: write ≠ push ≠ merge ≠ verified UX.
+            Writing code is not a release. I verify the real product before I
+            call the work finished.
           </p>
         </section>
 
@@ -391,7 +387,7 @@ export default function WorkshopPage() {
             className="mt-4 text-muted"
             style={{ fontSize: "0.9375rem", lineHeight: 1.55 }}
           >
-            Text only. Named tools can change. Capability stays the headline.
+            These are the tools I use now. They will change as the work changes.
           </p>
 
           <ul className="workshop-stack-list mt-10">
@@ -410,9 +406,7 @@ export default function WorkshopPage() {
               className="text-text-2"
               style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
             >
-              Some people specialise in one layer.
-              <br />
-              I get interested in what happens between them.
+              The interesting problems usually sit between the layers.
             </p>
             <p className="mt-8">
               <a href="/#contact" className="btn-ghost">
