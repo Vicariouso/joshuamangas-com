@@ -430,3 +430,129 @@ a {
     animation: none !important;
   }
 }
+
+/* Workshop — additive capability grid, inventory, AI table, stack list */
+.workshop-cap-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .workshop-cap-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .workshop-cap-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.workshop-cap-item {
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.workshop-ai-teaser {
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.workshop-inventory-item {
+  padding: 2rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.workshop-inventory-item:first-of-type {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.workshop-ai-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--border);
+}
+
+.workshop-ai-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.workshop-ai-table th,
+.workshop-ai-table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.875rem 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.workshop-ai-table thead th {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: var(--bg-band);
+  border-bottom: 1px solid var(--border-strong);
+}
+
+.workshop-ai-table tbody th {
+  font-family: var(--font-jost, "Jost"), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.workshop-ai-table tbody td {
+  color: var(--text-2);
+}
+
+.workshop-ai-table tbody tr:last-child th,
+.workshop-ai-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.workshop-stack-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.workshop-stack-item {
+  display: grid;
+  gap: 0.35rem;
+  padding: 1.25rem 0;
+  border-top: 1px solid var(--border);
+}
+
+@media (min-width: 640px) {
+  .workshop-stack-item {
+    grid-template-columns: minmax(10rem, 14rem) minmax(0, 1fr);
+    gap: 1.5rem;
+    align-items: baseline;
+  }
+}
+
+.workshop-stack-label {
+  font-family: var(--font-jost, "Jost"), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.workshop-stack-items {
+  font-size: 0.98rem;
+  line-height: 1.55;
+  color: var(--text-2);
+}

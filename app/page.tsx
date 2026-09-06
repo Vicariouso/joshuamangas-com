@@ -242,6 +242,106 @@ export default function Home() {
           </div>
         </section>
 
+
+        {/* 3b. Workshop — full stack capability (after Also building, before Writing) */}
+        <section
+          id="workshop"
+          className="highlight-band"
+          aria-labelledby="workshop-heading"
+        >
+          <div className="shell-experience px-6 py-12 sm:px-8 sm:py-16 lg:py-24">
+            <p className="meta text-accent">Workshop</p>
+            <h2 id="workshop-heading" className="type-h2 mt-4 text-text">
+              Full stack, in the literal sense.
+            </h2>
+            <div
+              className="mt-8 max-w-[42rem] space-y-5 text-text-2"
+              style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
+            >
+              <p>
+                I do not mean that I can recite a long list of technologies.
+              </p>
+              <p>
+                I mean I can follow a problem from the first uncomfortable
+                conversation to the live service people depend on: research,
+                product framing, user journeys, interface design, architecture,
+                code, testing, release and operation.
+              </p>
+              <p className="text-text">
+                AI makes the workshop larger. It does not make judgement
+                optional.
+              </p>
+            </div>
+
+            <ul className="workshop-cap-grid mt-10">
+              {[
+                {
+                  title: "Product discovery and strategy",
+                  body: "Find the missing system inside a real workflow, then decide what to build.",
+                },
+                {
+                  title: "Experience and interface design",
+                  body: "Journeys, hierarchy, and interfaces people can use under pressure.",
+                },
+                {
+                  title: "Build",
+                  body: "Front-end, back-end, and data for products that have to stay up.",
+                },
+                {
+                  title: "AI product engineering",
+                  body: "Where models earn their place — with evaluation, escalation, and human ownership.",
+                },
+                {
+                  title: "Mobile",
+                  body: "Courtside and pocket-scale products (NetCall) designed for interruption.",
+                },
+                {
+                  title: "Quality, delivery, and operations",
+                  body: "Tests, release, and keeping the thing honest after launch.",
+                },
+              ].map((item) => (
+                <li key={item.title} className="workshop-cap-item">
+                  <h3 className="type-h3 text-text">{item.title}</h3>
+                  <p
+                    className="mt-3 text-text-2"
+                    style={{ fontSize: "0.98rem", lineHeight: 1.55 }}
+                  >
+                    {item.body}
+                  </p>
+                </li>
+              ))}
+            </ul>
+
+            <div className="workshop-ai-teaser mt-12 max-w-[42rem]">
+              <p className="type-h3 text-text">
+                A bigger workshop. The same accountability.
+              </p>
+              <p
+                className="mt-4 text-text-2"
+                style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
+              >
+                AI can help draft the plan, write the code and challenge the
+                decision. It cannot own the consequences. I do.
+              </p>
+            </div>
+
+            <p className="mt-10">
+              <a href="/workshop/" className="btn-ghost">
+                Explore how I build →
+              </a>
+            </p>
+
+            <p
+              className="mt-10 max-w-[36rem] text-muted"
+              style={{ fontSize: "0.9375rem", lineHeight: 1.55 }}
+            >
+              Some people specialise in one layer.
+              <br />
+              I get interested in what happens between them.
+            </p>
+          </div>
+        </section>
+
         <hr
           className="shell-prose mx-auto border-0 border-t border-border px-6 sm:px-8"
           aria-hidden
