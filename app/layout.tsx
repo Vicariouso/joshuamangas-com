@@ -1,18 +1,18 @@
 import type { Metadata } from "next";
-import { Inter, Outfit } from "next/font/google";
+import { Fraunces, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
+const sourceSans = Source_Sans_3({
+  variable: "--font-source-sans",
   subsets: ["latin"],
-  weight: ["400", "500"],
+  weight: ["400", "500", "600"],
   display: "swap",
 });
 
-const outfit = Outfit({
-  variable: "--font-outfit",
+const fraunces = Fraunces({
+  variable: "--font-fraunces",
   subsets: ["latin"],
-  weight: ["600", "700"],
+  weight: ["500", "600", "700"],
   display: "swap",
 });
 
@@ -69,9 +69,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en-GB"
-      className={`${inter.variable} ${outfit.variable} h-full antialiased`}
+      className={`${sourceSans.variable} ${fraunces.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-paper text-ink font-sans">
+      <body className="min-h-full flex flex-col bg-bg text-fg font-sans">
         {children}
       </body>
     </html>
