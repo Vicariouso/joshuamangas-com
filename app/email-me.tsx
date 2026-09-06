@@ -5,11 +5,18 @@ type EmailMeProps = {
   children?: React.ReactNode;
 };
 
-export function EmailMe({ className = "", children = "Email me" }: EmailMeProps) {
+/**
+ * Assembles the mail link on click from split parts — no address string in HTML source.
+ */
+export function EmailMe({
+  className = "",
+  children = "Email me",
+}: EmailMeProps) {
   function handleClick() {
-    const user = ["joshua"].join("");
-    const domain = ["governanceassurance", ".", "co", ".", "uk"].join("");
-    window.location.href = ["mail", "to", ":", user, "@", domain].join("");
+    const local = ["josh", "ua"].join("");
+    const host = ["governanceassurance", "co", "uk"].join(".");
+    const scheme = ["mai", "lto"].join("");
+    window.location.href = `${scheme}:${local}@${host}`;
   }
 
   return (

@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
-import { Fraunces, Source_Sans_3 } from "next/font/google";
+import { Inter, Jost } from "next/font/google";
 import "./globals.css";
 
-const sourceSans = Source_Sans_3({
-  variable: "--font-source-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
   weight: ["400", "500", "600"],
+  style: ["normal", "italic"],
   display: "swap",
 });
 
-const fraunces = Fraunces({
-  variable: "--font-fraunces",
+const jost = Jost({
+  variable: "--font-jost",
   subsets: ["latin"],
   weight: ["500", "600", "700"],
   display: "swap",
@@ -52,8 +53,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary",
     title: "Joshua Mangas",
-    description:
-      "Governance practitioner. Founder of SGAF. Serving chair.",
+    description: "Governance practitioner. Founder of SGAF. Serving chair.",
     creator: "@JoshuaMangas",
   },
   alternates: {
@@ -63,15 +63,18 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  other: {
+    "theme-color": "#12110f",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en-GB"
-      className={`${sourceSans.variable} ${fraunces.variable} h-full antialiased`}
+      className={`${inter.variable} ${jost.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-bg text-fg font-sans">
+      <body className="min-h-full flex flex-col bg-bg text-text font-sans">
         {children}
       </body>
     </html>
