@@ -14,7 +14,10 @@ export function SiteHeader() {
   const pathname = usePathname();
   const onWorkshop = pathname === "/workshop" || pathname === "/workshop/";
   const onLibrary =
-    pathname === "/open-desk" || pathname === "/open-desk/";
+    pathname === "/open-desk" ||
+    pathname === "/open-desk/" ||
+    pathname === "/free-school-ai" ||
+    pathname === "/free-school-ai/";
   const [current, setCurrent] = useState<string>(
     onWorkshop ? "workshop" : onLibrary ? "free-school-ai" : "who",
   );
@@ -85,7 +88,7 @@ export function SiteHeader() {
             Workshop
           </a>
           <a
-            href="/open-desk/"
+            href="/free-school-ai/"
             aria-current={onLibrary ? "true" : undefined}
           >
             Free-SchoolAI
