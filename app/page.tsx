@@ -240,11 +240,11 @@ export default function Home() {
             aria-labelledby="opendesk-heading"
           >
             <h3 id="opendesk-heading" className="type-h3 also-title text-text transition-colors duration-150">
-              Open Desk. Free prompts for the work on a leader's desk.
+              Open Desk. Free prompts for school staff.
             </h3>
             <p className="mt-4 text-text-2" style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}>
-              Two hundred and fifty copy-paste prompts for UK school leadership
-              work. The extra shelf is this year's desk, not a rename list.
+              Five hundred and ninety-five copy-paste prompts from early years
+              through sixth form. Run them on a machine you control.
             </p>
             <p className="mt-4 text-muted" style={{ fontSize: "0.875rem" }}>
               CC BY 4.0. No subscription.
