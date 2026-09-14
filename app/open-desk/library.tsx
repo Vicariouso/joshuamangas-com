@@ -12,6 +12,8 @@ const CATEGORIES = [
   "Exams office",
   "Cover",
   "GCSE",
+  "KS3",
+  "Sixth form",
   "Schemes",
   "Revision",
   "School improvement",
