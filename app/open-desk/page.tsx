@@ -5,14 +5,14 @@ import { OpenDeskLibrary } from "./library";
 export const metadata: Metadata = {
   title: "Open Desk",
   description:
-    "A free library of prompts for UK school staff, including GCSE schemes of work and revision maps. Copy them. Run them on a machine you control. A person still owns the draft.",
+    "A free library of prompts for UK school staff, including GCSE schemes of work and revision templates. Copy them. Run them on a machine you control. A person still owns the draft.",
   alternates: {
     canonical: "https://joshuamangas.com/open-desk/",
   },
   openGraph: {
     title: "Open Desk by Joshua Mangas",
     description:
-      "Free prompts for school desks, including GCSE schemes and revision.",
+      "Free prompts for school desks, including GCSE schemes and revision templates.",
     url: "https://joshuamangas.com/open-desk/",
   },
 };
@@ -39,17 +39,17 @@ export default function OpenDeskPage() {
             className="mt-8 max-w-[42ch] text-text-2"
             style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
           >
-            Three hundred and eighty jobs for the people who write the drafts.
-            Leaders, teachers, early years, exams, cover, and a GCSE shelf.
+            Four hundred and forty-four jobs for the people who write the drafts.
+            Leaders, teachers, early years, exams, cover, and a full GCSE shelf.
             Copy the prompt. Run it on a laptop you control. No subscription.
           </p>
           <p
             className="mt-5 max-w-[42rem] text-text-2"
             style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
           >
-            Leadership first. Then this year&apos;s jobs those catalogues never
-            sold. Then the classroom, early years, exams, cover, and GCSE
-            schemes and revision maps.
+            Leadership first. Then this year's jobs those catalogues never
+            sold. Then the classroom, early years, exams, cover, GCSE subject
+            maps, scheme generators and revision templates.
           </p>
           <p
             className="mt-5 max-w-[42rem] text-text-2"
@@ -78,8 +78,9 @@ export default function OpenDeskPage() {
                 safer still.
               </p>
               <p>
-                Filter GCSE for schemes of work and revision maps. Paste the
-                specification. The prompt will not invent a topic list.
+                Filter GCSE for subject maps, Schemes for generators, Revision
+                for templates. Paste the specification. The prompt will not
+                invent a topic list.
               </p>
               <p className="text-text">
                 These prompts write drafts. They do not hold a duty, sit on a
