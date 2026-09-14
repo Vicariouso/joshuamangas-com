@@ -243,9 +243,8 @@ export default function Home() {
               Open Desk. Free prompts for the work on a leader's desk.
             </h3>
             <p className="mt-4 text-text-2" style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}>
-              Two hundred and one copy-paste prompts for UK school leadership
-              work. Run them on a machine you control. A person still owns the
-              draft.
+              Two hundred and fifty copy-paste prompts for UK school leadership
+              work. The extra shelf is this year's desk, not a rename list.
             </p>
             <p className="mt-4 text-muted" style={{ fontSize: "0.875rem" }}>
               CC BY 4.0. No subscription.
