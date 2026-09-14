@@ -5,14 +5,14 @@ import { OpenDeskLibrary } from "./library";
 export const metadata: Metadata = {
   title: "Open Desk",
   description:
-    "A free library of prompts for UK school staff. Leaders and classroom teachers. Copy them. Run them on a machine you control. A person still owns the draft.",
+    "A free library of prompts for UK school staff. Leaders, teachers, early years, exams and cover. Copy them. Run them on a machine you control. A person still owns the draft.",
   alternates: {
     canonical: "https://joshuamangas.com/open-desk/",
   },
   openGraph: {
     title: "Open Desk by Joshua Mangas",
     description:
-      "Free prompts for the work that lands on a teacher's desk and a leader's desk.",
+      "Free prompts for the work that lands on a school desk.",
     url: "https://joshuamangas.com/open-desk/",
   },
 };
@@ -39,17 +39,16 @@ export default function OpenDeskPage() {
             className="mt-8 max-w-[42ch] text-text-2"
             style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
           >
-            Three hundred jobs for the people who actually write the drafts.
-            Senior leaders and classroom teachers. Copy the prompt. Run it on a
-            laptop you control. No subscription.
+            Three hundred and forty-two jobs for the people who write the
+            drafts. Leaders, teachers, early years, the exams office, cover.
+            Copy the prompt. Run it on a laptop you control. No subscription.
           </p>
           <p
             className="mt-5 max-w-[42rem] text-text-2"
             style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
           >
-            The first shelf is the ordinary leadership desk. The second is this
-            year&apos;s jobs those catalogues never sold. The third is the
-            classroom: a lesson, cover work, a call home, form time.
+            Leadership first. Then this year&apos;s jobs those catalogues never
+            sold. Then the classroom, form time, early years, exams and cover.
           </p>
           <p
             className="mt-5 max-w-[42rem] text-text-2"
@@ -78,8 +77,9 @@ export default function OpenDeskPage() {
                 safer still.
               </p>
               <p>
-                Filter This term for the 2026 leadership desk. Filter Classroom
-                or Form tutor if you teach.
+                Filter This term for the 2026 leadership desk. Classroom or Form
+                tutor if you teach. Early years, Exams office or Cover for those
+                desks.
               </p>
               <p className="text-text">
                 These prompts write drafts. They do not hold a duty, sit on a
