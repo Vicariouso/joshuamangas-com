@@ -13,11 +13,18 @@ const HOME_NAV = [
 export function SiteHeader() {
   const pathname = usePathname();
   const onWorkshop = pathname === "/workshop" || pathname === "/workshop/";
-  const [current, setCurrent] = useState<string>(onWorkshop ? "workshop" : "who");
+  const onOpenDesk = pathname === "/open-desk" || pathname === "/open-desk/";
+  const [current, setCurrent] = useState<string>(
+    onWorkshop ? "workshop" : onOpenDesk ? "open-desk" : "who",
+  );
 
   useEffect(() => {
     if (onWorkshop) {
       setCurrent("workshop");
+      return;
+    }
+    if (onOpenDesk) {
+      setCurrent("open-desk");
       return;
     }
 
@@ -42,7 +49,7 @@ export function SiteHeader() {
 
     elements.forEach((el) => observer.observe(el));
     return () => observer.disconnect();
-  }, [onWorkshop]);
+  }, [onWorkshop, onOpenDesk]);
 
   return (
     <header className="site-header">
@@ -61,7 +68,11 @@ export function SiteHeader() {
             <a
               key={item.id}
               href={item.href}
-              aria-current={!onWorkshop && current === item.id ? "true" : undefined}
+              aria-current={
+                !onWorkshop && !onOpenDesk && current === item.id
+                  ? "true"
+                  : undefined
+              }
             >
               {item.label}
             </a>
@@ -71,6 +82,12 @@ export function SiteHeader() {
             aria-current={onWorkshop ? "true" : undefined}
           >
             Workshop
+          </a>
+          <a
+            href="/open-desk/"
+            aria-current={onOpenDesk ? "true" : undefined}
+          >
+            Open Desk
           </a>
         </nav>
       </div>

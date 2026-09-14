@@ -74,7 +74,6 @@ export default function Home() {
       <SiteHeader />
 
       <main id="main" className="flex-1">
-        {/* 1. Who */}
         <section
           id="who"
           className="shell-prose px-6 py-12 sm:px-8 sm:py-16 lg:py-24"
@@ -107,7 +106,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 2. Highlight: full-bleed band, one filled CTA */}
         <section
           id="highlight"
           aria-labelledby="highlight-heading"
@@ -176,7 +174,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 3. Also building: 2-col hairlines, radius 0 */}
         <section
           id="also-building"
           className="shell-experience px-6 py-12 sm:px-8 sm:py-16 lg:py-24"
@@ -236,10 +233,28 @@ export default function Home() {
               </p>
             </a>
           </div>
+
+          <a
+            href="/open-desk/"
+            className="also-item mt-2 block focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-accent"
+            aria-labelledby="opendesk-heading"
+          >
+            <h3 id="opendesk-heading" className="type-h3 also-title text-text transition-colors duration-150">
+              Open Desk. Free prompts for the work on a leader's desk.
+            </h3>
+            <p className="mt-4 text-text-2" style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}>
+              Two hundred and fifty copy-paste prompts for UK school leadership
+              work. The extra shelf is this year's desk, not a rename list.
+            </p>
+            <p className="mt-4 text-muted" style={{ fontSize: "0.875rem" }}>
+              CC BY 4.0. No subscription.
+            </p>
+            <p className="mt-6 text-sm font-semibold text-text-2">
+              Open the library →
+            </p>
+          </a>
         </section>
 
-
-        {/* 3b. Workshop: full stack capability (after Also building, before Writing) */}
         <section
           id="workshop"
           className="highlight-band"
@@ -254,9 +269,7 @@ export default function Home() {
               className="mt-8 max-w-[42rem] space-y-5 text-text-2"
               style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
             >
-              <p>
-                I work across the whole product.
-              </p>
+              <p>I work across the whole product.</p>
               <p>
                 I research the problem, design the journey, build the system,
                 test it and keep it running.
@@ -307,9 +320,7 @@ export default function Home() {
             </ul>
 
             <div className="workshop-ai-teaser mt-12 max-w-[42rem]">
-              <p className="type-h3 text-text">
-                I use AI every day.
-              </p>
+              <p className="type-h3 text-text">I use AI every day.</p>
               <p
                 className="mt-4 text-text-2"
                 style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
@@ -339,7 +350,6 @@ export default function Home() {
           aria-hidden
         />
 
-        {/* 4. Writing: list rows + source labels */}
         <section
           id="writing"
           className="shell-prose px-6 py-12 sm:px-8 sm:py-16 lg:py-24"
@@ -377,7 +387,6 @@ export default function Home() {
           aria-hidden
         />
 
-        {/* 5. Contact: LinkedIn primary + X + EmailMe (no plain email in HTML) */}
         <section
           id="contact"
           className="shell-prose px-6 py-12 sm:px-8 sm:py-16 lg:py-24"
