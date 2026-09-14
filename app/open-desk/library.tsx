@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { contextBlock, deskItems, sharedPreamble } from "./data";
-import type { DeskPrompt } from "./types";
+import type { DeskItem } from "./types";
 
 const CATEGORIES = [
   "This term",
@@ -28,26 +28,25 @@ const CATEGORIES = [
   "SEND and inclusion",
 ] as const;
 
-const prompts: DeskPrompt[] = deskItems.map((item) => ({
-  id: item.id,
-  slug: item.slug,
-  name: item.name,
-  category: item.category,
-  job: item.job,
-  prompt:
+const PAGE_SIZE = 40;
+
+function buildPrompt(item: DeskItem) {
+  return (
     sharedPreamble +
     `\nJob: ${item.name}\n\nWhat good looks like:\n${item.job}\n` +
-    contextBlock,
-}));
+    contextBlock
+  );
+}
 
 export function OpenDeskLibrary() {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("");
   const [copied, setCopied] = useState<string | null>(null);
+  const [shown, setShown] = useState(PAGE_SIZE);
 
   const visible = useMemo(() => {
     const needle = query.trim().toLowerCase();
-    return prompts.filter((item) => {
+    return deskItems.filter((item) => {
       if (category && item.category !== category) return false;
       if (!needle) return true;
       return (
@@ -58,9 +57,11 @@ export function OpenDeskLibrary() {
     });
   }, [query, category]);
 
-  async function copyPrompt(item: DeskPrompt) {
+  const page = visible.slice(0, shown);
+
+  async function copyPrompt(item: DeskItem) {
     try {
-      await navigator.clipboard.writeText(item.prompt);
+      await navigator.clipboard.writeText(buildPrompt(item));
       setCopied(item.id);
       window.setTimeout(() => setCopied(null), 1400);
     } catch {
@@ -78,7 +79,10 @@ export function OpenDeskLibrary() {
           id="desk-search"
           type="search"
           value={query}
-          onChange={(event) => setQuery(event.target.value)}
+          onChange={(event) => {
+            setQuery(event.target.value);
+            setShown(PAGE_SIZE);
+          }}
           placeholder="Search the desk"
           className="desk-input"
         />
@@ -88,7 +92,10 @@ export function OpenDeskLibrary() {
         <select
           id="desk-category"
           value={category}
-          onChange={(event) => setCategory(event.target.value)}
+          onChange={(event) => {
+            setCategory(event.target.value);
+            setShown(PAGE_SIZE);
+          }}
           className="desk-input"
         >
           <option value="">All jobs</option>
@@ -104,7 +111,7 @@ export function OpenDeskLibrary() {
       </div>
 
       <div className="mt-10">
-        {visible.map((item) => (
+        {page.map((item) => (
           <article key={item.id} id={item.slug} className="desk-card">
             <p className="meta text-accent">{item.category}</p>
             <h2 className="type-h3 mt-3 text-text">{item.name}</h2>
@@ -120,13 +127,28 @@ export function OpenDeskLibrary() {
                 className="btn-ghost"
                 onClick={() => copyPrompt(item)}
               >
-                {copied === item.id ? "Copied" : "Copy prompt"}
+                {copied === item.id
+                  ? "Copied"
+                  : copied === "failed"
+                    ? "Copy failed"
+                    : "Copy prompt"}
               </button>
             </p>
-            <pre className="desk-prompt">{item.prompt}</pre>
           </article>
         ))}
       </div>
+
+      {shown < visible.length ? (
+        <p className="mt-8">
+          <button
+            type="button"
+            className="btn-ghost"
+            onClick={() => setShown((n) => n + PAGE_SIZE)}
+          >
+            Show more ({visible.length - shown} left)
+          </button>
+        </p>
+      ) : null}
     </div>
   );
 }
