@@ -6,6 +6,8 @@ import type { DeskPrompt } from "./types";
 
 const CATEGORIES = [
   "This term",
+  "Classroom",
+  "Form tutor",
   "School improvement",
   "Governance",
   "Systems and compliance",

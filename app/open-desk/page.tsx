@@ -5,14 +5,14 @@ import { OpenDeskLibrary } from "./library";
 export const metadata: Metadata = {
   title: "Open Desk",
   description:
-    "A free library of prompts for UK school leadership work. Copy them. Run them on a machine you control. A person still owns the draft.",
+    "A free library of prompts for UK school staff. Leaders and classroom teachers. Copy them. Run them on a machine you control. A person still owns the draft.",
   alternates: {
     canonical: "https://joshuamangas.com/open-desk/",
   },
   openGraph: {
     title: "Open Desk by Joshua Mangas",
     description:
-      "Free prompts for the work that lands on a senior leader's desk.",
+      "Free prompts for the work that lands on a teacher's desk and a leader's desk.",
     url: "https://joshuamangas.com/open-desk/",
   },
 };
@@ -33,24 +33,23 @@ export default function OpenDeskPage() {
         <section className="shell-prose px-6 py-12 sm:px-8 sm:py-16 lg:py-20">
           <p className="meta text-accent">Open Desk</p>
           <h1 className="type-h1 mt-4 text-text">
-            A free prompt library for school leaders.
+            A free prompt library for school staff.
           </h1>
           <p
             className="mt-8 max-w-[42ch] text-text-2"
             style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
           >
-            Two hundred and fifty jobs that keep landing on a senior leader&apos;s
-            desk. Copy the prompt. Run it on a laptop you control. No
-            subscription.
+            Three hundred jobs for the people who actually write the drafts.
+            Senior leaders and classroom teachers. Copy the prompt. Run it on a
+            laptop you control. No subscription.
           </p>
           <p
             className="mt-5 max-w-[42rem] text-text-2"
             style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
           >
-            The first shelf is the ordinary desk work schools were being asked
-            to rent. The second shelf is work those catalogues never sold:
-            this year&apos;s inclusion statement, a report-card plan, an
-            exclusion pack, a weather call.
+            The first shelf is the ordinary leadership desk. The second is this
+            year&apos;s jobs those catalogues never sold. The third is the
+            classroom: a lesson, cover work, a call home, form time.
           </p>
           <p
             className="mt-5 max-w-[42rem] text-text-2"
@@ -79,9 +78,8 @@ export default function OpenDeskPage() {
                 safer still.
               </p>
               <p>
-                Start with the filter marked This term if you need the 2026
-                desk: inclusion statements, report cards, the white paper
-                diary.
+                Filter This term for the 2026 leadership desk. Filter Classroom
+                or Form tutor if you teach.
               </p>
               <p className="text-text">
                 These prompts write drafts. They do not hold a duty, sit on a
