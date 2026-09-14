@@ -5,6 +5,7 @@ import { deskItemsC } from "./items-c";
 import { deskItemsD } from "./items-d";
 import { deskItemsE } from "./items-e";
 import { deskItemsF } from "./items-f";
+import { deskItemsG } from "./items-g";
 import type { DeskItem } from "./types";
 
 export { contextBlock, sharedPreamble };
@@ -17,4 +18,5 @@ export const deskItems: DeskItem[] = [
   ...deskItemsD,
   ...deskItemsE,
   ...deskItemsF,
+  ...deskItemsG,
 ];

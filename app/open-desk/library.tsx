@@ -11,6 +11,7 @@ const CATEGORIES = [
   "Early years",
   "Exams office",
   "Cover",
+  "GCSE",
   "School improvement",
   "Governance",
   "Systems and compliance",

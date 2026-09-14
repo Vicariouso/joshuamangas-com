@@ -5,14 +5,14 @@ import { OpenDeskLibrary } from "./library";
 export const metadata: Metadata = {
   title: "Open Desk",
   description:
-    "A free library of prompts for UK school staff. Leaders, teachers, early years, exams and cover. Copy them. Run them on a machine you control. A person still owns the draft.",
+    "A free library of prompts for UK school staff, including GCSE schemes of work and revision maps. Copy them. Run them on a machine you control. A person still owns the draft.",
   alternates: {
     canonical: "https://joshuamangas.com/open-desk/",
   },
   openGraph: {
     title: "Open Desk by Joshua Mangas",
     description:
-      "Free prompts for the work that lands on a school desk.",
+      "Free prompts for school desks, including GCSE schemes and revision.",
     url: "https://joshuamangas.com/open-desk/",
   },
 };
@@ -39,8 +39,8 @@ export default function OpenDeskPage() {
             className="mt-8 max-w-[42ch] text-text-2"
             style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
           >
-            Three hundred and forty-two jobs for the people who write the
-            drafts. Leaders, teachers, early years, the exams office, cover.
+            Three hundred and eighty jobs for the people who write the drafts.
+            Leaders, teachers, early years, exams, cover, and a GCSE shelf.
             Copy the prompt. Run it on a laptop you control. No subscription.
           </p>
           <p
@@ -48,7 +48,8 @@ export default function OpenDeskPage() {
             style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
           >
             Leadership first. Then this year&apos;s jobs those catalogues never
-            sold. Then the classroom, form time, early years, exams and cover.
+            sold. Then the classroom, early years, exams, cover, and GCSE
+            schemes and revision maps.
           </p>
           <p
             className="mt-5 max-w-[42rem] text-text-2"
@@ -77,9 +78,8 @@ export default function OpenDeskPage() {
                 safer still.
               </p>
               <p>
-                Filter This term for the 2026 leadership desk. Classroom or Form
-                tutor if you teach. Early years, Exams office or Cover for those
-                desks.
+                Filter GCSE for schemes of work and revision maps. Paste the
+                specification. The prompt will not invent a topic list.
               </p>
               <p className="text-text">
                 These prompts write drafts. They do not hold a duty, sit on a
