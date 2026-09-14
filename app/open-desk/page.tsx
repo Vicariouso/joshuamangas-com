@@ -5,14 +5,14 @@ import { OpenDeskLibrary } from "./library";
 export const metadata: Metadata = {
   title: "Open Desk",
   description:
-    "A free library of prompts for UK school staff, including KS3 maps, GCSE schemes and sixth-form drafts. Copy them. Run them on a machine you control. A person still owns the draft.",
+    "A free library of prompts for UK school staff, including primary, KS3, GCSE and sixth-form drafts. Copy them. Run them on a machine you control. A person still owns the draft.",
   alternates: {
     canonical: "https://joshuamangas.com/open-desk/",
   },
   openGraph: {
     title: "Open Desk by Joshua Mangas",
     description:
-      "Free prompts for school desks, including KS3, GCSE and sixth form.",
+      "Free prompts for school desks, including primary, KS3, GCSE and sixth form.",
     url: "https://joshuamangas.com/open-desk/",
   },
 };
@@ -39,8 +39,8 @@ export default function OpenDeskPage() {
             className="mt-8 max-w-[42ch] text-text-2"
             style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
           >
-            Five hundred and forty-four jobs for the people who write the drafts.
-            Leaders, teachers, KS3, GCSE, sixth form, early years, exams and cover.
+            Five hundred and ninety-five jobs for the people who write the drafts.
+            Leaders, teachers, primary, KS3, GCSE, sixth form, early years, exams and cover.
             Copy the prompt. Run it on a laptop you control. No subscription.
           </p>
           <p
@@ -48,8 +48,8 @@ export default function OpenDeskPage() {
             style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
           >
             Leadership first. Then this year's jobs those catalogues never
-            sold. Then the classroom, KS3 maps, GCSE and sixth form, early years,
-            exams and cover.
+            sold. Then primary, KS3, GCSE, sixth form, early years, exams and
+            cover.
           </p>
           <p
             className="mt-5 max-w-[42rem] text-text-2"
@@ -78,10 +78,9 @@ export default function OpenDeskPage() {
                 safer still.
               </p>
               <p>
-                Filter KS3, GCSE or Sixth form for the phase. Schemes and
-                Revision still sit across the exam years. Paste the programme
-                of study or the specification. The prompt will not invent a
-                topic list.
+                Filter Primary, KS3, GCSE or Sixth form for the phase. Paste the
+                programme of study or the specification. The prompt will not
+                invent a topic list or a test paper.
               </p>
               <p className="text-text">
                 These prompts write drafts. They do not hold a duty, sit on a
