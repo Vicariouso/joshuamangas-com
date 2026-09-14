@@ -5,6 +5,7 @@ import { contextBlock, deskItems, sharedPreamble } from "./data";
 import type { DeskPrompt } from "./types";
 
 const CATEGORIES = [
+  "This term",
   "School improvement",
   "Governance",
   "Systems and compliance",

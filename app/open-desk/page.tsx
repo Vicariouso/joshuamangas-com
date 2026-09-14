@@ -39,9 +39,18 @@ export default function OpenDeskPage() {
             className="mt-8 max-w-[42ch] text-text-2"
             style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
           >
-            Two hundred and one jobs that keep landing on a senior leader's
+            Two hundred and fifty jobs that keep landing on a senior leader&apos;s
             desk. Copy the prompt. Run it on a laptop you control. No
             subscription.
+          </p>
+          <p
+            className="mt-5 max-w-[42rem] text-text-2"
+            style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
+          >
+            The first shelf is the ordinary desk work schools were being asked
+            to rent. The second shelf is work those catalogues never sold:
+            this year&apos;s inclusion statement, a report-card plan, an
+            exclusion pack, a weather call.
           </p>
           <p
             className="mt-5 max-w-[42rem] text-text-2"
@@ -68,6 +77,11 @@ export default function OpenDeskPage() {
                 For names, health, behaviour, safeguarding or HR, keep the work
                 off public tools. A local model is safer. Writing it yourself is
                 safer still.
+              </p>
+              <p>
+                Start with the filter marked This term if you need the 2026
+                desk: inclusion statements, report cards, the white paper
+                diary.
               </p>
               <p className="text-text">
                 These prompts write drafts. They do not hold a duty, sit on a
