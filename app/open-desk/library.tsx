@@ -9,6 +9,7 @@ const CATEGORIES = [
   "Classroom",
   "Form tutor",
   "Early years",
+  "Primary",
   "Exams office",
   "Cover",
   "GCSE",
