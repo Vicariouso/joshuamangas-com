@@ -1,1 +1,429 @@
-PLACEHOLDER
+import { EmailMe } from "./email-me";
+import { SiteHeader } from "./site-header";
+
+function ExtLink({
+  href,
+  children,
+  className = "",
+}: {
+  href: string;
+  children: React.ReactNode;
+  className?: string;
+}) {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={className}
+    >
+      {children}
+      <span className="sr-only"> (opens in a new tab)</span>
+    </a>
+  );
+}
+
+const writing = [
+  {
+    title: "Why SGAF exists",
+    abstract:
+      "Boards were already doing the work. The record was too fragile.",
+    href: "https://governanceassurance.co.uk/about",
+    source: "On SGAF",
+  },
+  {
+    title: "Governors, when was the last time you spoke about swimming?",
+    abstract:
+      "Turn a news story into a board-ready comparison: school issue, local pattern or strength to celebrate.",
+    href: "https://www.linkedin.com/posts/joshuamangas_schoolgovernance-educationdata-governorchallenge-activity-7493319460536373248-wXTY",
+    source: "On LinkedIn",
+  },
+  {
+    title: "Recruiting governors isn’t the hard part",
+    abstract:
+      "STEM ambassadors, social mobility and putting careers outreach on the board agenda.",
+    href: "https://www.linkedin.com/posts/joshuamangas_latest-edition-of-its-really-not-that-hard-activity-7492616875982548992-0lrS",
+    source: "On LinkedIn",
+  },
+] as const;
+
+const proofChips = [
+  "Founder of SGAF",
+  "AI developer",
+  "Serving chair",
+  "Nearly 500 schools",
+] as const;
+
+const artefactNouns = [
+  "Audits",
+  "Risks",
+  "Visit plans",
+  "Annual statement",
+] as const;
+
+export default function Home() {
+  return (
+    <>
+      <a
+        href="#main"
+        className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[60] focus:bg-bg-band focus:px-3 focus:py-2 focus:text-text"
+      >
+        Skip to content
+      </a>
+
+      <SiteHeader />
+
+      <main id="main" className="flex-1">
+        <section
+          id="who"
+          className="shell-prose px-6 py-12 sm:px-8 sm:py-16 lg:py-24"
+        >
+          <h1 className="type-h1 text-text">
+            I design and build AI products.
+          </h1>
+          <p className="mt-8 max-w-[42ch] text-text-2" style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}>
+            I find problems in real work, understand them properly and build
+            the complete product. That includes the interface, the code, the
+            data and the AI behind it. My background in education and governance
+            means I usually know where to look.
+          </p>
+
+          <ul className="mt-10 flex max-w-[42rem] flex-wrap gap-2">
+            {proofChips.map((item) => (
+              <li key={item}>
+                <span className="chip">{item}</span>
+              </li>
+            ))}
+          </ul>
+
+          <div className="mt-10 flex flex-wrap items-center gap-6">
+            <a href="#workshop" className="link-quiet text-sm font-semibold">
+              See how I build →
+            </a>
+            <a href="#contact" className="btn-ghost">
+              Get in touch
+            </a>
+          </div>
+        </section>
+
+        <section
+          id="highlight"
+          aria-labelledby="highlight-heading"
+          className="highlight-band"
+        >
+          <div className="shell-experience px-6 py-16 sm:px-8 sm:py-20 lg:py-28">
+            <div className="highlight-grid">
+              <div className="highlight-copy min-w-0">
+                <p className="meta text-accent">Highlight</p>
+                <p className="noun-rail mt-4">
+                  Audits, risks, visit plans and annual statements for UK schools
+                  and academy trusts
+                </p>
+                <h2
+                  id="highlight-heading"
+                  className="type-h2-highlight mt-6 text-text"
+                >
+                  SGAF. The governance operating system boards were missing.
+                </h2>
+                <p
+                  className="mt-8 max-w-[42rem] text-text-2"
+                  style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
+                >
+                  School improvement has systems. Governance mostly had papers,
+                  memory and whoever knew where the last pack lived. SGAF is
+                  the practical response: audits, risks, visit plans and the
+                  annual statement on one connected record for UK schools and
+                  academy trusts.
+                </p>
+                <p className="type-outcome mt-6">
+                  The board does the governance once. The evidence is created as
+                  it goes.
+                </p>
+                <p
+                  className="mt-6 text-muted"
+                  style={{ fontSize: "0.875rem", lineHeight: 1.45 }}
+                >
+                  Built from how boards actually work.
+                </p>
+                <p className="mt-10">
+                  <ExtLink
+                    href="https://governanceassurance.co.uk"
+                    className="btn-fill"
+                  >
+                    See SGAF →
+                  </ExtLink>
+                </p>
+              </div>
+
+              <aside className="highlight-artefact" aria-label="SGAF contents">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/sgaf-shield.svg"
+                  alt="SGAF shield mark"
+                  width={48}
+                  height={56}
+                  className="h-12 w-12"
+                />
+                <ul className="artefact-list mt-6">
+                  {artefactNouns.map((noun) => (
+                    <li key={noun}>{noun}</li>
+                  ))}
+                </ul>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="also-building"
+          className="shell-experience px-6 py-12 sm:px-8 sm:py-16 lg:py-24"
+          aria-labelledby="also-heading"
+        >
+          <h2 id="also-heading" className="type-h2 text-text">
+            Also building
+          </h2>
+
+          <div className="mt-10 grid gap-0 md:grid-cols-2 md:gap-8">
+            <a
+              href="https://netcallumpire.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="also-item block focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-accent md:pr-6"
+              aria-labelledby="netcall-heading"
+            >
+              <h3 id="netcall-heading" className="type-h3 also-title text-text transition-colors duration-150">
+                NetCall. Courtside netball without the paperwork pile.
+              </h3>
+              <p className="mt-4 text-text-2" style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}>
+                NetCall is the courtside netball app I built for my wife Rachel,
+                who umpires. Prepare the match. Score live. Track the centre
+                pass. Share a clean result when the final whistle goes. Designed
+                around her courtside workflow: fast, readable, usable while the
+                game refuses to stand still.
+              </p>
+              <p className="mt-4 text-muted" style={{ fontSize: "0.875rem" }}>
+                iPhone £2.99. Android coming soon (invite-only beta).
+              </p>
+              <p className="mt-6 text-sm font-semibold text-text-2">
+                Visit NetCall →
+                <span className="sr-only"> (opens in a new tab)</span>
+              </p>
+            </a>
+
+            <a
+              href="https://governanceassurance.co.uk/free/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="also-item block focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-accent md:pl-6"
+              aria-labelledby="free-heading"
+            >
+              <h3 id="free-heading" className="type-h3 also-title text-text transition-colors duration-150">
+                Free checks boards can run today
+              </h3>
+              <p className="mt-4 text-text-2" style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}>
+                I built these free checks because I needed them in my own work.
+                Now any board can use them without a sales call.
+              </p>
+              <p className="mt-4 text-muted" style={{ fontSize: "0.875rem" }}>
+                No catch on the free set.
+              </p>
+              <p className="mt-6 text-sm font-semibold text-text-2">
+                Open free tools →
+                <span className="sr-only"> (opens in a new tab)</span>
+              </p>
+            </a>
+          </div>
+
+          <a
+            href="/open-desk/"
+            className="also-item mt-2 block focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-accent"
+            aria-labelledby="opendesk-heading"
+          >
+            <h3 id="opendesk-heading" className="type-h3 also-title text-text transition-colors duration-150">
+              Open Desk. Free prompts for the work on a leader's desk.
+            </h3>
+            <p className="mt-4 text-text-2" style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}>
+              Two hundred and one copy-paste prompts for UK school leadership
+              work. Run them on a machine you control. A person still owns the
+              draft.
+            </p>
+            <p className="mt-4 text-muted" style={{ fontSize: "0.875rem" }}>
+              CC BY 4.0. No subscription.
+            </p>
+            <p className="mt-6 text-sm font-semibold text-text-2">
+              Open the library →
+            </p>
+          </a>
+        </section>
+
+        <section
+          id="workshop"
+          className="highlight-band"
+          aria-labelledby="workshop-heading"
+        >
+          <div className="shell-experience px-6 py-12 sm:px-8 sm:py-16 lg:py-24">
+            <p className="meta text-accent">Workshop</p>
+            <h2 id="workshop-heading" className="type-h2 mt-4 text-text">
+              I work across the whole product.
+            </h2>
+            <div
+              className="mt-8 max-w-[42rem] space-y-5 text-text-2"
+              style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
+            >
+              <p>I work across the whole product.</p>
+              <p>
+                I research the problem, design the journey, build the system,
+                test it and keep it running.
+              </p>
+              <p className="text-text">
+                I use AI throughout that work. It helps me research, explore
+                designs, write code, test ideas and find faults.
+              </p>
+            </div>
+
+            <ul className="workshop-cap-grid mt-10">
+              {[
+                {
+                  title: "Product discovery and strategy",
+                  body: "Find the missing system inside a real workflow, then decide what to build.",
+                },
+                {
+                  title: "Experience and interface design",
+                  body: "Journeys, hierarchy and interfaces people can use under pressure.",
+                },
+                {
+                  title: "Build",
+                  body: "Front end, back end and data for products that have to stay up.",
+                },
+                {
+                  title: "AI product engineering",
+                  body: "I use AI when it improves the product. I test it, constrain it and keep a person responsible.",
+                },
+                {
+                  title: "Mobile",
+                  body: "Courtside and pocket-scale products (NetCall) designed for interruption.",
+                },
+                {
+                  title: "Quality, delivery and operations",
+                  body: "Testing, release and keeping the thing honest after launch.",
+                },
+              ].map((item) => (
+                <li key={item.title} className="workshop-cap-item">
+                  <h3 className="type-h3 text-text">{item.title}</h3>
+                  <p
+                    className="mt-3 text-text-2"
+                    style={{ fontSize: "0.98rem", lineHeight: 1.55 }}
+                  >
+                    {item.body}
+                  </p>
+                </li>
+              ))}
+            </ul>
+
+            <div className="workshop-ai-teaser mt-12 max-w-[42rem]">
+              <p className="type-h3 text-text">I use AI every day.</p>
+              <p
+                className="mt-4 text-text-2"
+                style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
+              >
+                It helps me work faster and see more possibilities. I do not ask
+                it to approve its own work.
+              </p>
+            </div>
+
+            <p className="mt-10">
+              <a href="/workshop/" className="btn-ghost">
+                Explore how I build →
+              </a>
+            </p>
+
+            <p
+              className="mt-10 max-w-[36rem] text-muted"
+              style={{ fontSize: "0.9375rem", lineHeight: 1.55 }}
+            >
+              The interesting problems usually sit between the layers.
+            </p>
+          </div>
+        </section>
+
+        <hr
+          className="shell-prose mx-auto border-0 border-t border-border px-6 sm:px-8"
+          aria-hidden
+        />
+
+        <section
+          id="writing"
+          className="shell-prose px-6 py-12 sm:px-8 sm:py-16 lg:py-24"
+          aria-labelledby="writing-heading"
+        >
+          <h2 id="writing-heading" className="type-h2 text-text">
+            Selected writing
+          </h2>
+          <p className="mt-4 text-muted" style={{ fontSize: "1.0625rem" }}>
+            A few pieces that sound like the work, not a feed.
+          </p>
+
+          <ul className="mt-10">
+            {writing.map((item) => (
+              <li key={item.href}>
+                <ExtLink href={item.href} className="writing-row">
+                  <h3 className="type-h3 writing-title text-text transition-colors duration-150">
+                    {item.title}
+                  </h3>
+                  <p
+                    className="mt-2 text-text-2"
+                    style={{ fontSize: "0.98rem", lineHeight: 1.55 }}
+                  >
+                    {item.abstract}
+                  </p>
+                  <p className="writing-source">{item.source}</p>
+                </ExtLink>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <hr
+          className="shell-prose mx-auto border-0 border-t border-border px-6 sm:px-8"
+          aria-hidden
+        />
+
+        <section
+          id="contact"
+          className="shell-prose px-6 py-12 sm:px-8 sm:py-16 lg:py-24"
+          aria-labelledby="contact-heading"
+        >
+          <h2 id="contact-heading" className="type-h2 text-text">
+            Contact
+          </h2>
+          <p className="mt-5 text-text-2" style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}>
+            Want to discuss a product, some governance work or an interesting
+            problem? Find me on LinkedIn or send an email.
+          </p>
+          <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-4">
+            <ExtLink
+              href="https://www.linkedin.com/in/joshuamangas"
+              className="font-display text-xl font-semibold text-text underline decoration-accent underline-offset-4 transition-colors duration-150 hover:text-accent sm:text-2xl"
+            >
+              LinkedIn
+            </ExtLink>
+            <ExtLink
+              href="https://x.com/JoshuaMangas"
+              className="link-quiet text-sm font-medium"
+            >
+              X @JoshuaMangas
+            </ExtLink>
+            <EmailMe className="link-quiet cursor-pointer border-0 bg-transparent p-0 text-sm font-medium" />
+          </div>
+        </section>
+      </main>
+
+      <footer className="border-t border-border">
+        <div className="shell-experience flex flex-col gap-2 px-6 py-6 text-[0.8125rem] leading-[1.4] text-muted sm:flex-row sm:items-center sm:justify-between sm:px-8 sm:gap-4">
+          <p>© {new Date().getFullYear()} Joshua Mangas</p>
+          <p>joshuamangas.com</p>
+        </div>
+      </footer>
+    </>
+  );
+}
