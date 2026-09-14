@@ -13,9 +13,10 @@ const HOME_NAV = [
 export function SiteHeader() {
   const pathname = usePathname();
   const onWorkshop = pathname === "/workshop" || pathname === "/workshop/";
-  const onOpenDesk = pathname === "/open-desk" || pathname === "/open-desk/";
+  const onLibrary =
+    pathname === "/open-desk" || pathname === "/open-desk/";
   const [current, setCurrent] = useState<string>(
-    onWorkshop ? "workshop" : onOpenDesk ? "open-desk" : "who",
+    onWorkshop ? "workshop" : onLibrary ? "free-school-ai" : "who",
   );
 
   useEffect(() => {
@@ -23,8 +24,8 @@ export function SiteHeader() {
       setCurrent("workshop");
       return;
     }
-    if (onOpenDesk) {
-      setCurrent("open-desk");
+    if (onLibrary) {
+      setCurrent("free-school-ai");
       return;
     }
 
@@ -49,7 +50,7 @@ export function SiteHeader() {
 
     elements.forEach((el) => observer.observe(el));
     return () => observer.disconnect();
-  }, [onWorkshop, onOpenDesk]);
+  }, [onWorkshop, onLibrary]);
 
   return (
     <header className="site-header">
@@ -69,7 +70,7 @@ export function SiteHeader() {
               key={item.id}
               href={item.href}
               aria-current={
-                !onWorkshop && !onOpenDesk && current === item.id
+                !onWorkshop && !onLibrary && current === item.id
                   ? "true"
                   : undefined
               }
@@ -85,9 +86,9 @@ export function SiteHeader() {
           </a>
           <a
             href="/open-desk/"
-            aria-current={onOpenDesk ? "true" : undefined}
+            aria-current={onLibrary ? "true" : undefined}
           >
-            Open Desk
+            Free-SchoolAI
           </a>
         </nav>
       </div>
