@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
+import { contextBlock, deskItems, sharedPreamble } from "./data";
 import type { DeskPrompt } from "./types";
 
 const CATEGORIES = [
@@ -15,48 +16,22 @@ const CATEGORIES = [
   "SEND and inclusion",
 ] as const;
 
-function isPrompt(value: unknown): value is DeskPrompt {
-  if (typeof value !== "object" || value === null) return false;
-  const item = value as Record<string, unknown>;
-  return (
-    typeof item.id === "string" &&
-    typeof item.slug === "string" &&
-    typeof item.name === "string" &&
-    typeof item.category === "string" &&
-    typeof item.job === "string" &&
-    typeof item.prompt === "string"
-  );
-}
+const prompts: DeskPrompt[] = deskItems.map((item) => ({
+  id: item.id,
+  slug: item.slug,
+  name: item.name,
+  category: item.category,
+  job: item.job,
+  prompt:
+    sharedPreamble +
+    `\nJob: ${item.name}\n\nWhat good looks like:\n${item.job}\n` +
+    contextBlock,
+}));
 
 export function OpenDeskLibrary() {
-  const [prompts, setPrompts] = useState<DeskPrompt[]>([]);
-  const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("");
   const [copied, setCopied] = useState<string | null>(null);
-
-  useEffect(() => {
-    let cancelled = false;
-    fetch("/open-desk-prompts.json")
-      .then((response) => {
-        if (!response.ok) throw new Error("missing library");
-        return response.json();
-      })
-      .then((data: unknown) => {
-        if (cancelled) return;
-        if (!Array.isArray(data) || !data.every(isPrompt)) {
-          throw new Error("bad library");
-        }
-        setPrompts(data);
-        setStatus("ready");
-      })
-      .catch(() => {
-        if (!cancelled) setStatus("error");
-      });
-    return () => {
-      cancelled = true;
-    };
-  }, []);
 
   const visible = useMemo(() => {
     const needle = query.trim().toLowerCase();
@@ -69,7 +44,7 @@ export function OpenDeskLibrary() {
         item.category.toLowerCase().includes(needle)
       );
     });
-  }, [prompts, query, category]);
+  }, [query, category]);
 
   async function copyPrompt(item: DeskPrompt) {
     try {
@@ -79,22 +54,6 @@ export function OpenDeskLibrary() {
     } catch {
       setCopied("failed");
     }
-  }
-
-  if (status === "loading") {
-    return <p className="text-muted">Loading the desk…</p>;
-  }
-
-  if (status === "error") {
-    return (
-      <p className="text-text-2">
-        The prompt file did not load. Refresh, or open{" "}
-        <a className="link-quiet" href="/open-desk-prompts.json">
-          the JSON
-        </a>{" "}
-        directly.
-      </p>
-    );
   }
 
   return (
