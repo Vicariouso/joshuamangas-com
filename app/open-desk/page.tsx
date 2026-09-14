@@ -3,16 +3,16 @@ import { SiteHeader } from "../site-header";
 import { OpenDeskLibrary } from "./library";
 
 export const metadata: Metadata = {
-  title: "Open Desk",
+  title: "Free-SchoolAI",
   description:
-    "A free library of prompts for UK school staff, including primary, KS3, GCSE and sixth-form drafts. Copy them. Run them on a machine you control. A person still owns the draft.",
+    "Free-SchoolAI: a free library of prompts for UK school staff, including primary, KS3, GCSE and sixth-form drafts. Copy them. Run them on a machine you control. A person still owns the draft.",
   alternates: {
     canonical: "https://joshuamangas.com/open-desk/",
   },
   openGraph: {
-    title: "Open Desk by Joshua Mangas",
+    title: "Free-SchoolAI by Joshua Mangas",
     description:
-      "Free prompts for school desks, including primary, KS3, GCSE and sixth form.",
+      "Free prompts for school staff, including primary, KS3, GCSE and sixth form.",
     url: "https://joshuamangas.com/open-desk/",
   },
 };
@@ -31,7 +31,7 @@ export default function OpenDeskPage() {
 
       <main id="main" className="flex-1">
         <section className="shell-prose px-6 py-12 sm:px-8 sm:py-16 lg:py-20">
-          <p className="meta text-accent">Open Desk</p>
+          <p className="meta text-accent">Free-SchoolAI</p>
           <h1 className="type-h1 mt-4 text-text">
             A free prompt library for school staff.
           </h1>
@@ -47,9 +47,9 @@ export default function OpenDeskPage() {
             className="mt-5 max-w-[42rem] text-text-2"
             style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
           >
-            Leadership first. Then this year's jobs those catalogues never
-            sold. Then primary, KS3, GCSE, sixth form, early years, exams and
-            cover.
+            Public on GitHub as Free-SchoolAI. Leadership first. Then this
+            year's jobs. Then primary, KS3, GCSE, sixth form, early years,
+            exams and cover.
           </p>
           <p
             className="mt-5 max-w-[42rem] text-text-2"
@@ -58,6 +58,14 @@ export default function OpenDeskPage() {
             A person still owns the draft. The scarce thing was never the
             wording. It was the evidence, the name on the letter, and a model
             you are allowed to use.
+          </p>
+          <p className="mt-8">
+            <a
+              href="https://github.com/Vicariouso/Free-SchoolAI"
+              className="btn-ghost"
+            >
+              View on GitHub →
+            </a>
           </p>
         </section>
 
