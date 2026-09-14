@@ -39,7 +39,7 @@ export default function OpenDeskPage() {
             className="mt-8 max-w-[42ch] text-text-2"
             style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
           >
-            Two hundred and one jobs that keep landing on a senior leader&apos;s
+            Two hundred and one jobs that keep landing on a senior leader's
             desk. Copy the prompt. Run it on a laptop you control. No
             subscription.
           </p>
@@ -68,13 +68,6 @@ export default function OpenDeskPage() {
                 For names, health, behaviour, safeguarding or HR, keep the work
                 off public tools. A local model is safer. Writing it yourself is
                 safer still.
-              </p>
-              <p>
-                Want the lot as a file?{" "}
-                <a href="/open-desk-prompts.json" className="link-quiet">
-                  Download the JSON bundle
-                </a>
-                . Same licence. Same rules.
               </p>
               <p className="text-text">
                 These prompts write drafts. They do not hold a duty, sit on a
