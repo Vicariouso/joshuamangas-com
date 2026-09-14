@@ -69,6 +69,13 @@ export default function OpenDeskPage() {
                 off public tools. A local model is safer. Writing it yourself is
                 safer still.
               </p>
+              <p>
+                Want the lot as a file?{" "}
+                <a href="/open-desk-prompts.json" className="link-quiet">
+                  Download the JSON bundle
+                </a>
+                . Same licence. Same rules.
+              </p>
               <p className="text-text">
                 These prompts write drafts. They do not hold a duty, sit on a
                 board, or sign a reference.
