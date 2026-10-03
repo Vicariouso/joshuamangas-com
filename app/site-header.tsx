@@ -4,9 +4,7 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 
 const HOME_NAV = [
-  { href: "/#who", id: "who", label: "Who" },
-  { href: "/#highlight", id: "highlight", label: "Highlight" },
-  { href: "/#writing", id: "writing", label: "Writing" },
+  { href: "/#work", id: "work", label: "Work" },
   { href: "/#contact", id: "contact", label: "Contact" },
 ] as const;
 
@@ -19,7 +17,7 @@ export function SiteHeader() {
     pathname === "/free-school-ai" ||
     pathname === "/free-school-ai/";
   const [current, setCurrent] = useState<string>(
-    onWorkshop ? "workshop" : onLibrary ? "free-school-ai" : "who",
+    onWorkshop ? "workshop" : onLibrary ? "free-school-ai" : "work",
   );
 
   useEffect(() => {
@@ -59,7 +57,7 @@ export function SiteHeader() {
     <header className="site-header">
       <div className="shell-experience site-header__inner px-6 sm:px-8">
         <a
-          href="/#who"
+          href="/#work"
           className="type-wordmark text-text hover:text-accent transition-colors duration-150"
         >
           Joshua Mangas
@@ -85,7 +83,7 @@ export function SiteHeader() {
             href="/workshop/"
             aria-current={onWorkshop ? "true" : undefined}
           >
-            Workshop
+            How I build
           </a>
           <a
             href="/free-school-ai/"

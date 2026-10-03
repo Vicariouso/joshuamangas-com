@@ -9,16 +9,18 @@ const inter = Inter({
   style: ["normal", "italic"],
   display: "swap",
   preload: true,
-  adjustFontFallback: true,
+  adjustFontFallback: false,
+  fallback: ["-apple-system", "BlinkMacSystemFont", "system-ui", "sans-serif"],
 });
 
 const jost = Jost({
   variable: "--font-jost",
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
+  weight: ["500", "600"],
   display: "swap",
   preload: true,
-  adjustFontFallback: true,
+  adjustFontFallback: false,
+  fallback: ["-apple-system", "BlinkMacSystemFont", "system-ui", "sans-serif"],
 });
 
 const siteUrl = "https://joshuamangas.com";
@@ -26,11 +28,11 @@ const siteUrl = "https://joshuamangas.com";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Joshua Mangas. AI developer and product builder.",
+    default: "Joshua Mangas. SGAF, NetCall, and tools you can use today.",
     template: "%s by Joshua Mangas",
   },
   description:
-    "Joshua Mangas designs and builds AI products, web applications and mobile tools grounded in real work.",
+    "SGAF, NetCall, free board tools, and how Joshua Mangas builds them.",
   applicationName: "Joshua Mangas",
   authors: [{ name: "Joshua Mangas", url: siteUrl }],
   creator: "Joshua Mangas",
@@ -53,14 +55,14 @@ export const metadata: Metadata = {
     locale: "en_GB",
     url: siteUrl,
     siteName: "Joshua Mangas",
-    title: "Joshua Mangas. AI developer and product builder.",
+    title: "Joshua Mangas. SGAF, NetCall, and tools you can use today.",
     description:
-      "AI developer and product builder behind SGAF, NetCall and practical tools for people doing real work.",
+      "SGAF, NetCall, free board tools, and how they were built.",
   },
   twitter: {
     card: "summary",
     title: "Joshua Mangas",
-    description: "AI developer and product builder. Founder of SGAF and creator of NetCall.",
+    description: "SGAF, NetCall, free board tools, and how they were built.",
     creator: "@JoshuaMangas",
   },
   alternates: {
@@ -71,7 +73,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   other: {
-    "theme-color": "#12110f",
+    "theme-color": "#f4efe6",
   },
 };
 
@@ -79,10 +81,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en-GB"
-      className={`${inter.variable} ${jost.variable} h-full antialiased`}
+      className={`${inter.variable} ${jost.variable} h-full`}
     >
-      {/* inter.className applies real Inter family on body (Safari-safe if CSS vars lag) */}
-      <body className={`${inter.className} min-h-full flex flex-col bg-bg text-text font-sans`}>
+      <body className="min-h-full flex flex-col bg-bg text-text">
         {children}
       </body>
     </html>
