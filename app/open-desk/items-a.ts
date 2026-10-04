@@ -6,6 +6,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "long-range-school-plan",
     name: "Long-range school plan",
     category: "School improvement",
+    role: "a school leader",
+    gate: false,
     job: "Produce a 3 to 5 year plan with vision, priorities, success measures, owners and a yearly phasing. Keep it usable by governors, not a brochure.",
   },
   {
@@ -13,6 +15,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "academy-conversion-briefing",
     name: "Academy conversion briefing",
     category: "Governance",
+    role: "someone preparing a paper for governors or trustees",
+    gate: false,
     job: "Set out arguments for and against conversion or joining a trust for THIS school. Separate facts, values and risks. Do not recommend a vote.",
   },
   {
@@ -20,6 +24,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "accessibility-plan-draft",
     name: "Accessibility plan draft",
     category: "Systems and compliance",
+    role: "a school leader",
+    gate: false,
     job: "Draft an Accessibility Plan covering curriculum, physical environment and information, with timescales and owners. Flag statutory bits the user must check.",
   },
   {
@@ -27,6 +33,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "white-paper-response-note",
     name: "White paper response note",
     category: "School improvement",
+    role: "a school leader",
+    gate: false,
     job: "Map the school's current work against the latest schools white paper themes the user names. Do not invent policy that was not provided.",
   },
   {
@@ -34,6 +42,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "admissions-appeal-statement",
     name: "Admissions appeal statement",
     category: "Systems and compliance",
+    role: "a school leader",
+    gate: true,
     job: "Draft a school statement for an independent appeal panel. Stick to published admission arrangements and facts supplied. No pressure language.",
   },
   {
@@ -41,6 +51,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "allergy-healthcare-plan",
     name: "Allergy healthcare plan",
     category: "Pupil support",
+    role: "a pastoral lead",
+    gate: true,
     job: "Draft an Individual Healthcare Plan for allergy. Medical detail only from the user. Never invent dosages, emergency drugs or contacts.",
   },
   {
@@ -48,6 +60,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "assembly-script",
     name: "Assembly script",
     category: "Day to day",
+    role: "a member of school staff",
+    gate: false,
     job: "Write an assembly script for the age range given, tied to the school's values if supplied. Keep it short enough to deliver.",
   },
   {
@@ -55,6 +69,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "attendance-code-explainer",
     name: "Attendance code explainer",
     category: "Systems and compliance",
+    role: "a school leader",
+    gate: true,
     job: "Suggest which attendance code may apply and why, in plain English. Say this is not legal advice and the school must check current DfE attendance guidance.",
   },
   {
@@ -62,6 +78,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "whole-school-attendance-plan",
     name: "Whole-school attendance plan",
     category: "School improvement",
+    role: "a school leader",
+    gate: false,
     job: "Draft a whole-school attendance plan from the data the user pastes. Name barriers, actions, owners and review points. No fake benchmarks.",
   },
   {
@@ -69,6 +87,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "attendance-message",
     name: "Attendance message",
     category: "Communication",
+    role: "a member of school staff",
+    gate: false,
     job: "Write a parent-facing attendance message in the channel asked for (text, email, letter, call script). Warm and clear. No shame.",
   },
   {
@@ -76,6 +96,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "pupil-attendance-plan",
     name: "Pupil attendance plan",
     category: "Pupil support",
+    role: "a pastoral lead",
+    gate: false,
     job: "Draft a plan for one pupil or family from the facts given. Practical, kind, reviewable.",
   },
   {
@@ -83,6 +105,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "meeting-notes-from-a-transcript",
     name: "Meeting notes from a transcript",
     category: "Day to day",
+    role: "a member of school staff",
+    gate: false,
     job: "The model cannot hear audio. Ask the user to paste a transcript (Whisper/local STT). Then clean it into notes with actions and owners.",
   },
   {
@@ -90,6 +114,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "audit-follow-up-plan",
     name: "Audit follow-up plan",
     category: "School improvement",
+    role: "a school leader",
+    gate: false,
     job: "Turn a RAG audit or visit note into an action plan. Keep the original findings visible. Do not upgrade a Red to Green.",
   },
   {
@@ -97,6 +123,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "award-application-draft",
     name: "Award application draft",
     category: "Communication",
+    role: "a member of school staff",
+    gate: false,
     job: "Write an evidence-led award narrative from the examples the user supplies. No invented impact figures.",
   },
   {
@@ -104,6 +132,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "behaviour-examples-bank",
     name: "Behaviour examples bank",
     category: "Staff and personnel",
+    role: "a school leader dealing with staff",
+    gate: false,
     job: "Turn the school's behaviour policy into concrete examples of expected conduct by age, for staff to use consistently.",
   },
   {
@@ -111,6 +141,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "behaviour-incident-note",
     name: "Behaviour incident note",
     category: "Pupil support",
+    role: "a pastoral lead",
+    gate: false,
     job: "Structure an incident record from facts given. Do not invent witnesses, times or sanctions. Use factual language.",
   },
   {
@@ -118,6 +150,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "pupil-behaviour-support-plan",
     name: "Pupil behaviour support plan",
     category: "Pupil support",
+    role: "a pastoral lead",
+    gate: false,
     job: "Draft a support plan, not a punishment sheet. Include triggers, adult responses, teaching of the skill, and review.",
   },
   {
@@ -125,6 +159,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "funding-bid-draft",
     name: "Funding bid draft",
     category: "Communication",
+    role: "a member of school staff",
+    gate: false,
     job: "Write a bid from the funder's criteria and the school's evidence. Mark every claim that still needs a number.",
   },
   {
@@ -132,6 +168,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "book-look-feedback",
     name: "Book look feedback",
     category: "School improvement",
+    role: "a school leader",
+    gate: false,
     job: "Write developmental feedback from the scrutiny notes provided. Separate what was seen from what is inferred.",
   },
   {
@@ -139,6 +177,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "school-business-case",
     name: "School business case",
     category: "Systems and compliance",
+    role: "a school leader",
+    gate: false,
     job: "Draft a business case: problem, options, cost, benefit, risk, recommendation. Do not invent costs.",
   },
   {
@@ -146,6 +186,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "application-shortlist-note",
     name: "Application shortlist note",
     category: "Staff and personnel",
+    role: "a school leader dealing with staff",
+    gate: false,
     job: "Summarise applications against the person spec only. Flag gaps. Do not infer protected characteristics or 'culture fit'.",
   },
   {
@@ -153,6 +195,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "impact-case-study",
     name: "Impact case study",
     category: "School improvement",
+    role: "a school leader",
+    gate: false,
     job: "Write a case study from the evidence supplied. Before/after only if the user gave numbers.",
   },
   {
@@ -160,6 +204,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "change-plan",
     name: "Change plan",
     category: "Staff and personnel",
+    role: "a school leader dealing with staff",
+    gate: false,
     job: "Build a change plan: why, who is affected, what will be different by when, how staff are involved, how you will know.",
   },
   {
@@ -167,6 +213,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "character-reference-draft",
     name: "Character reference draft",
     category: "Staff and personnel",
+    role: "a school leader dealing with staff",
+    gate: true,
     job: "Draft a reference from facts the writer actually knows. Never invent dates of employment or unstated qualities.",
   },
   {
@@ -174,6 +222,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "open-leadership-scratch-pad",
     name: "Open leadership scratch pad",
     category: "For you",
+    role: "the person using this prompt",
+    gate: false,
     job: "Be a careful thinking partner for a UK school leader. Ask for missing context. Do not pretend to be an inspector or solicitor.",
   },
   {
@@ -181,6 +231,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "job-checklist",
     name: "Job checklist",
     category: "Day to day",
+    role: "a member of school staff",
+    gate: false,
     job: "Make a checklist for the job described. Order it the way the work actually happens.",
   },
   {
@@ -188,6 +240,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "climate-action-plan",
     name: "Climate action plan",
     category: "Systems and compliance",
+    role: "a school leader",
+    gate: false,
     job: "Draft a school climate action plan. Use only duties and data the user provides. Practical actions over slogans.",
   },
   {
@@ -195,6 +249,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "climate-plan-health-check",
     name: "Climate plan health check",
     category: "Systems and compliance",
+    role: "a school leader",
+    gate: false,
     job: "Audit a draft climate plan the user pastes. Strengths, gaps, what a board would still ask.",
   },
   {
@@ -202,6 +258,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "grow-coaching-notes",
     name: "GROW coaching notes",
     category: "For you",
+    role: "the person using this prompt",
+    gate: false,
     job: "Run a GROW coaching conversation. Ask one good question at a time. Do not take over the goal.",
   },
   {
@@ -209,6 +267,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "staff-code-of-conduct-draft",
     name: "Staff code of conduct draft",
     category: "Staff and personnel",
+    role: "a school leader dealing with staff",
+    gate: false,
     job: "Draft a staff code of conduct in plain English. Mark statutory or KCSIE-linked sections the user must check.",
   },
   {
@@ -216,6 +276,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "peer-visit-write-up",
     name: "Peer visit write-up",
     category: "School improvement",
+    role: "a school leader",
+    gate: false,
     job: "Turn visit notes into a short collaborative write-up: what was seen, questions, agreed next step.",
   },
   {
@@ -223,6 +285,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "collective-worship-outline",
     name: "Collective worship outline",
     category: "Day to day",
+    role: "a member of school staff",
+    gate: false,
     job: "Write a collective worship outline. Respect the school's designation if given. Do not invent legal requirements.",
   },
   {
@@ -230,6 +294,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "leadership-doubt-worksheet",
     name: "Leadership doubt worksheet",
     category: "For you",
+    role: "the person using this prompt",
+    gate: false,
     job: "Help a leader examine a specific doubt with evidence from their own practice. No therapy claims.",
   },
   {
@@ -237,6 +303,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "message-tone-check",
     name: "Message tone check",
     category: "Communication",
+    role: "a member of school staff",
+    gate: false,
     job: "Analyse a draft message for tone, clarity, risk and likely reading by parents or staff. Suggest a rewrite.",
   },
   {
@@ -244,6 +312,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "plain-english-rewrite",
     name: "Plain English rewrite",
     category: "Communication",
+    role: "a member of school staff",
+    gate: false,
     job: "Rewrite for the reading age or audience given. Keep the meaning. Short sentences. UK English.",
   },
   {
@@ -251,6 +321,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "complaint-reply-draft",
     name: "Complaint reply draft",
     category: "Communication",
+    role: "a member of school staff",
+    gate: false,
     job: "Draft a complaint response from the facts and policy the user pastes. Acknowledge, set out findings, say what happens next. No defensiveness.",
   },
   {
@@ -258,6 +330,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "complaint-letter-draft",
     name: "Complaint letter draft",
     category: "Communication",
+    role: "a member of school staff",
+    gate: false,
     job: "Help a leader draft a formal complaint they need to send. Factual, dated, specific about the remedy sought.",
   },
   {
@@ -265,6 +339,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "process-crib-sheet",
     name: "Process crib sheet",
     category: "Day to day",
+    role: "a member of school staff",
+    gate: false,
     job: "Turn a process into a one-page crib sheet a busy adult can follow.",
   },
   {
@@ -272,6 +348,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "critical-friend-critique",
     name: "Critical friend critique",
     category: "For you",
+    role: "the person using this prompt",
+    gate: false,
     job: "Critique a plan or paper as a well-informed critical friend. Be specific. Offer a tighter version.",
   },
   {
@@ -279,6 +357,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "csed-self-evaluation",
     name: "CSED self-evaluation",
     category: "School improvement",
+    role: "a school leader",
+    gate: false,
     job: "Help structure a Catholic school evaluation document from the evidence supplied. Do not invent diocesan judgements.",
   },
   {
@@ -286,6 +366,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "cultural-capital-note",
     name: "Cultural capital note",
     category: "School improvement",
+    role: "a school leader",
+    gate: false,
     job: "Describe how THIS school's offer builds knowledge and experience, using only what the user lists. Avoid cliché lists.",
   },
   {
@@ -293,6 +375,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "curriculum-review-note",
     name: "Curriculum review note",
     category: "School improvement",
+    role: "a school leader",
+    gate: false,
     job: "Analyse a curriculum outline the user pastes. Sequence, gaps, assessment, workload. Phase-specific.",
   },
   {
@@ -300,6 +384,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "progression-map-draft",
     name: "Progression map draft",
     category: "School improvement",
+    role: "a school leader",
+    gate: false,
     job: "Draft a progression map for the subject and years given. Show what gets more complex, not just new topics.",
   },
   {
@@ -307,6 +393,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "curriculum-rationale",
     name: "Curriculum rationale",
     category: "School improvement",
+    role: "a school leader",
+    gate: false,
     job: "Write a short rationale: why this content, in this order, for these pupils.",
   },
   {
@@ -314,6 +402,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "cyber-incident-plan",
     name: "Cyber incident plan",
     category: "Systems and compliance",
+    role: "a school leader",
+    gate: false,
     job: "Draft an incident response plan. Include who to call, what to isolate, what to tell staff and families. No fake vendor names.",
   },
   {
@@ -321,6 +411,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "subject-deep-dive-pack",
     name: "Subject deep-dive pack",
     category: "School improvement",
+    role: "a school leader",
+    gate: false,
     job: "Build a subject leader briefing pack from the evidence supplied. Questions they may be asked. Answers only where evidence exists.",
   },
   {
@@ -328,6 +420,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "hard-conversation-plan",
     name: "Hard conversation plan",
     category: "Staff and personnel",
+    role: "a school leader dealing with staff",
+    gate: false,
     job: "Plan a difficult conversation: purpose, opening line, facts, likely reactions, close. Not a script to trap someone.",
   },
   {
@@ -335,6 +429,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "hard-meeting-brief",
     name: "Hard meeting brief",
     category: "Day to day",
+    role: "a member of school staff",
+    gate: false,
     job: "Prepare the leader for a difficult meeting. Agenda, aims, risks, fallback.",
   },
   {
@@ -342,6 +438,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "investigation-report-skeleton",
     name: "Investigation report skeleton",
     category: "Staff and personnel",
+    role: "a school leader dealing with staff",
+    gate: true,
     job: "Turn investigation notes into a structured report skeleton. Do not decide guilt. Do not invent evidence. Say HR and policy must lead.",
   },
   {
@@ -349,6 +447,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "paper-interrogation",
     name: "Paper interrogation",
     category: "Day to day",
+    role: "a member of school staff",
+    gate: false,
     job: "Read the pasted document and answer the user's questions. Quote the line you are relying on.",
   },
   {
@@ -356,6 +456,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "two-draft-comparison",
     name: "Two-draft comparison",
     category: "Day to day",
+    role: "a member of school staff",
+    gate: false,
     job: "Compare two pasted texts. List what changed, what vanished, what that might mean.",
   },
   {
@@ -363,6 +465,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "document-qanda",
     name: "Document Q&A",
     category: "Day to day",
+    role: "a member of school staff",
+    gate: false,
     job: "Answer questions using only the pasted document. If it is not in the text, say so.",
   },
   {
@@ -370,6 +474,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "paper-summary",
     name: "Paper summary",
     category: "Day to day",
+    role: "a member of school staff",
+    gate: false,
     job: "Summarise the pasted paper for the audience named (board, staff, parents). Keep numbers accurate.",
   },
   {
@@ -377,6 +483,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "early-help-plan-draft",
     name: "Early Help plan draft",
     category: "Pupil support",
+    role: "a pastoral lead",
+    gate: true,
     job: "Draft an Early Help plan from family and school facts given. Do not diagnose. Signpost, do not replace the local process.",
   },
   {
@@ -384,6 +492,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "ect-progress-note",
     name: "ECT progress note",
     category: "Staff and personnel",
+    role: "a school leader dealing with staff",
+    gate: false,
     job: "Draft an ECT mentor or induction note from observations supplied. ECF language only if the user wants it.",
   },
   {
@@ -391,6 +501,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "ehcp-review-meeting-pack",
     name: "EHCP review meeting pack",
     category: "SEND and inclusion",
+    role: "a SENCO or inclusion lead",
+    gate: true,
     job: "Prepare annual review notes from the EHCP and school evidence pasted. Do not rewrite the EHCP as if you were the LA.",
   },
   {
@@ -398,6 +510,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "ehcp-panel-speaking-note",
     name: "EHCP panel speaking note",
     category: "SEND and inclusion",
+    role: "a SENCO or inclusion lead",
+    gate: true,
     job: "Write a five-minute speaking note for a panel. Only needs and provision that appear in the user's evidence.",
   },
   {
@@ -405,6 +519,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "send-provision-map",
     name: "SEND provision map",
     category: "SEND and inclusion",
+    role: "a SENCO or inclusion lead",
+    gate: false,
     job: "Build a provision map table from the interventions the school actually runs. No off-the-shelf shopping list.",
   },
   {
@@ -412,6 +528,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "ehcp-school-support-plan",
     name: "EHCP school support plan",
     category: "SEND and inclusion",
+    role: "a SENCO or inclusion lead",
+    gate: true,
     job: "Turn EHCP outcomes into a school-level plan staff can follow this term.",
   },
   {
@@ -419,6 +537,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "child-friendly-ehcp-targets",
     name: "Child-friendly EHCP targets",
     category: "SEND and inclusion",
+    role: "a SENCO or inclusion lead",
+    gate: false,
     job: "Rewrite outcomes as child-friendly targets with what 'good' looks like. Keep the original outcome beside them.",
   },
   {
@@ -426,6 +546,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "ehcp-pen-portrait",
     name: "EHCP pen portrait",
     category: "SEND and inclusion",
+    role: "a SENCO or inclusion lead",
+    gate: true,
     job: "Write a pen portrait and key-need summary from the plan pasted. No extra diagnoses.",
   },
   {
@@ -433,6 +555,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "ehcp-transition-suggestions",
     name: "EHCP transition suggestions",
     category: "SEND and inclusion",
+    role: "a SENCO or inclusion lead",
+    gate: true,
     job: "Suggest updates the school may take to the next review because of a transition. Suggestions only.",
   },
   {
@@ -440,6 +564,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "staff-or-parent-email",
     name: "Staff or parent email",
     category: "Communication",
+    role: "a member of school staff",
+    gate: false,
     job: "Write the email. Subject line, body, sign-off. Match the tone asked for.",
   },
   {
@@ -447,6 +573,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "enrichment-plan",
     name: "Enrichment plan",
     category: "School improvement",
+    role: "a school leader",
+    gate: false,
     job: "Plan enrichment that this school can actually staff and fund.",
   },
   {
@@ -454,6 +582,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "equality-information-draft",
     name: "Equality information draft",
     category: "Systems and compliance",
+    role: "a school leader",
+    gate: false,
     job: "Draft public-sector equality duty information from the data supplied. Do not invent group outcomes.",
   },
   {
@@ -461,6 +591,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "equality-objectives-draft",
     name: "Equality objectives draft",
     category: "Systems and compliance",
+    role: "a school leader",
+    gate: false,
     job: "Propose measurable equality objectives from the school's own evidence.",
   },
   {
@@ -468,6 +600,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "ethos-and-values-page",
     name: "Ethos and values page",
     category: "Communication",
+    role: "a member of school staff",
+    gate: false,
     job: "Write ethos and values copy that sounds like this school, using the phrases they already use.",
   },
   {
@@ -475,6 +609,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "one-page-executive-summary",
     name: "One-page executive summary",
     category: "Communication",
+    role: "a member of school staff",
+    gate: false,
     job: "Compress the pasted paper to one page. Decisions and numbers first.",
   },
   {
@@ -482,6 +618,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "exit-interview-write-up",
     name: "Exit interview write-up",
     category: "Staff and personnel",
+    role: "a school leader dealing with staff",
+    gate: false,
     job: "Turn exit interview notes into themes and actions. Protect anonymity. No gossip.",
   },
   {
@@ -489,6 +627,8 @@ export const deskItemsA: DeskItem[] = [
     slug: "eyfs-action-plan",
     name: "EYFS action plan",
     category: "School improvement",
+    role: "a school leader",
+    gate: false,
     job: "Draft an EYFS plan against the EYFS framework themes the user names. Practical for the setting type.",
   }
 ];

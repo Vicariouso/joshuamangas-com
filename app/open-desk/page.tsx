@@ -47,9 +47,9 @@ export default function OpenDeskPage() {
             className="mt-5 max-w-[42rem] text-text-2"
             style={{ fontSize: "1.0625rem", lineHeight: 1.65 }}
           >
-            Public on GitHub as Free-SchoolAI. Leadership first. Then this
-            year's jobs. Then primary, KS3, GCSE, sixth form, early years,
-            exams and cover.
+            The plain-text jobs are in the Free-SchoolAI repo, under jobs/.
+            Leadership, this year's jobs, primary, KS3, GCSE, sixth form,
+            early years, exams and cover.
           </p>
           <p
             className="mt-5 max-w-[42rem] text-text-2"

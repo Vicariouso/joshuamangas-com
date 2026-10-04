@@ -7,6 +7,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "two-year-a-level-scheme",
     name: "Two-year A level scheme",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "A Year 12 and Year 13 scheme from the pasted spec. What must be taught before the first mock. NEA deadlines if the spec has them. Do not add topics that are not in the spec.",
   },
   {
@@ -14,6 +16,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "year-12-scheme",
     name: "Year 12 scheme",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "One year of Year 12 from the pasted spec. First half term that teaches how this subject works at this level. Assessment that is not a surprise A level paper on week three.",
   },
   {
@@ -21,6 +25,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "year-13-scheme",
     name: "Year 13 scheme",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "One year of Year 13 from the pasted spec. What is left. Synoptic practice. Exam season protected.",
   },
   {
@@ -28,6 +34,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "y11-to-y12-bridge",
     name: "Year 11 to Year 12 bridge",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Bridging work from GCSE to this A level. Only from the pasted A level spec and what the student actually did at GCSE. Not a full Year 12 in July.",
   },
   {
@@ -35,6 +43,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "sixth-form-induction-fortnight",
     name: "Sixth form induction fortnight",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "A two-week induction for this subject. How to take notes, how to use the reading, the first piece of work. Standards without a scare talk.",
   },
   {
@@ -42,6 +52,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "independent-study-plan",
     name: "Independent study plan",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "A weekly independent study plan for this subject. Hours as the school expects. What to do when the teacher is not there. No 40-hour fantasy week.",
   },
   {
@@ -49,6 +61,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-assessment-calendar",
     name: "A level assessment calendar",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "An assessment calendar from the pasted spec and the centre's mock windows. What each assessment samples. No invented grade boundaries.",
   },
   {
@@ -56,6 +70,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-nea-timeline",
     name: "A level NEA timeline",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "A non-exam assessment timeline from the spec and centre dates. What the student does, what the teacher may say. Not a way to write the work for them.",
   },
   {
@@ -63,6 +79,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "practical-endorsement-calendar",
     name: "Practical endorsement calendar",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "A calendar of practical endorsement activities from the pasted science spec. Rooms and equipment the user named. The teacher still signs the endorsement.",
   },
   {
@@ -70,6 +88,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "predicted-grade-skeleton",
     name: "Predicted grade skeleton",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "A skeleton for a predicted grade conversation from the evidence the user pasted. What the evidence supports. What it does not. Do not invent a grade.",
   },
   {
@@ -77,6 +97,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "sixth-form-ucas-reference",
     name: "Sixth form UCAS reference",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "A UCAS reference draft from the notes the teacher pasted. Subject by subject if given. No invented prizes, ranks or mitigating facts. The referee still owns it.",
   },
   {
@@ -84,6 +106,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "personal-statement-feedback",
     name: "Personal statement feedback",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Feedback on a pasted personal statement. What is specific, what is generic, what to cut. Do not rewrite it in the student's voice. Do not invent experience.",
   },
   {
@@ -91,6 +115,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "epq-supervisor-note",
     name: "EPQ supervisor note",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "A supervisor planning note for an EPQ from the title and log the student has so far. Questions to ask next. Not the project written for them.",
   },
   {
@@ -98,6 +124,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "y13-mock-to-exam",
     name: "Year 13 mock to exam",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "A scheme from the mock to the first paper date. Weak topics from the data pasted. Class time and independent time split.",
   },
   {
@@ -105,6 +133,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-revision-countdown",
     name: "A level revision countdown",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "A six or twelve week countdown as the user names. Papers from the pasted spec. Sleep still in the plan.",
   },
   {
@@ -112,6 +142,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-paper-by-paper",
     name: "A level paper-by-paper revision",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "One plan per paper from the pasted spec. What that paper actually tests. Timing. Mistakes this class already makes, if listed.",
   },
   {
@@ -119,6 +151,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "sixth-form-report-comment",
     name: "Sixth form report comment",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "A report comment from the evidence listed. Attitude to study, current standard, next step. No invented grade if none was given.",
   },
   {
@@ -126,6 +160,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "sixth-form-parents-evening",
     name: "Sixth form parents evening note",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "A five-minute parents evening note. Where they stand, what home can usefully do, what the next assessment is. Facts only.",
   },
   {
@@ -133,6 +169,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "underperforming-y12-plan",
     name: "Underperforming Year 12 plan",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "A four-week plan when Year 12 work is not at the standard this course needs. From the gaps given. Honest about whether the course is still the right one.",
   },
   {
@@ -140,6 +178,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "resit-or-transfer-note",
     name: "Resit or transfer note",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "A note when a student may drop, swap or resit. Options this centre actually offers. No career advice dressed as certainty.",
   },
   {
@@ -147,6 +187,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "core-maths-map",
     name: "Core Maths map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "A scheme and revision map for Core Maths from the pasted spec. This is not A level Maths with the hard bits removed.",
   },
   {
@@ -154,6 +196,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-maths-map",
     name: "A level Maths map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for A level Maths. Pure, statistics and mechanics from the pasted spec and the route this class takes. Large data set only if named.",
   },
   {
@@ -161,6 +205,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-further-maths-map",
     name: "A level Further Maths map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for Further Maths. Options this centre actually teaches, from the pasted spec. Not A level Maths again.",
   },
   {
@@ -168,6 +214,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-english-lit-map",
     name: "A level English Literature map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for Literature. Set texts only if the user named them. Paper structure from the pasted spec. No invented texts.",
   },
   {
@@ -175,6 +223,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-english-lang-map",
     name: "A level English Language map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for English Language. Topics, methods and any NEA from the pasted spec. Data only if supplied.",
   },
   {
@@ -182,6 +232,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-biology-map",
     name: "A level Biology map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for Biology. Topics and required practicals from the pasted spec. Paper split as the spec states.",
   },
   {
@@ -189,6 +241,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-chemistry-map",
     name: "A level Chemistry map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for Chemistry. Topics, practicals and calculations from the pasted spec.",
   },
   {
@@ -196,6 +250,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-physics-map",
     name: "A level Physics map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for Physics. Topics, required practicals and the option this class takes, from the pasted spec.",
   },
   {
@@ -203,6 +259,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-psychology-map",
     name: "A level Psychology map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for Psychology. Topics, studies and research methods from the pasted spec. Named studies only if supplied.",
   },
   {
@@ -210,6 +268,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-sociology-map",
     name: "A level Sociology map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for Sociology. Topics and theories from the pasted spec. Named studies only if supplied.",
   },
   {
@@ -217,6 +277,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-history-map",
     name: "A level History map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for History. Breadth, depth and coursework only as the user named them, from the pasted spec.",
   },
   {
@@ -224,6 +286,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-geography-map",
     name: "A level Geography map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for Geography. Physical, human, NEA and the issues paper from the pasted spec. Fieldwork sites only if named.",
   },
   {
@@ -231,6 +295,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-politics-map",
     name: "A level Politics map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for Politics. UK, ideas and the comparative route this centre teaches, from the pasted spec. No invented current events.",
   },
   {
@@ -238,6 +304,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-economics-map",
     name: "A level Economics map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for Economics. Micro, macro and the paper style from the pasted spec. Data practice without inventing a paper.",
   },
   {
@@ -245,6 +313,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-business-map",
     name: "A level Business map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for Business. Themes and any research task from the pasted spec.",
   },
   {
@@ -252,6 +322,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-computer-science-map",
     name: "A level Computer Science map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for Computer Science. Theory and the programming project from the pasted spec. Language only if the centre named one.",
   },
   {
@@ -259,6 +331,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-rs-philosophy-map",
     name: "A level RS or Philosophy map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for Religious Studies or Philosophy as named. Papers and options from the pasted spec. No invented arguments.",
   },
   {
@@ -266,6 +340,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-art-map",
     name: "A level Art and Design map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and personal investigation map for Art. Endorsement the user names. Component structure from the pasted spec. Not a style to copy.",
   },
   {
@@ -273,6 +349,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-drama-map",
     name: "A level Drama map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for Drama. Set texts and live theatre only if named. Components from the pasted spec.",
   },
   {
@@ -280,6 +358,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-music-map",
     name: "A level Music map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for Music. Set works and NEA from the pasted spec. Works only if listed.",
   },
   {
@@ -287,6 +367,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-pe-map",
     name: "A level PE map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for PE. Theory papers and NEA from the pasted spec and the sports this centre assesses.",
   },
   {
@@ -294,6 +376,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-mfl-map",
     name: "A level language map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for an A level language. Themes, works and speaking from the pasted spec. Works and vocabulary only if supplied.",
   },
   {
@@ -301,6 +385,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-law-map",
     name: "A level Law map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for Law. Papers and topics from the pasted spec. No invented cases.",
   },
   {
@@ -308,6 +394,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-media-map",
     name: "A level Media map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for Media. Close-study products from the list the user pastes. Components from the spec.",
   },
   {
@@ -315,6 +403,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-film-map",
     name: "A level Film Studies map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for Film. Set films only if named. Components and NEA from the pasted spec.",
   },
   {
@@ -322,6 +412,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "applied-or-tlevel-map",
     name: "Applied, T Level or Cambridge Technical map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "A scheme and assessment map for an applied general, technical award, Cambridge Technical, BTEC or T Level the user names. Units and assessment types from the pasted spec only. Do not treat it as an A level.",
   },
   {
@@ -329,6 +421,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "criminology-applied-map",
     name: "Criminology or applied social science map",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and assessment map for Criminology or a similar applied course from the pasted spec. Controlled assessment and exam units as that spec sets them.",
   },
   {
@@ -336,6 +430,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-any-subject-fallback",
     name: "Any other sixth-form subject",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Scheme and revision map for a sixth-form subject the shelf does not name. Build only from the pasted spec. If they did not paste one, stop and ask.",
   },
   {
@@ -343,6 +439,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-essay-feedback",
     name: "A level essay feedback",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "Feedback on a pasted essay. What the question asked, what landed, what to do next time. Do not write the better essay for them unless they asked for a model and you mark it as a model.",
   },
   {
@@ -350,6 +448,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "a-level-knowledge-organiser",
     name: "A level knowledge organiser",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "A one or two page organiser for the topic named, from the pasted spec and the teacher's notes only. No extra studies or cases.",
   },
   {
@@ -357,6 +457,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "super-curricular-list",
     name: "Super-curricular list",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "A short super-curricular list for this subject and the university course named, if any. Things a student can actually find. Not a reading list copied from a prospectus.",
   },
   {
@@ -364,6 +466,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "oxbridge-or-competitive-note",
     name: "Competitive application note",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "A planning note for a competitive application from the facts given. Admissions test or interview only if the course has one and the user named it. Do not invent college preferences.",
   },
   {
@@ -371,6 +475,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "sixth-form-attendance-study-note",
     name: "Attendance and study note",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "A short note when attendance or independent study has slipped. What the centre will do. What the student must do. Not a disciplinary pack unless that is the job.",
   },
   {
@@ -378,6 +484,8 @@ export const deskItemsJ: DeskItem[] = [
     slug: "results-day-y13-brief",
     name: "Results day Year 13 brief",
     category: "Sixth form",
+    role: "a sixth-form teacher",
+    gate: false,
     job: "A staff brief for A level results day. Clearing, insurance, who speaks to whom. No predicted percentages. Dates as given.",
   },
 ];

@@ -7,6 +7,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "lesson-plan-for-this-class",
     name: "Lesson plan for this class",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "Plan one lesson for the class described. Objective, prior knowledge, the task, adaptive teaching, how you will know it landed. Time it so it fits the period. No invented pupils.",
   },
   {
@@ -14,6 +16,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "five-lesson-sequence",
     name: "Five-lesson sequence",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "A five-lesson sequence for the unit named. What gets harder each lesson. Retrieval from last time. Assessment point. Workload-honest resources.",
   },
   {
@@ -21,6 +25,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "cover-work-pack",
     name: "Cover work pack",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "Work a cover teacher or cover supervisor can run without the specialist. Clear instructions, timing, what to collect, what 'finished' looks like.",
   },
   {
@@ -28,6 +34,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "ta-briefing-for-this-lesson",
     name: "TA briefing for this lesson",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "A short briefing for the teaching assistant before the lesson. Who to sit with, the scaffold, what not to do for the pupil, how to feed back at the end.",
   },
   {
@@ -35,6 +43,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "adaptive-teaching-notes",
     name: "Adaptive teaching notes",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "How this lesson changes for the pupils named, from facts given. Scaffold, adult support, alternative task. Not three worksheets labelled bronze silver gold unless that is how this school works.",
   },
   {
@@ -42,6 +52,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "scaffold-for-this-task",
     name: "Scaffold for this task",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "Build a scaffold for the task pasted: sentence stems, worked example, checklist. Say when the scaffold comes off.",
   },
   {
@@ -49,6 +61,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "stretch-for-high-prior-attainers",
     name: "Stretch for high prior attainers",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "An extension that is harder thinking, not more of the same. Tied to this lesson's objective.",
   },
   {
@@ -56,6 +70,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "eal-support-in-this-lesson",
     name: "EAL support in this lesson",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "Language support for this lesson from the pupil's stage as described. Key vocabulary, visuals, what the pupil will say or write. No invented proficiency level.",
   },
   {
@@ -63,6 +79,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "send-adaptations-this-week",
     name: "SEND adaptations this week",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "What this teacher will actually change this week for the pupils listed. From the plan or EHCP excerpts pasted. Classroom-level. Not a rewrite of the plan.",
   },
   {
@@ -70,6 +88,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "retrieval-quiz",
     name: "Retrieval quiz",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "A short retrieval quiz from the content taught. Mix of last lesson, last week, last term if the user says so. Answers on a second block.",
   },
   {
@@ -77,6 +97,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "knowledge-organiser",
     name: "Knowledge organiser",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "One page. Core knowledge for the unit. Definitions a pupil can revise. No wallpaper quotes.",
   },
   {
@@ -84,6 +106,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "model-answer-wagoll",
     name: "Model answer",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "A model response at the standard named, with a short 'why this works' for the class. Age-appropriate. Mark the bits that are non-negotiable.",
   },
   {
@@ -91,6 +115,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "whole-class-feedback",
     name: "Whole-class feedback",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "Feedback from a set of books or papers as described. What most got, three misconceptions, the reteach task. No fake quotes from pupils.",
   },
   {
@@ -98,6 +124,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "marking-comment-bank",
     name: "Marking comment bank",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "Short comments for this assignment. Strength, next step. Specific to the criteria. Not 'good work keep it up'.",
   },
   {
@@ -105,6 +133,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "live-marking-codes",
     name: "Live marking codes",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "A small code sheet this teacher can use while circulating. Few codes. What the pupil does when they see each one.",
   },
   {
@@ -112,6 +142,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "homework-that-fits",
     name: "Homework that fits",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "Homework this class can do without a specialist adult at home. Time estimate. How it will be checked. What happens if it is not done.",
   },
   {
@@ -119,6 +151,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "six-week-intervention-plan",
     name: "Six-week intervention plan",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "A short intervention for the gap named. Who, how often, the resource, how you will know after six weeks. Do not invent a published programme.",
   },
   {
@@ -126,6 +160,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "guided-reading-questions",
     name: "Guided reading questions",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "Questions for the text named, in the order you would ask them. Retrieval, inference, vocabulary. Age given by the user.",
   },
   {
@@ -133,6 +169,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "phonics-group-notes",
     name: "Phonics group notes",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "Notes for a phonics group from the code and stage the user names. Revisit, teach, practise, apply. No invented scheme steps.",
   },
   {
@@ -140,6 +178,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "practical-lesson-risk-note",
     name: "Practical lesson risk note",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "Hazards and controls for THIS practical, from the activity described. Do not invent CLEAPSS codes or chemical quantities.",
   },
   {
@@ -147,6 +187,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "walking-talking-mock",
     name: "Walking-talking mock",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "A script for walking a class through a paper. Timing, where marks hide, common traps. Use only the paper or mark scheme pasted.",
   },
   {
@@ -154,6 +196,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "class-revision-plan",
     name: "Class revision plan",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "A revision plan for this class between now and the date given. What to revisit, what to drop, a realistic homework load.",
   },
   {
@@ -161,6 +205,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "predicted-grade-rationale",
     name: "Predicted grade rationale",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "A short rationale for a predicted or working-at grade from the evidence listed. Honest. No comfort grades.",
   },
   {
@@ -168,6 +214,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "access-arrangements-classroom-evidence",
     name: "Access arrangements classroom evidence",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "What this teacher has seen in class that may support an access arrangements file. Facts only. The SENCo owns the application.",
   },
   {
@@ -175,6 +223,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "transition-notes-to-next-teacher",
     name: "Transition notes to the next teacher",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "A handover for the next teacher. What works, what does not, reading ages or groups if supplied. No gossip. No diagnoses you were not given.",
   },
   {
@@ -182,6 +232,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "parents-evening-talking-points",
     name: "Parents' evening talking points",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "Five minutes of talking points for each pupil listed, from the notes pasted. Start with strength. One precise next step. No surprises that should have been a call.",
   },
   {
@@ -189,6 +241,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "class-newsletter",
     name: "Class newsletter",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "A short class update. What we learned, what is coming, how families can help without buying a laminator.",
   },
   {
@@ -196,6 +250,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "praise-postcard",
     name: "Praise postcard",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "A specific postcard or note home. Name the behaviour or the piece of work. Not a personality prize.",
   },
   {
@@ -203,6 +259,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "phone-call-home-script",
     name: "Phone call home",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "Prepare a call home. Opening line, the fact, the ask, close. Warm if it is good news. Calm if it is not.",
   },
   {
@@ -210,6 +268,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "restoration-after-my-lesson",
     name: "Restoration after my lesson",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "A conversation after something went wrong in this teacher's lesson. Facts, impact, what happens tomorrow. Not a script to trap the pupil.",
   },
   {
@@ -217,6 +277,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "duty-incident-note",
     name: "Duty incident note",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "A factual note from break, lunch or corridor duty. What was seen, who was told, first aid if given. Do not invent witnesses.",
   },
   {
@@ -224,6 +286,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "safeguarding-concern-to-dsl",
     name: "Safeguarding concern to the DSL",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "Help a teacher write a concern for the DSL from facts they give. Child's words in quotation marks if supplied. No analysis beyond what was seen or said. Do not investigate. The DSL owns next steps.",
   },
   {
@@ -231,6 +295,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "visit-group-leader-card",
     name: "Visit group-leader card",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "A card for the teacher leading a group on a visit. Headcount, meeting point, who to call, medical notes only if the user pasted them.",
   },
   {
@@ -238,6 +304,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "local-walk-risk-note",
     name: "Local walk risk note",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "A short risk note for a walk in the locality described. Roads, ratios, weather. Do not invent the school's visits policy.",
   },
   {
@@ -245,6 +313,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "ect-weekly-reflection",
     name: "ECT weekly reflection",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "A weekly reflection an ECT can take to their mentor. What they taught, what landed, one thing to try. Their voice, not a polished essay.",
   },
   {
@@ -252,6 +322,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "teacher-appraisal-evidence-log",
     name: "Teacher appraisal evidence log",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "Turn the teacher's notes into an evidence log against the objectives given. Dates and artefacts only if supplied.",
   },
   {
@@ -259,6 +331,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "what-the-learning-walk-should-see",
     name: "What the learning walk should see",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "A one-side note a teacher can use before a walk: the focus, what is already in books, the question they hope is asked. Honest about the weak bit.",
   },
   {
@@ -266,6 +340,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "my-books-before-scrutiny",
     name: "My books before scrutiny",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "A self-check against the school's book expectations, from what the teacher says is in the books. Gaps to fix this week, not a defence.",
   },
   {
@@ -273,6 +349,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "trainee-lesson-plan",
     name: "Trainee lesson plan",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "A lesson plan a trainee can defend. Mentor notes in the margin: what to watch, when to step in. Do not write it as if the trainee already taught it.",
   },
   {
@@ -280,6 +358,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "after-school-club-session",
     name: "After-school club session",
     category: "Classroom",
+    role: "a teacher",
+    gate: false,
     job: "One club session. Arrival, activity, how it ends, ratios. Fun that still has an adult in charge.",
   },
   {
@@ -287,6 +367,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "form-time-sequence",
     name: "Form time sequence",
     category: "Form tutor",
+    role: "a form tutor",
+    gate: false,
     job: "A two-week form-time sequence that fits the minutes you actually have. Register, notices, one useful activity. No fake PSHE scheme.",
   },
   {
@@ -294,6 +376,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "tutor-attendance-conversation",
     name: "Tutor attendance conversation",
     category: "Form tutor",
+    role: "a form tutor",
+    gate: false,
     job: "Prepare a tutor conversation about attendance with the pupil or family facts given. Curious, not shaming. One next step.",
   },
   {
@@ -301,6 +385,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "daily-report-comments",
     name: "Daily report comments",
     category: "Form tutor",
+    role: "a form tutor",
+    gate: false,
     job: "Short lesson-by-lesson comments for a daily report card. Factual. What improved.",
   },
   {
@@ -308,6 +394,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "tutor-evening-notes",
     name: "Tutor evening notes",
     category: "Form tutor",
+    role: "a form tutor",
+    gate: false,
     job: "Notes for a tutor evening: attendance, conduct, the story across subjects from the data pasted. One family action.",
   },
   {
@@ -315,6 +403,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "year-group-assembly-from-a-tutor",
     name: "Year-group assembly from a tutor",
     category: "Form tutor",
+    role: "a form tutor",
+    gate: false,
     job: "An assembly a tutor can deliver to a year group. Short enough to stand up and do. Tied to the theme given.",
   },
   {
@@ -322,6 +412,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "leaver-comment",
     name: "Leaver comment",
     category: "Form tutor",
+    role: "a form tutor",
+    gate: false,
     job: "A leaver comment or yearbook line from what the tutor actually knows. Specific. No empty 'will go far'.",
   },
   {
@@ -329,6 +421,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "tutor-report-paragraph",
     name: "Tutor report paragraph",
     category: "Form tutor",
+    role: "a form tutor",
+    gate: false,
     job: "One tutor paragraph for the report cycle. Attendance, attitude, the person in the form. Age-appropriate.",
   },
   {
@@ -336,6 +430,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "form-group-charter",
     name: "Form group charter",
     category: "Form tutor",
+    role: "a form tutor",
+    gate: false,
     job: "A short charter the form can live with. Few lines. Written so pupils could have said them.",
   },
   {
@@ -343,6 +439,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "missed-homework-tutor-note",
     name: "Missed homework tutor note",
     category: "Form tutor",
+    role: "a form tutor",
+    gate: false,
     job: "A tutor note or message when homework keeps not arriving. Check barriers first. Then the school sanction if that is the policy.",
   },
   {
@@ -350,6 +448,8 @@ export const deskItemsE: DeskItem[] = [
     slug: "new-arrival-in-my-form",
     name: "New arrival in my form",
     category: "Form tutor",
+    role: "a form tutor",
+    gate: false,
     job: "The first fortnight for a pupil new to the form. Buddy, map, who to eat with, what the tutor checks on day three and day ten.",
   },
 ];

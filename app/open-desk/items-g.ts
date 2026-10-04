@@ -7,6 +7,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-scheme-of-work-generator",
     name: "GCSE scheme of work generator",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Build a scheme of work from the specification the user pastes. Board, spec code, tier, hours per week, start and exam dates. Units in spec order unless they ask otherwise. Assessment points. Do not add topics that are not in the pasted spec.",
   },
   {
@@ -14,6 +16,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "two-year-ks4-scheme",
     name: "Two-year KS4 scheme",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "A Year 10 and Year 11 map from the pasted spec. What must be taught by the first mock. What is left for Year 11. Built-in retrieval. Flag NEA deadlines if the spec has them.",
   },
   {
@@ -21,6 +25,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "half-term-sow-from-spec",
     name: "Half-term SOW from the spec",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "One half term only. Lessons that fit the periods given. Objective, core knowledge, practice, exit check. Homework that does not need a specialist adult at home.",
   },
   {
@@ -28,6 +34,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-revision-programme",
     name: "GCSE revision programme",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "A revision programme from today to the first paper date the user names. Weekly focus, retrieval, past-paper practice only if they have papers. Separate class time from home time.",
   },
   {
@@ -35,6 +43,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-paper-by-paper-revision",
     name: "Paper-by-paper revision",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "One plan per paper from the pasted spec. What that paper actually tests. Timing. The mistakes this class already makes, if the user listed them.",
   },
   {
@@ -42,6 +52,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-nea-timeline",
     name: "GCSE NEA timeline",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "A non-exam assessment timeline from the spec and centre dates. What pupils do, what the teacher may say, checkpoints. Not a way to write the work for them.",
   },
   {
@@ -49,6 +61,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-english-language-map",
     name: "GCSE English Language map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for English Language. Papers, timings and AOs from the pasted spec only. Reading and writing practice that matches those papers. No invented inserts.",
   },
   {
@@ -56,6 +70,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-english-literature-map",
     name: "GCSE English Literature map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Literature. Use only the set texts and poems the user names. Paper structure from the pasted spec. Quotation, whole-text and comparison practice. Do not invent a set text list.",
   },
   {
@@ -63,6 +79,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-maths-map",
     name: "GCSE Maths map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Maths. Foundation or Higher as named. Topic list from the pasted spec. Calculator and non-calculator papers. Weak-topic first if the user gave mock data.",
   },
   {
@@ -70,6 +88,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-combined-science-map",
     name: "GCSE Combined Science map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Combined Science (Trilogy or Synergy as named). Biology, chemistry and physics units from the pasted spec. Required practicals only if listed. Foundation or Higher.",
   },
   {
@@ -77,6 +97,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-biology-map",
     name: "GCSE Biology map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for separate Biology. Topics and required practicals from the pasted spec. Paper split as the spec states. No invented content from Combined Science.",
   },
   {
@@ -84,6 +106,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-chemistry-map",
     name: "GCSE Chemistry map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for separate Chemistry. Topics and required practicals from the pasted spec. Equations and calculations only where the spec asks.",
   },
   {
@@ -91,6 +115,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-physics-map",
     name: "GCSE Physics map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for separate Physics. Topics, equations and required practicals from the pasted spec. Higher-tier only content marked as such.",
   },
   {
@@ -98,6 +124,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-history-map",
     name: "GCSE History map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for History. Use only the studies and sites the user names. Question types from the pasted spec. No extra periods.",
   },
   {
@@ -105,6 +133,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-geography-map",
     name: "GCSE Geography map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Geography. Themes, fieldwork and issue evaluation from the pasted spec. Named case studies only if the user supplied them.",
   },
   {
@@ -112,6 +142,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-french-map",
     name: "GCSE French map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for French. Themes, skills and tiers from the pasted spec. For awards after June 2026 use the vocabulary and grammar lists the user pastes. Do not invent a vocab list.",
   },
   {
@@ -119,6 +151,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-german-map",
     name: "GCSE German map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for German. Same rules as French. Paste the current spec and the 2026 vocabulary and grammar lists if that is the award year.",
   },
   {
@@ -126,6 +160,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-spanish-map",
     name: "GCSE Spanish map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Spanish. Same rules as French. Paste the current spec and the 2026 vocabulary and grammar lists if that is the award year.",
   },
   {
@@ -133,6 +169,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-mfl-other-map",
     name: "GCSE other language map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for any other GCSE language the user names (Italian, Urdu, Mandarin, Arabic, Polish, Latin, and so on). Build only from the pasted spec. Speaking, listening, reading, writing as that spec sets them.",
   },
   {
@@ -140,6 +178,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-computer-science-map",
     name: "GCSE Computer Science map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Computer Science. Theory papers and programming from the pasted spec. Languages only if the centre named one.",
   },
   {
@@ -147,6 +187,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-religious-studies-map",
     name: "GCSE Religious Studies map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for RS. Religions and themes the user names, from the pasted spec. Short course if they said so. No invented beliefs.",
   },
   {
@@ -154,6 +196,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-business-map",
     name: "GCSE Business map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Business. Units and calculation skills from the pasted spec. Case-study practice without inventing a paper.",
   },
   {
@@ -161,6 +205,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-citizenship-map",
     name: "GCSE Citizenship map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Citizenship Studies. Themes and the taking-citizenship-action requirement from the pasted spec.",
   },
   {
@@ -168,6 +214,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-pe-map",
     name: "GCSE PE map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for PE. Theory papers, NEA and sports from the pasted spec and the sports this centre actually assesses. Do not invent practical marks.",
   },
   {
@@ -175,6 +223,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-food-map",
     name: "GCSE Food Preparation and Nutrition map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Food. Theory and NEA tasks from the pasted spec. Food safety flagged. No invented recipes as if they were assessed dishes.",
   },
   {
@@ -182,6 +232,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-dt-map",
     name: "GCSE Design and Technology map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for D&T. Core technical principles, specialist material and NEA from the pasted spec and the material this class actually uses.",
   },
   {
@@ -189,6 +241,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-art-map",
     name: "GCSE Art and Design map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Art and Design. Endorsement the user names (fine art, photography, textiles, 3D, graphics, craft). Component structure from the pasted spec. Portfolio checkpoints, not a style to copy.",
   },
   {
@@ -196,6 +250,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-drama-map",
     name: "GCSE Drama map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Drama. Set text and live performance only if named. Components from the pasted spec. Devising timeline that fits this centre.",
   },
   {
@@ -203,6 +259,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-music-map",
     name: "GCSE Music map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Music. Areas of study, set works and NEA from the pasted spec. Set works only if the user listed them.",
   },
   {
@@ -210,6 +268,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-dance-map",
     name: "GCSE Dance map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Dance. Anthology works and NEA from the pasted spec. Works only if named.",
   },
   {
@@ -217,6 +277,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-media-map",
     name: "GCSE Media Studies map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Media. Close-study products from the list the user pastes. Components from the spec. Do not invent CSPs.",
   },
   {
@@ -224,6 +286,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-sociology-map",
     name: "GCSE Sociology map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Sociology. Topics and studies from the pasted spec. Named studies only if supplied.",
   },
   {
@@ -231,6 +295,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-psychology-map",
     name: "GCSE Psychology map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Psychology. Topics, studies and research methods from the pasted spec. No extra studies.",
   },
   {
@@ -238,6 +304,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-statistics-map",
     name: "GCSE Statistics map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Statistics. Collection, processing, representation and probability from the pasted spec. Foundation or Higher.",
   },
   {
@@ -245,6 +313,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-ancient-history-map",
     name: "GCSE Ancient History map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Ancient History. Period and depth studies the user names, from the pasted spec.",
   },
   {
@@ -252,6 +322,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-classics-latin-map",
     name: "GCSE Latin or Classical Civilisation map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Latin or Classical Civilisation as named. Set texts and topics from the pasted spec only.",
   },
   {
@@ -259,6 +331,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "gcse-astronomy-geology-map",
     name: "GCSE Astronomy or Geology map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Astronomy or Geology as named. Topics and observational or fieldwork requirements from the pasted spec.",
   },
   {
@@ -266,6 +340,8 @@ export const deskItemsG: DeskItem[] = [
     slug: "level-2-further-maths-map",
     name: "Level 2 Further Maths map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for AQA Level 2 Further Maths or the equivalent the user names. Topics from the pasted spec. This is not GCSE Maths Higher with extra questions.",
   },
 ];

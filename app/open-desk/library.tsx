@@ -32,7 +32,7 @@ const PAGE_SIZE = 40;
 
 function buildPrompt(item: DeskItem) {
   return (
-    sharedPreamble +
+    sharedPreamble(item.role, item.gate) +
     `\nJob: ${item.name}\n\nWhat good looks like:\n${item.job}\n` +
     contextBlock
   );
@@ -113,7 +113,7 @@ export function OpenDeskLibrary() {
       <div className="mt-10">
         {page.map((item) => (
           <article key={item.id} id={item.slug} className="desk-card">
-            <p className="meta text-accent">{item.category}</p>
+            <p className="meta text-accent">{item.category}{item.gate ? " · record — not for a public chat" : ""}</p>
             <h2 className="type-h3 mt-3 text-text">{item.name}</h2>
             <p
               className="mt-3 text-text-2"

@@ -7,6 +7,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "ks1-two-year-scheme",
     name: "KS1 two-year scheme",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A Year 1 and Year 2 scheme from the pasted programme of study or the school's own curriculum. What must be secure by the end of Year 2. Do not turn Year 1 into a SAT year.",
   },
   {
@@ -14,6 +16,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "ks2-four-year-scheme",
     name: "KS2 four-year scheme",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A Year 3 to Year 6 scheme from the pasted programme of study. Lower and upper KS2 marked. What must be secure before Year 6 tests if this school sits them.",
   },
   {
@@ -21,6 +25,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "lower-ks2-scheme",
     name: "Lower KS2 scheme",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A Year 3 and Year 4 scheme from the pasted curriculum. The jump from KS1 named if the user listed it. Fluency before complexity.",
   },
   {
@@ -28,6 +34,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "upper-ks2-scheme",
     name: "Upper KS2 scheme",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A Year 5 and Year 6 scheme from the pasted curriculum. Test technique only in the window the school actually uses. The rest of the curriculum still exists.",
   },
   {
@@ -35,6 +43,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "year-1-scheme",
     name: "Year 1 scheme",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "One year of Year 1 from the pasted curriculum. First half term that settles them after Reception. Phonics as the school names the programme. Play and desks in a ratio this class can bear.",
   },
   {
@@ -42,6 +52,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "year-2-scheme",
     name: "Year 2 scheme",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "One year of Year 2 from the pasted curriculum. Optional KS1 tests only if the school uses them and said so. Writing that is not a genre conveyor belt.",
   },
   {
@@ -49,6 +61,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "year-3-scheme",
     name: "Year 3 scheme",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "One year of Year 3 from the pasted curriculum. What Year 2 left unfinished if named. Independence without pretending they are Year 5.",
   },
   {
@@ -56,6 +70,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "year-4-scheme",
     name: "Year 4 scheme",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "One year of Year 4 from the pasted curriculum. Multiplication tables check only as this school runs it. The rest of the year is still a curriculum.",
   },
   {
@@ -63,6 +79,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "year-5-scheme",
     name: "Year 5 scheme",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "One year of Year 5 from the pasted curriculum. Depth before Year 6 acceleration. New content the programme of study actually places here.",
   },
   {
@@ -70,6 +88,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "year-6-scheme",
     name: "Year 6 scheme",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "One year of Year 6 from the pasted curriculum. What is taught before May and what is taught after. Secondary-ready habits, not a three-month test camp unless the user asked for that.",
   },
   {
@@ -77,6 +97,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "mixed-age-primary-scheme",
     name: "Mixed-age primary scheme",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A scheme for the mixed-age class the user named (for example Year 3/4). Same lessons, two pitch points. Cycle A and cycle B if they said the school uses them.",
   },
   {
@@ -84,6 +106,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "reception-to-year-1-curriculum",
     name: "Reception to Year 1 curriculum",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "The first half term of Year 1 from what Reception actually did. Continuous provision that shrinks on purpose. Phonics as named. No invented ELG scores.",
   },
   {
@@ -91,6 +115,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "year-2-to-year-3-bridge",
     name: "Year 2 to Year 3 bridge",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A first half term in Year 3 that uses the Year 2 handover the user pasted. Reading stamina, number facts, how they write. Do not invent KS1 results.",
   },
   {
@@ -98,6 +124,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "year-6-to-year-7-handover",
     name: "Year 6 to Year 7 handover",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A handover note from the Year 6 teacher to secondary. Reading, writing, maths, how they learn, what must not be lost. Facts only. No predicted KS3 pathway.",
   },
   {
@@ -105,6 +133,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-english-map",
     name: "Primary English map",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A KS1 or KS2 English map from the pasted programme of study and the texts this school actually uses. Reading, writing, spoken language. Do not invent a reading spine.",
   },
   {
@@ -112,6 +142,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-phonics-from-ssp",
     name: "Phonics from the named programme",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A phonics sequence from the SSP the school named and any overview they pasted. Revisit, teach, practise, apply. Do not invent programme steps or alien words.",
   },
   {
@@ -119,6 +151,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-reading-lesson",
     name: "Primary reading lesson",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "One reading lesson from the text and focus the user named. Vocabulary, a stretch of text, talk, a short written or oral response. Age of the class as given.",
   },
   {
@@ -126,6 +160,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-writing-unit",
     name: "Primary writing unit",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A writing unit from the purpose and audience the user named. Model, shared, independent. Grammar only as it serves this piece. No invented WAGOLL if they did not paste one.",
   },
   {
@@ -133,6 +169,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-gps-without-the-mill",
     name: "Grammar that serves writing",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A short grammar sequence from the year-group content pasted. Taught so it turns up in writing, not only in a test booklet.",
   },
   {
@@ -140,6 +178,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "phonics-check-parent-note",
     name: "Phonics screening parent note",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A parent note on the Year 1 phonics screening check. What it is, when it is, what happens if they retake in Year 2. No score predictions.",
   },
   {
@@ -147,6 +187,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "reading-for-pleasure-plan",
     name: "Reading for pleasure plan",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A half-term plan that protects reading for pleasure. Class reader, library time, how adults talk about books. Titles only if the user listed them.",
   },
   {
@@ -154,6 +196,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-maths-map",
     name: "Primary maths map",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A KS1 or KS2 maths map from the pasted programme of study. Number first. The year-group objectives in an order this school can teach.",
   },
   {
@@ -161,6 +205,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-maths-unit",
     name: "Primary maths unit",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "One maths unit from the objectives pasted. Fluency, reasoning, problem solving. Concrete and pictorial only as this classroom actually has them.",
   },
   {
@@ -168,6 +214,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "times-tables-check-plan",
     name: "Multiplication tables check plan",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A Year 4 plan for the multiplication tables check from how this school already practises tables. Short, frequent. The rest of maths still happens.",
   },
   {
@@ -175,6 +223,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-science-map",
     name: "Primary science map",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A KS1 or KS2 science map from the pasted programme of study. Working scientifically. Practicals this classroom can actually run.",
   },
   {
@@ -182,6 +232,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-history-map",
     name: "Primary history map",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A primary history map from the pasted programme of study and the periods this school teaches. Chronology across the years. No extra topics.",
   },
   {
@@ -189,6 +241,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-geography-map",
     name: "Primary geography map",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A primary geography map from the pasted programme of study. Locational knowledge, places, fieldwork only if the school named the sites.",
   },
   {
@@ -196,6 +250,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-art-map",
     name: "Primary art map",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A primary art map from the pasted curriculum. Disciplines and artists only if named. Materials this stock cupboard has.",
   },
   {
@@ -203,6 +259,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-music-map",
     name: "Primary music map",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A primary music map from the pasted curriculum. Singing, listening, composing. Instruments only if the school has them.",
   },
   {
@@ -210,6 +268,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-pe-map",
     name: "Primary PE map",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A primary PE map from the pasted programme of study, including swimming if the school runs it. Indoor backup. No invented fixtures.",
   },
   {
@@ -217,6 +277,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-computing-map",
     name: "Primary computing map",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A primary computing map from the pasted programme of study. Computer science, IT and digital literacy as the school splits them. Software only if named.",
   },
   {
@@ -224,6 +286,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-dt-map",
     name: "Primary design and technology map",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A primary D and T map from the pasted programme of study. Cooking and nutrition if that sits here. Tools this school actually lets children use.",
   },
   {
@@ -231,6 +295,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-languages-map",
     name: "Primary languages map",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A KS2 languages map for the language this school teaches. From the pasted programme of study or scheme. Do not invent a word list. KS1 only if they asked.",
   },
   {
@@ -238,6 +304,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-re-map",
     name: "Primary RE map",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A primary RE map from the locally agreed syllabus or the academy curriculum pasted. Religions and worldviews only as listed. Right of withdrawal flagged.",
   },
   {
@@ -245,6 +313,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-relationships-health-map",
     name: "Primary relationships and health map",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A map for relationships and health education from the school's policy and the statutory content pasted. Age-appropriate. Sex education only if this school teaches it and the user said so.",
   },
   {
@@ -252,6 +322,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-assessment-calendar",
     name: "Primary assessment calendar",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "An assessment calendar for the year named. Phonics check, MTC, KS2 tests only if this school sits them. Teacher assessment that is not a spreadsheet religion.",
   },
   {
@@ -259,6 +331,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-moderation-pack",
     name: "Primary writing moderation pack",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A moderation pack for writing from the criteria and samples the user pasted. What good looks like this year. No invented TAFs.",
   },
   {
@@ -266,6 +340,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "ks2-test-week-brief",
     name: "KS2 test week staff brief",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A staff brief for KS2 test week from the timetable pasted. Rooms, readers, rest breaks, who is calm. Access arrangements only as listed. Check current STA guidance.",
   },
   {
@@ -273,6 +349,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "ks2-results-parent-note",
     name: "KS2 results parent note",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A parent note that explains scaled scores from the results the school will actually send. What the number means. What it does not. No league-table commentary.",
   },
   {
@@ -280,6 +358,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-knowledge-organiser",
     name: "Primary knowledge organiser",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A one-page organiser for the unit named, from the pasted curriculum only. Vocabulary children will actually say. No extra facts for show.",
   },
   {
@@ -287,6 +367,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-homework-that-fits",
     name: "Primary homework that fits a family",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A half-term homework cycle. Reading, number facts, one short task. Work that does not need a craft shop or a parent who trained as a teacher.",
   },
   {
@@ -294,6 +376,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-send-in-the-scheme",
     name: "SEND in the primary scheme",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "Adapt a pasted primary scheme for the needs listed. Same curriculum. Access, not a parallel course. No invented diagnoses.",
   },
   {
@@ -301,6 +385,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-cover-proof-scheme",
     name: "Primary cover-proof scheme",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "Rewrite a primary scheme so another adult can run the desk lessons. Flag practicals, swimming, trips and anything that must not run without the class teacher.",
   },
   {
@@ -308,6 +394,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-catch-up-reading",
     name: "Primary catch-up reading",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A catch-up plan from the reading evidence pasted. Minutes per week as given. Keep it inside the school's phonics or reading programme if named. No invented reading ages.",
   },
   {
@@ -315,6 +403,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-catch-up-number",
     name: "Primary catch-up number",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A catch-up plan from the number gaps listed. Secure the facts the next unit needs. Short, daily if the timetable allows.",
   },
   {
@@ -322,6 +412,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-parents-curriculum-note",
     name: "Primary curriculum note for parents",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A plain note for families on what this term covers and how they can help at home. No shopping list of workbooks.",
   },
   {
@@ -329,6 +421,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-report-comment-bank",
     name: "Primary report comment bank",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A short comment bank for this year group and subject. Strength, next step, how to help at home. No invented children. Teacher still picks the line.",
   },
   {
@@ -336,6 +430,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-enquiry-or-theme",
     name: "Primary enquiry or theme",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "One enquiry or theme from the question the user named. Subject contributions only where they are honest. Outcome a child this age can actually make.",
   },
   {
@@ -343,6 +439,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-outdoor-or-trip",
     name: "Primary outdoor learning or trip",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A plan for outdoor learning or a trip from the site and aims given. Risks the user must confirm. Learning that is not a worksheet on a clipboard.",
   },
   {
@@ -350,6 +448,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-subject-lead-intent",
     name: "Primary subject-lead intent",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A one-page intent for this subject from what the school already believes and the programme of study pasted. Plain English. Not an Ofsted performance.",
   },
   {
@@ -357,6 +457,8 @@ export const deskItemsK: DeskItem[] = [
     slug: "primary-any-subject-fallback",
     name: "Any other primary subject",
     category: "Primary",
+    role: "a primary teacher",
+    gate: false,
     job: "A scheme and unit map for a primary subject the shelf does not name. Build only from the pasted curriculum. If they did not paste one, stop and ask.",
   },
 ];

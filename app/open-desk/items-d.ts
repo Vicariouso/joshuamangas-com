@@ -7,6 +7,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "inclusion-strategy-statement",
     name: "Inclusion strategy statement",
     category: "This term",
+    role: "a school leader",
+    gate: false,
     job: "Draft the short public inclusion strategy statement England mainstream schools must publish by 31 December 2026. Commonly occurring needs, barriers, this year's activities with budgeted costs, intended outcomes. Parent-readable. Use only numbers the user supplies. Point them at the current DfE template and Inclusive Mainstream Fund conditions.",
   },
   {
@@ -14,6 +16,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "inclusive-mainstream-fund-plan",
     name: "Inclusive Mainstream Fund plan",
     category: "This term",
+    role: "a school leader",
+    gate: false,
     job: "Turn the school's IMF allocation into a spend plan that a governor can follow: activity, pupils, cost, what will stop if this is funded, how impact will be checked. Do not invent the allocation. Flag that trustees must scrutinise it.",
   },
   {
@@ -21,6 +25,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "report-card-next-steps-plan",
     name: "Report card next-steps plan",
     category: "This term",
+    role: "a school leader",
+    gate: false,
     job: "Turn an Ofsted report card (from November 2025) into a short plan against the evaluation areas that need attention or urgent improvement. Keep the inspector's wording visible. No predicted next grade.",
   },
   {
@@ -28,6 +34,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "evaluation-area-evidence-map",
     name: "Evaluation-area evidence map",
     category: "This term",
+    role: "a school leader",
+    gate: false,
     job: "Sort the school's own evidence under the current school evaluation areas: safeguarding, inclusion, curriculum and teaching, achievement, attendance and behaviour, personal development and wellbeing, leadership and governance, plus early years or post-16 if they apply. Say what is thin. No grade guesses.",
   },
   {
@@ -35,6 +43,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "school-profile-page",
     name: "School profile page",
     category: "This term",
+    role: "a school leader",
+    gate: false,
     job: "Draft parent-facing profile copy covering attendance, attainment and enrichment from figures the school actually has. Honest. No brochure claims.",
   },
   {
@@ -42,6 +52,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "white-paper-implementation-diary",
     name: "White paper implementation diary",
     category: "This term",
+    role: "a school leader",
+    gate: false,
     job: "Map what THIS school will do this year, next year and by 2028/29 against the white paper themes the user names. Separate what is already law from what is still consultation or a future duty.",
   },
   {
@@ -49,6 +61,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "individual-support-plan-note",
     name: "Individual support plan note",
     category: "This term",
+    role: "a school leader",
+    gate: false,
     job: "Help draft a school-level individual support plan from identified need and provision the user lists. This is not an EHCP and must not pretend to be. No extra diagnoses.",
   },
   {
@@ -56,6 +70,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "enrichment-entitlement-map",
     name: "Enrichment entitlement map",
     category: "This term",
+    role: "a school leader",
+    gate: false,
     job: "Map what this school already offers against the enrichment entitlement the user describes. Gaps, cost, who is missing from the offer.",
   },
   {
@@ -63,6 +79,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "children-starting-behind-progress-note",
     name: "Children starting behind, progress note",
     category: "This term",
+    role: "a school leader",
+    gate: false,
     job: "Write a board note on progress for pupils who arrived at the next phase behind their peers. Use only the school's own data. Do not invent a national measure that has not been confirmed.",
   },
   {
@@ -70,6 +88,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "section-175-audit-return",
     name: "Section 175 audit return",
     category: "Systems and compliance",
+    role: "a school leader",
+    gate: false,
     job: "Help complete a section 175 or 157 safeguarding audit from the school's evidence. Mark every answer that still needs the DSL. Conservative. No invented compliance.",
   },
   {
@@ -77,6 +97,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "single-central-record-walkthrough",
     name: "Single central record walk-through",
     category: "Systems and compliance",
+    role: "a school leader",
+    gate: false,
     job: "Write a checklist and questions for walking the SCR with the person who owns it. What 'complete' looks like. What to do if a line is missing. Not an inspection.",
   },
   {
@@ -84,6 +106,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "low-level-concern-note",
     name: "Low-level concern note",
     category: "Staff and personnel",
+    role: "a school leader dealing with staff",
+    gate: false,
     job: "Structure a low-level concern record from facts given. Factual language. Do not decide whether it meets the harm threshold. Point to KCSIE and the school's policy.",
   },
   {
@@ -91,6 +115,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "lado-referral-holding-note",
     name: "LADO referral holding note",
     category: "Staff and personnel",
+    role: "a school leader dealing with staff",
+    gate: false,
     job: "Draft a holding note and internal chronology skeleton when an allegation may need the LADO. Do not investigate in the model. Do not name pupils in the prompt if it can be avoided. The DSL and head own the referral.",
   },
   {
@@ -98,6 +124,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "filtering-and-monitoring-review",
     name: "Filtering and monitoring review",
     category: "Systems and compliance",
+    role: "a school leader",
+    gate: false,
     job: "Annual review note: what is filtered, who checks logs, how staff report, what was tested this year. Use only the setup the user describes.",
   },
   {
@@ -105,6 +133,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "data-breach-72-hour-log",
     name: "Data breach 72-hour log",
     category: "Systems and compliance",
+    role: "a school leader",
+    gate: false,
     job: "A decision log for the first 72 hours after a suspected breach. What happened, what data, who is affected, whether ICO or families need telling. The DPO decides. Do not put personal data into the model.",
   },
   {
@@ -112,6 +142,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "part-time-timetable-review",
     name: "Part-time timetable review",
     category: "Pupil support",
+    role: "a pastoral lead",
+    gate: false,
     job: "Review a reduced timetable. Safeguarding, education entitlement, review date, who agreed it, plan to increase time. Do not treat it as a long-term placement.",
   },
   {
@@ -119,6 +151,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "suspension-board-pack",
     name: "Suspension board pack",
     category: "Governance",
+    role: "someone preparing a paper for governors or trustees",
+    gate: false,
     job: "Papers a governing board needs when reviewing a suspension: facts, process followed, pupil voice, parent view, next steps. No invented incident detail. Not legal advice.",
   },
   {
@@ -126,6 +160,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "permanent-exclusion-board-pack",
     name: "Permanent exclusion board pack",
     category: "Governance",
+    role: "someone preparing a paper for governors or trustees",
+    gate: false,
     job: "A pack for a governors' exclusion panel from the papers the user lists. Process, evidence index, questions. The panel decides. Do not write the decision.",
   },
   {
@@ -133,6 +169,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "managed-move-protocol-note",
     name: "Managed move protocol note",
     category: "Pupil support",
+    role: "a pastoral lead",
+    gate: false,
     job: "Plain-English note of how a managed move would work here: consent, trial, review, what happens if it fails. Use the local protocol if pasted.",
   },
   {
@@ -140,6 +178,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "alternative-provision-commissioning-brief",
     name: "Alternative provision commissioning brief",
     category: "Pupil support",
+    role: "a pastoral lead",
+    gate: false,
     job: "A brief for commissioning AP: why, intended outcomes, hours, safeguarding checks, review. Do not name a provider unless the user did.",
   },
   {
@@ -147,6 +187,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "children-missing-education-return",
     name: "Children missing education return",
     category: "Systems and compliance",
+    role: "a school leader",
+    gate: false,
     job: "Help complete a CME or off-roll return from facts given. Dates, last known address only if supplied. Flag statutory checks.",
   },
   {
@@ -154,6 +196,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "pep-school-contribution",
     name: "PEP school contribution",
     category: "Pupil support",
+    role: "a pastoral lead",
+    gate: false,
     job: "Draft the school's contribution to a personal education plan for a looked-after or previously looked-after child. Attainment, attendance, what the school will do this term. Virtual school owns the PEP.",
   },
   {
@@ -161,6 +205,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "fair-access-case-note",
     name: "Fair Access case note",
     category: "Systems and compliance",
+    role: "a school leader",
+    gate: false,
     job: "A short case note for a Fair Access Protocol meeting. Facts the school can stand behind. No campaign language.",
   },
   {
@@ -168,6 +214,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "three-year-budget-recovery",
     name: "Three-year budget recovery",
     category: "Governance",
+    role: "someone preparing a paper for governors or trustees",
+    gate: false,
     job: "A recovery narrative from the figures supplied: structural gap, options, what gets protected, risks to pupils. Do not invent balances or ICFP ratios.",
   },
   {
@@ -175,6 +223,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "falling-rolls-options-paper",
     name: "Falling rolls options paper",
     category: "Governance",
+    role: "someone preparing a paper for governors or trustees",
+    gate: false,
     job: "Options when numbers are falling: class structure, mixed age, staffing, PAN. Costs only if supplied. Name the human cost of each option.",
   },
   {
@@ -182,6 +232,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "condition-bid-narrative",
     name: "Condition bid narrative",
     category: "Systems and compliance",
+    role: "a school leader",
+    gate: false,
     job: "Narrative for a condition, CIF or similar estates bid. Problem, risk if we wait, pupil impact, cost. No invented survey findings.",
   },
   {
@@ -189,6 +241,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "school-based-nursery-case",
     name: "School-based nursery case",
     category: "This term",
+    role: "a school leader",
+    gate: false,
     job: "A case for opening or expanding a school-based nursery. Places, staffing, estate, wraparound. Do not invent capital.",
   },
   {
@@ -196,6 +250,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "wraparound-and-breakfast-plan",
     name: "Wraparound and breakfast plan",
     category: "This term",
+    role: "a school leader",
+    gate: false,
     job: "Plan breakfast or wraparound the school can actually staff. Hours, charging, FSM, who is missed.",
   },
   {
@@ -203,6 +259,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "related-party-transaction-note",
     name: "Related party transaction note",
     category: "Governance",
+    role: "someone preparing a paper for governors or trustees",
+    gate: false,
     job: "A plain note for trustees when a related party transaction is proposed. Who is related, what is being bought, how value for money will be shown. Not legal advice.",
   },
   {
@@ -210,6 +268,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "internal-scrutiny-programme",
     name: "Internal scrutiny programme",
     category: "Governance",
+    role: "someone preparing a paper for governors or trustees",
+    gate: false,
     job: "A light-touch annual internal scrutiny programme for a small trust. Few areas, real testing, report to the audit committee.",
   },
   {
@@ -217,6 +277,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "scheme-of-delegation-change-paper",
     name: "Scheme of delegation change paper",
     category: "Governance",
+    role: "someone preparing a paper for governors or trustees",
+    gate: false,
     job: "A board paper to change who decides what. Current rule, proposed rule, why, what could go wrong.",
   },
   {
@@ -224,6 +286,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "industrial-action-contingency",
     name: "Industrial action contingency",
     category: "Staff and personnel",
+    role: "a school leader dealing with staff",
+    gate: false,
     job: "A contingency note for notified industrial action. Opening decision, supervision, comms, exams if relevant. Respect lawful action. Not a strike-breaking plan.",
   },
   {
@@ -231,6 +295,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "inset-day-that-earns-its-hours",
     name: "INSET day that earns its hours",
     category: "Staff and personnel",
+    role: "a school leader dealing with staff",
+    gate: false,
     job: "Design one INSET day around a real school problem. Timing, input, practice, what staff leave able to do. No death-by-slides.",
   },
   {
@@ -238,6 +304,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "mobile-phone-policy-refresh",
     name: "Mobile phone policy refresh",
     category: "Systems and compliance",
+    role: "a school leader",
+    gate: false,
     job: "Refresh the pupil phone policy from current DfE expectations and how this school actually works. Consistency, exceptions, sanctions that staff will use.",
   },
   {
@@ -245,6 +313,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "uniform-cost-review",
     name: "Uniform cost review",
     category: "Systems and compliance",
+    role: "a school leader",
+    gate: false,
     job: "Review branded items, second-hand provision and total cost for a family. Propose cuts that still look like this school.",
   },
   {
@@ -252,6 +322,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "rshe-parental-consultation-pack",
     name: "RSHE parental consultation pack",
     category: "Communication",
+    role: "a member of school staff",
+    gate: false,
     job: "A consultation pack for RSHE or relationships education. What is taught, when parents can withdraw, how to comment. Calm. Statutory bits flagged for the user to check.",
   },
   {
@@ -259,6 +331,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "results-day-comms-pack",
     name: "Results day comms pack",
     category: "Communication",
+    role: "a member of school staff",
+    gate: false,
     job: "Staff briefing, parent message and holding lines for results day. No predicted percentages.",
   },
   {
@@ -266,6 +340,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "critical-incident-first-hour",
     name: "Critical incident first hour",
     category: "Systems and compliance",
+    role: "a school leader",
+    gate: false,
     job: "A first-hour log and role card after a critical incident. Who is told, who is not, what is written down. No operational detail that would help someone cause harm.",
   },
   {
@@ -273,6 +349,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "bereavement-community-message",
     name: "Bereavement community message",
     category: "Communication",
+    role: "a member of school staff",
+    gate: false,
     job: "A short message to staff, pupils or families after a death. Warm, factual, no speculation. Point to support the school actually has.",
   },
   {
@@ -280,6 +358,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "staff-ai-use-note",
     name: "Staff AI use note",
     category: "This term",
+    role: "a school leader",
+    gate: false,
     job: "A one-page note for staff: what they may put into a model, what they must not, when a person still signs the work. Point to the DPO and the school's own policy. Not a vendor pitch.",
   },
   {
@@ -287,6 +367,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "assessment-integrity-with-ai",
     name: "Assessment integrity with AI",
     category: "This term",
+    role: "a school leader",
+    gate: false,
     job: "A short staff and pupil note on coursework and generative AI. What help is allowed, what is not, how the school will check. Phase-specific.",
   },
   {
@@ -294,6 +376,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "board-skills-audit",
     name: "Board skills audit",
     category: "Governance",
+    role: "someone preparing a paper for governors or trustees",
+    gate: false,
     job: "A skills audit the board will actually complete. Few questions. What it means for recruitment, not a decorative heatmap.",
   },
   {
@@ -301,6 +385,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "chair-and-head-one-to-one",
     name: "Chair and head one-to-one",
     category: "Governance",
+    role: "someone preparing a paper for governors or trustees",
+    gate: false,
     job: "An agenda for the regular chair and head meeting. Strategy, risk, wellbeing, what must not wait for the full board.",
   },
   {
@@ -308,6 +394,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "pan-consultation-response",
     name: "PAN consultation response",
     category: "Systems and compliance",
+    role: "a school leader",
+    gate: false,
     job: "A school or trust response to a published admission number consultation. Facts about rooms, staffing and local places. No territorial language.",
   },
   {
@@ -315,6 +403,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "newly-arrived-pupil-welcome",
     name: "Newly arrived pupil welcome",
     category: "Pupil support",
+    role: "a pastoral lead",
+    gate: false,
     job: "First days and first half-term for a newly arrived or refugee pupil. Language, timetable, named adult, what staff need before day one.",
   },
   {
@@ -322,6 +412,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "young-carer-support-note",
     name: "Young carer support note",
     category: "Pupil support",
+    role: "a pastoral lead",
+    gate: false,
     job: "A support note when a pupil is a young carer. Attendance flexibility, homework, named adult. Do not invent home circumstances.",
   },
   {
@@ -329,6 +421,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "exam-contingency-day-plan",
     name: "Exam contingency day plan",
     category: "Day to day",
+    role: "a member of school staff",
+    gate: false,
     job: "What the school does if an exam cannot run as planned. Rooms, staffing, JCQ or awarding-body checks the exams officer must confirm.",
   },
   {
@@ -336,6 +430,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "visit-emergency-card",
     name: "Visit emergency card",
     category: "Day to day",
+    role: "a member of school staff",
+    gate: false,
     job: "A one-page card for the visit leader and the base contact. Who to call, what to write down, when to close the trip. No invented medical protocols.",
   },
   {
@@ -343,6 +439,8 @@ export const deskItemsD: DeskItem[] = [
     slug: "severe-weather-decision-note",
     name: "Severe weather decision note",
     category: "Day to day",
+    role: "a member of school staff",
+    gate: false,
     job: "A decision note for opening, partial opening or closing. Who decides, who is told, exam days, vulnerable pupils. Record the reason.",
   },
 ];

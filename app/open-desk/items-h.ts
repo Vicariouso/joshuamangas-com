@@ -8,6 +8,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "ks3-into-ks4-scheme",
     name: "KS3 into KS4 scheme",
     category: "Schemes",
+    role: "a teacher writing a scheme",
+    gate: false,
     job: "A Year 9 into Year 10 scheme from the pasted GCSE spec. What Year 9 must secure so Year 10 is not a restart. Name the gaps if the user listed them. Do not add topics that are not in the spec.",
   },
   {
@@ -15,6 +17,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "blocked-or-interleaved-scheme",
     name: "Blocked or interleaved scheme",
     category: "Schemes",
+    role: "a teacher writing a scheme",
+    gate: false,
     job: "Two versions of a scheme from the same pasted spec: blocked units, then an interleaved version. Say which weeks change. The teacher picks one.",
   },
   {
@@ -22,6 +26,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "mixed-ability-gcse-scheme",
     name: "Mixed-ability GCSE scheme",
     category: "Schemes",
+    role: "a teacher writing a scheme",
+    gate: false,
     job: "A scheme for a mixed-ability GCSE class from the pasted spec. Core route and stretch route in the same lesson sequence. Foundation and Higher only where the spec actually splits.",
   },
   {
@@ -29,6 +35,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "setted-gcse-scheme",
     name: "Setted GCSE scheme",
     category: "Schemes",
+    role: "a teacher writing a scheme",
+    gate: false,
     job: "A scheme for the set the user names, from the pasted spec and tier. What this set will skip or meet later. Do not write a different spec for them.",
   },
   {
@@ -36,6 +44,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "mock-to-exam-scheme",
     name: "Mock to exam scheme",
     category: "Schemes",
+    role: "a teacher writing a scheme",
+    gate: false,
     job: "A scheme from the mock date to the first paper date. Built from the pasted spec and the weak topics the user listed. Class time and home time split.",
   },
   {
@@ -43,6 +53,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "catch-up-after-poor-mock",
     name: "Catch-up after a poor mock",
     category: "Schemes",
+    role: "a teacher writing a scheme",
+    gate: false,
     job: "A six to eight week catch-up from mock question-level data the user pastes. Highest-tariff gaps first. No invented marks or grade boundaries.",
   },
   {
@@ -50,6 +62,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "intervention-group-scheme",
     name: "Intervention group scheme",
     category: "Schemes",
+    role: "a teacher writing a scheme",
+    gate: false,
     job: "A scheme for a small GCSE intervention group. Minutes per week as given. Three or four high-value moves from the pasted spec, not a second full course.",
   },
   {
@@ -57,6 +71,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "one-year-resit-scheme",
     name: "One-year resit scheme",
     category: "Schemes",
+    role: "a teacher writing a scheme",
+    gate: false,
     job: "A one-year resit or November-entry scheme from the pasted spec. What to reteach, what to practise. Post-16 or Year 12 if the user said so.",
   },
   {
@@ -64,6 +80,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "required-practical-calendar",
     name: "Required practical calendar",
     category: "Schemes",
+    role: "a teacher writing a scheme",
+    gate: false,
     job: "A calendar of required practicals from the pasted science spec. Rooms, equipment the user named, write-up checkpoints. Skip any practical not listed in the spec.",
   },
   {
@@ -71,6 +89,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "nea-and-theory-balance",
     name: "NEA and theory balance",
     category: "Schemes",
+    role: "a teacher writing a scheme",
+    gate: false,
     job: "A two-year map that protects both NEA deadlines and exam content from the pasted spec. Weeks that cannot slip. What the teacher may and may not do on the NEA.",
   },
   {
@@ -78,6 +98,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "homework-cycle-from-spec",
     name: "Homework cycle from the spec",
     category: "Schemes",
+    role: "a teacher writing a scheme",
+    gate: false,
     job: "A half-term homework cycle that matches the scheme. Retrieval plus one exam-style task. Work a pupil can do without a specialist adult at home.",
   },
   {
@@ -85,6 +107,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "retrieval-curriculum-scheme",
     name: "Retrieval curriculum scheme",
     category: "Schemes",
+    role: "a teacher writing a scheme",
+    gate: false,
     job: "Add a retrieval spine to an existing scheme the user pastes. What is revisited in week 3, week 8, week 16. Do not invent extra content.",
   },
   {
@@ -92,6 +116,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "cover-proof-scheme",
     name: "Cover-proof scheme",
     category: "Schemes",
+    role: "a teacher writing a scheme",
+    gate: false,
     job: "Rewrite a scheme so a cover supervisor can run the non-specialist lessons. Flag any lesson that must not run without the specialist (practical, speaking exam, NEA).",
   },
   {
@@ -99,6 +125,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "two-cohort-same-teacher-scheme",
     name: "Two-cohort same-teacher scheme",
     category: "Schemes",
+    role: "a teacher writing a scheme",
+    gate: false,
     job: "A workable year for a teacher who has Year 10 and Year 11 in the same subject. Shared prep where it is honest. Exam class protected in the spring.",
   },
   {
@@ -106,6 +134,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "assessment-calendar-from-spec",
     name: "Assessment calendar from the spec",
     category: "Schemes",
+    role: "a teacher writing a scheme",
+    gate: false,
     job: "An assessment calendar from the pasted spec and the school's mock windows. What each assessment actually samples. No fake grade boundaries.",
   },
   {
@@ -113,6 +143,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "six-week-revision-countdown",
     name: "Six-week revision countdown",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A six-week countdown to the first paper date named. One weekly focus from the pasted spec. Class, form time and home. Stop adding new content in the last ten days unless the user insists.",
   },
   {
@@ -120,6 +152,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "twelve-week-revision-countdown",
     name: "Twelve-week revision countdown",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A twelve-week revision programme from today to the first paper. Cycle through papers or topics as the spec splits them. Built-in rest weeks if the calendar has them.",
   },
   {
@@ -127,6 +161,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "knowledge-organiser-from-spec",
     name: "Knowledge organiser from the spec",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A one or two page knowledge organiser for the unit named, using only the pasted spec and the teacher's notes. Definitions, must-know items, one worked example if the subject needs it. No extra facts.",
   },
   {
@@ -134,6 +170,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "retrieval-grid",
     name: "Retrieval grid",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A retrieval grid for a lesson or a week. Last lesson, last month, last term. Answers on a second page. Only content from the spec or notes pasted.",
   },
   {
@@ -141,6 +179,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "rag-topic-list",
     name: "RAG topic list",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A pupil-facing RAG list from the pasted spec topic headings. Space for the pupil to mark red, amber, green. Teacher version with the high-tariff topics flagged if the spec weighting is given.",
   },
   {
@@ -148,6 +188,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "walking-talking-mock-plan",
     name: "Walking talking mock plan",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A walking talking mock plan for the paper the user names. Timing, which questions to model, when pupils work in silence. Use a real paper only if they pasted one. Do not invent questions that pretend to be the board.",
   },
   {
@@ -155,6 +197,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "past-paper-clinic",
     name: "Past-paper clinic",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A clinic structure for a past paper the user has. Which questions to reteach, how to mark, what to set next. If they did not paste a paper, ask for it. Do not write a fake paper.",
   },
   {
@@ -162,6 +206,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "grade-4-secure-plan",
     name: "Grade 4 secure plan",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A plan to secure a standard pass from the pasted spec and the gaps given. High-frequency, lower-tariff content first. Say when this is the wrong plan because the pupil is already beyond it.",
   },
   {
@@ -169,6 +215,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "grade-7-plus-plan",
     name: "Grade 7 plus plan",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A plan for pupils aiming at 7 to 9 from the pasted spec. Higher-tier only content marked. Extended response and multi-step practice. No invented grade boundaries.",
   },
   {
@@ -176,6 +224,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "bedroom-revision-plan",
     name: "Revision that works in a bedroom",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "Home revision that does not need a quiet study, a printer or a parent who did the subject. Short sessions. Phone off. From the pasted spec only.",
   },
   {
@@ -183,6 +233,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "parent-revision-brief",
     name: "Parent revision brief",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A one-page note for families. What helps, what does not, dates of papers if given. No claim that a bought pack will raise a grade.",
   },
   {
@@ -190,6 +242,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "form-time-revision-slot",
     name: "Form-time revision slot",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A 15 or 20 minute form-time revision slot a non-specialist tutor can run. One subject per day if the user listed a rota. Cards or questions only from what they paste.",
   },
   {
@@ -197,6 +251,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "must-know-pack",
     name: "Must-know pack",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A must-know pack for the subject named: quotations, formulae, dates, case studies or vocabulary, but only items the user supplied or that sit in the pasted spec list. Leave blanks as [NEED] rather than invent.",
   },
   {
@@ -204,6 +260,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "exam-technique-page",
     name: "Exam technique page",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "One page of exam technique for the paper named. Timing, command words from the pasted spec or mark scheme, what the last five minutes are for. No folklore about how examiners think.",
   },
   {
@@ -211,6 +269,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "common-mistakes-sheet",
     name: "Common mistakes sheet",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A common-mistakes sheet from the errors the user listed or from a marked paper they pasted. If they gave nothing, ask. Do not invent a national list of how pupils fail.",
   },
   {
@@ -218,6 +278,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "last-weekend-plan",
     name: "Last weekend plan",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A Saturday and Sunday plan before the first paper. Sleep, short retrieval, one timed section. Not a 14-hour cram.",
   },
   {
@@ -225,6 +287,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "after-paper-debrief",
     name: "After-paper debrief",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "What to do in the next lesson after a paper. What to stop talking about. What the next paper still needs. No post-mortem that spreads panic.",
   },
   {
@@ -232,6 +296,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "personal-learning-checklist",
     name: "Personal learning checklist",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A PLC from the pasted spec headings. Pupil self-RAG plus a column for evidence. Teacher can filter to the group they named.",
   },
   {
@@ -239,6 +305,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "interleaving-week",
     name: "Interleaving week",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "One week that mixes three or four already-taught topics from the spec. Daily mix, Friday check. Do not introduce new content unless the user asked.",
   },
   {
@@ -246,6 +314,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "revision-assembly-or-year-brief",
     name: "Revision assembly or year brief",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A short year-group brief on how to revise this term. Concrete. No growth-mindset sermon. Dates only if supplied.",
   },
   {
@@ -253,6 +323,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "english-language-revision-template",
     name: "English Language revision template",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A reusable Language revision template. Paper by paper from the pasted spec. Reading steps, writing plans, timings. Practice tasks that match those papers. No invented inserts or mark schemes.",
   },
   {
@@ -260,6 +332,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "english-literature-revision-template",
     name: "English Literature revision template",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A reusable Literature revision template. One sheet per set text the user named. Plot beats, characters, themes, a quotation bank only from lines they paste. Comparison grid if the spec asks for it.",
   },
   {
@@ -267,6 +341,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "maths-revision-template",
     name: "Maths revision template",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A reusable Maths revision template. Topic RAG from the pasted spec. Calculator and non-calculator lists. Five-a-day starters. Weak-topic first if mock data was given. Foundation or Higher as named.",
   },
   {
@@ -274,6 +350,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "combined-science-revision-template",
     name: "Combined Science revision template",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A reusable Combined Science template. Biology, chemistry, physics columns from the pasted spec. Required practicals only if listed. Paper split as the spec states. Trilogy or Synergy as named.",
   },
   {
@@ -281,6 +359,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "separate-science-revision-template",
     name: "Separate science revision template",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A reusable template for separate Biology, Chemistry or Physics as named. Topics, equations and practicals from that pasted spec only. Do not pull Combined Science content across.",
   },
   {
@@ -288,6 +368,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "history-revision-template",
     name: "History revision template",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A reusable History template. One sheet per study the user named. Timeline, second-order concepts, question stems from the pasted spec. No extra periods or sites.",
   },
   {
@@ -295,6 +377,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "geography-revision-template",
     name: "Geography revision template",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A reusable Geography template. Themes, fieldwork and issue evaluation from the pasted spec. Case-study sheets only for places the user named.",
   },
   {
@@ -302,6 +386,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "mfl-revision-template",
     name: "MFL revision template",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A reusable language revision template. Listening, speaking, reading, writing as that spec sets them. Vocabulary and grammar only from lists the user pastes. For French, German and Spanish awards after June 2026 use the new lists if provided.",
   },
   {
@@ -309,6 +395,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "computer-science-revision-template",
     name: "Computer Science revision template",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A reusable Computer Science template. Theory topics and programming from the pasted spec. Trace-table and pseudocode practice. Language only if the centre named one.",
   },
   {
@@ -316,6 +404,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "rs-revision-template",
     name: "Religious Studies revision template",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A reusable RS template. Beliefs and practices for the religions named, plus themes from the pasted spec. Short course if they said so. No invented teachings.",
   },
   {
@@ -323,6 +413,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "business-economics-revision-template",
     name: "Business or Economics revision template",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A reusable template for Business or Economics as named. Calculations, case-study habits and units from the pasted spec. No invented paper.",
   },
   {
@@ -330,6 +422,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "pe-revision-template",
     name: "PE revision template",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A reusable PE template. Theory papers from the pasted spec. NEA and sports only as this centre assesses them. Do not invent practical marks.",
   },
   {
@@ -337,6 +431,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "arts-nea-revision-template",
     name: "Arts and NEA revision template",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A reusable template for Art, Drama, Music, Dance, Food or D and T as named. Theory revision plus an NEA checkpoint list from the pasted spec. Not a way to produce the pupil work.",
   },
   {
@@ -344,6 +440,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "social-science-revision-template",
     name: "Social science revision template",
     category: "Revision",
+    role: "a teacher",
+    gate: false,
     job: "A reusable template for Sociology, Psychology, Citizenship or Media as named. Topics and named studies or CSPs only if the user listed them. Research methods from the spec.",
   },
   {
@@ -351,6 +449,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "gcse-economics-map",
     name: "GCSE Economics map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Economics. Units and quantitative skills from the pasted spec. Case-study practice without inventing a paper.",
   },
   {
@@ -358,6 +458,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "gcse-film-map",
     name: "GCSE Film Studies map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Film Studies. Set films only if the user named them. Components and NEA from the pasted spec.",
   },
   {
@@ -365,6 +467,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "gcse-engineering-map",
     name: "GCSE Engineering map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Engineering. Theory and NEA from the pasted spec. Workshop tasks only where the spec and this centre allow them.",
   },
   {
@@ -372,6 +476,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "gcse-electronics-map",
     name: "GCSE Electronics map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Electronics. Systems, circuits and NEA from the pasted spec. No invented component lists.",
   },
   {
@@ -379,6 +485,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "gcse-environmental-science-map",
     name: "GCSE Environmental Science map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Environmental Science. Topics and any practical or fieldwork requirement from the pasted spec.",
   },
   {
@@ -386,6 +494,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "gcse-geology-only-map",
     name: "GCSE Geology map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Geology only. Topics and fieldwork from the pasted spec. Do not mix in Astronomy.",
   },
   {
@@ -393,6 +503,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "gcse-astronomy-only-map",
     name: "GCSE Astronomy map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Astronomy only. Topics and observational requirements from the pasted spec. Do not mix in Geology.",
   },
   {
@@ -400,6 +512,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "gcse-classical-greek-map",
     name: "GCSE Classical Greek map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Classical Greek. Language and set texts from the pasted spec only. No invented passages.",
   },
   {
@@ -407,6 +521,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "gcse-biblical-hebrew-map",
     name: "GCSE Biblical Hebrew map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Biblical Hebrew. Language and set texts from the pasted spec only.",
   },
   {
@@ -414,6 +530,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "gcse-bsl-map",
     name: "GCSE British Sign Language map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for British Sign Language. Build only from the pasted spec and the centre's actual teaching model. This qualification is new. Do not copy spoken-MFL habits over it.",
   },
   {
@@ -421,6 +539,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "gcse-mandarin-map",
     name: "GCSE Chinese Mandarin map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Chinese (Mandarin). Skills and tiers from the pasted spec. Character and vocabulary lists only if the user pasted them.",
   },
   {
@@ -428,6 +548,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "gcse-italian-map",
     name: "GCSE Italian map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Italian. Themes and skills from the pasted spec. Vocabulary only from lists supplied.",
   },
   {
@@ -435,6 +557,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "gcse-urdu-map",
     name: "GCSE Urdu map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for Urdu. Themes and skills from the pasted spec. Script and vocabulary only from lists supplied.",
   },
   {
@@ -442,6 +566,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "gcse-short-course-map",
     name: "GCSE short-course map",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for a short-course GCSE the user names (often RS or PE). Content from that short-course spec only. Do not fill it with the full-course extras.",
   },
   {
@@ -449,6 +575,8 @@ export const deskItemsH: DeskItem[] = [
     slug: "gcse-any-subject-fallback",
     name: "Any other GCSE subject",
     category: "GCSE",
+    role: "a GCSE teacher",
+    gate: false,
     job: "Scheme and revision map for a GCSE the shelves do not name. Subject, board and spec code from the user. Build only from the pasted spec. If they did not paste one, stop and ask.",
   },
 ];

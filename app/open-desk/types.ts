@@ -3,6 +3,8 @@ export type DeskItem = {
   slug: string;
   name: string;
   category: string;
+  role: string;
+  gate: boolean;
   job: string;
 };
 

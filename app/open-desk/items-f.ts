@@ -7,6 +7,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "continuous-provision-plan",
     name: "Continuous provision plan",
     category: "Early years",
+    role: "an early years practitioner",
+    gate: false,
     job: "Plan continuous provision for the areas named. What is out, what the adults will notice, how it links to what this cohort is learning. No laminated labels for their own sake.",
   },
   {
@@ -14,6 +16,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "adult-led-eyfs-activity",
     name: "Adult-led EYFS activity",
     category: "Early years",
+    role: "an early years practitioner",
+    gate: false,
     job: "One adult-led activity. Group size, the hook, what the adult says, how you know it landed. Age in months if the user gave it.",
   },
   {
@@ -21,6 +25,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "observation-and-next-steps",
     name: "Observation and next steps",
     category: "Early years",
+    role: "an early years practitioner",
+    gate: false,
     job: "Turn a pasted observation into a short next step. What the child did. What you will offer next. No invented development bands.",
   },
   {
@@ -28,6 +34,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "learning-journal-comment",
     name: "Learning journal comment",
     category: "Early years",
+    role: "an early years practitioner",
+    gate: false,
     job: "A parent-facing journal comment from the observation given. Warm. Specific. Invite a reply from home.",
   },
   {
@@ -35,6 +43,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "characteristics-of-learning-note",
     name: "Characteristics of learning note",
     category: "Early years",
+    role: "an early years practitioner",
+    gate: false,
     job: "Describe how this child plays and learns, from what was seen. Playing and exploring, active learning, creating and thinking. Evidence only.",
   },
   {
@@ -42,6 +52,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "outdoor-provision-plan",
     name: "Outdoor provision plan",
     category: "Early years",
+    role: "an early years practitioner",
+    gate: false,
     job: "An outdoor session or week. Weather backup. Risks the user named. What the adults do besides stand near the bikes.",
   },
   {
@@ -49,6 +61,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "settling-in-plan-eyfs",
     name: "Settling-in plan",
     category: "Early years",
+    role: "an early years practitioner",
+    gate: false,
     job: "A settling plan for a new child. First days, key person, what home told you. Shorter days only if the family agreed.",
   },
   {
@@ -56,6 +70,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "key-person-handover",
     name: "Key person handover",
     category: "Early years",
+    role: "an early years practitioner",
+    gate: false,
     job: "Handover between key persons. Routines, comfort, who collects, what works. No gossip about the family.",
   },
   {
@@ -63,6 +79,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "two-year-progress-check",
     name: "Two-year progress check draft",
     category: "Early years",
+    role: "an early years practitioner",
+    gate: false,
     job: "Draft a two-year progress check from observations supplied. Strengths and any concern to share with the health visitor. The key person and parent still own it.",
   },
   {
@@ -70,6 +88,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "eyfs-profile-commentary",
     name: "EYFS profile commentary",
     category: "Early years",
+    role: "an early years practitioner",
+    gate: false,
     job: "A short profile commentary from the evidence listed. ELG language only if the user asked. No invented examples.",
   },
   {
@@ -77,6 +97,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "stay-and-play-plan",
     name: "Stay and play plan",
     category: "Early years",
+    role: "an early years practitioner",
+    gate: false,
     job: "A stay and play session families can join. What is out, how adults talk to parents, a way to leave without a scene.",
   },
   {
@@ -84,6 +106,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "ey-coregulation-note",
     name: "Early years co-regulation note",
     category: "Early years",
+    role: "an early years practitioner",
+    gate: false,
     job: "How adults will help a named child regulate, from what has already worked. Environment first. Not a punishment ladder.",
   },
   {
@@ -91,6 +115,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "speech-and-language-in-provision",
     name: "Speech and language in provision",
     category: "Early years",
+    role: "an early years practitioner",
+    gate: false,
     job: "Classroom strategies from the targets or therapist notes pasted. What every adult will say and do this week. No extra diagnosis.",
   },
   {
@@ -98,6 +124,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "reception-phonics-group",
     name: "Reception phonics group",
     category: "Early years",
+    role: "an early years practitioner",
+    gate: false,
     job: "A phonics group session from the code and scheme stage the user names. Revisit, teach, practise, apply. No invented scheme steps.",
   },
   {
@@ -105,6 +133,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "story-time-plan",
     name: "Story time plan",
     category: "Early years",
+    role: "an early years practitioner",
+    gate: false,
     job: "A story time that holds a group. Book, voices, one question, what happens after the last page.",
   },
   {
@@ -112,6 +142,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "reception-to-year-one-handover",
     name: "Reception to Year 1 handover",
     category: "Early years",
+    role: "an early years practitioner",
+    gate: false,
     job: "Handover to Year 1. How they learn, friendships, reading, what must not be lost in a more formal room.",
   },
   {
@@ -119,6 +151,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "home-learning-without-a-worksheet",
     name: "Home learning without a worksheet",
     category: "Early years",
+    role: "an early years practitioner",
+    gate: false,
     job: "One idea families can do in a kitchen or a walk. Tied to what the class is learning. No craft shopping list.",
   },
   {
@@ -126,6 +160,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "school-based-nursery-rest-note",
     name: "Rest time note",
     category: "Early years",
+    role: "an early years practitioner",
+    gate: false,
     job: "A rest or sleep routine note for a school-based nursery from the setting's own practice. Safer-sleep checks the user must confirm. Do not invent medical advice.",
   },
   {
@@ -133,6 +169,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "exam-timetable-staff-brief",
     name: "Exam timetable staff brief",
     category: "Exams office",
+    role: "an exams officer",
+    gate: false,
     job: "A staff brief from the timetable pasted. Who is released, who is on call, where clashes sit. Dates as given.",
   },
   {
@@ -140,6 +178,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "candidate-exam-briefing",
     name: "Candidate exam briefing",
     category: "Exams office",
+    role: "an exams officer",
+    gate: false,
     job: "What candidates need to hear before the first paper. Equipment, late arrival, malpractice in plain English. JCQ wording only if the user pasted the current line.",
   },
   {
@@ -147,6 +187,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "invigilator-briefing",
     name: "Invigilator briefing",
     category: "Exams office",
+    role: "an exams officer",
+    gate: false,
     job: "A briefing for invigilators this session. Room, access arrangements present, what to do if a candidate is ill. Do not invent JCQ paragraph numbers.",
   },
   {
@@ -154,6 +196,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "access-arrangements-room-plan",
     name: "Access arrangements room plan",
     category: "Exams office",
+    role: "an exams officer",
+    gate: false,
     job: "Who sits where and with which arrangement, from the list supplied. Rest breaks, readers, word processors. The SENCo confirms the file.",
   },
   {
@@ -161,6 +205,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "exam-clash-plan",
     name: "Exam clash plan",
     category: "Exams office",
+    role: "an exams officer",
+    gate: false,
     job: "A clash plan for the candidates named. Order of papers, supervision between them, food, who escorts. Overnight only if the user said it is needed.",
   },
   {
@@ -168,6 +214,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "very-late-arrival-note",
     name: "Very late arrival note",
     category: "Exams office",
+    role: "an exams officer",
+    gate: false,
     job: "What the centre does when a candidate arrives very late. Who decides whether they sit. What is written down. Check current JCQ.",
   },
   {
@@ -175,6 +223,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "special-consideration-skeleton",
     name: "Special consideration skeleton",
     category: "Exams office",
+    role: "an exams officer",
+    gate: false,
     job: "A skeleton for a special consideration request from facts given. Do not invent a percentage. The exams officer submits it.",
   },
   {
@@ -182,6 +232,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "exam-malpractice-holding-note",
     name: "Exam malpractice holding note",
     category: "Exams office",
+    role: "an exams officer",
+    gate: false,
     job: "A holding note after suspected malpractice. What was seen, who was present, scripts isolated. Do not decide guilt. Awarding body process leads.",
   },
   {
@@ -189,6 +241,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "exam-evacuation-script",
     name: "Exam evacuation script",
     category: "Exams office",
+    role: "an exams officer",
+    gate: false,
     job: "What invigilators say and do if the room must be evacuated mid-paper. Silence, scripts, assembly point. No detail that would help someone cheat later.",
   },
   {
@@ -196,6 +250,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "candidate-absent-exam-day",
     name: "Candidate absent on exam day",
     category: "Exams office",
+    role: "an exams officer",
+    gate: false,
     job: "A crib for absence on the day. Who calls home, whether a later paper is possible, special consideration if relevant. Facts only.",
   },
   {
@@ -203,6 +259,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "word-processor-exam-protocol",
     name: "Word processor exam protocol",
     category: "Exams office",
+    role: "an exams officer",
+    gate: false,
     job: "A one-page protocol for word processors in exams at this centre. Setup, spellcheck rules as the centre applies them, printing, candidate declaration.",
   },
   {
@@ -210,6 +268,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "results-day-logistics",
     name: "Results day logistics",
     category: "Exams office",
+    role: "an exams officer",
+    gate: false,
     job: "A results day run sheet. Who is in, when envelopes open, where upset candidates go, who speaks to the press. No predicted percentages.",
   },
   {
@@ -217,6 +277,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "review-of-results-parent-note",
     name: "Review of results parent note",
     category: "Exams office",
+    role: "an exams officer",
+    gate: false,
     job: "A parent note on reviews of marking or appeals. Deadlines, cost, the risk a mark can go down. Use only the process the centre actually offers.",
   },
   {
@@ -224,6 +286,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "private-candidate-process",
     name: "Private candidate process",
     category: "Exams office",
+    role: "an exams officer",
+    gate: false,
     job: "A process note if this centre accepts private candidates. ID, entries, fees, what the centre will not do. Say so if it does not take them.",
   },
   {
@@ -231,6 +295,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "script-dispatch-checklist",
     name: "Script dispatch checklist",
     category: "Exams office",
+    role: "an exams officer",
+    gate: false,
     job: "A packing and dispatch checklist. Attendance, seating plan, packing, courier. Order it the way the office actually works.",
   },
   {
@@ -238,6 +304,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "cover-supervisor-day-brief",
     name: "Cover supervisor day brief",
     category: "Cover",
+    role: "a cover supervisor",
+    gate: false,
     job: "A morning brief for the cover supervisor. Rooms, groups, where work is, who to call. Assume they are not the subject specialist.",
   },
   {
@@ -245,6 +313,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "how-to-start-a-cover-lesson",
     name: "How to start a cover lesson",
     category: "Cover",
+    role: "a cover supervisor",
+    gate: false,
     job: "The first five minutes when you do not know the class. Register, the work, the noise level you will accept, how to get help.",
   },
   {
@@ -252,6 +322,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "cover-when-no-work-was-left",
     name: "Cover when no work was left",
     category: "Cover",
+    role: "a cover supervisor",
+    gate: false,
     job: "A fallback when the absent teacher left nothing usable. Quiet, legal, not a free period. Subject-agnostic tasks the user can keep in a folder.",
   },
   {
@@ -259,6 +331,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "when-cover-work-runs-out",
     name: "When cover work runs out",
     category: "Cover",
+    role: "a cover supervisor",
+    gate: false,
     job: "What to do in the last fifteen minutes if the work is finished. No phones by default. A short extension that does not need specialist knowledge.",
   },
   {
@@ -266,6 +340,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "cover-in-a-practical-subject",
     name: "Cover in a practical subject",
     category: "Cover",
+    role: "a cover supervisor",
+    gate: false,
     job: "What a cover supervisor may and must not run in science, D&T, PE or food. Default: no practical unless a specialist is in the room. Alternative desk work.",
   },
   {
@@ -273,6 +349,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "behaviour-in-cover",
     name: "Behaviour in cover",
     category: "Cover",
+    role: "a cover supervisor",
+    gate: false,
     job: "How to hold a class you do not teach every day. The school's routines if pasted. When to send for help. Not a new policy.",
   },
   {
@@ -280,6 +358,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "cover-log-for-the-teacher",
     name: "Cover log for the teacher",
     category: "Cover",
+    role: "a cover supervisor",
+    gate: false,
     job: "A note back to the absent teacher. What was completed, who struggled, incidents, work collected. Factual.",
   },
   {
@@ -287,6 +367,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "sending-for-help-in-cover",
     name: "Sending for help in cover",
     category: "Cover",
+    role: "a cover supervisor",
+    gate: false,
     job: "A crib for when cover is not safe or not possible. Who to call, what to write, how to keep the rest of the class working.",
   },
   {
@@ -294,6 +376,8 @@ export const deskItemsF: DeskItem[] = [
     slug: "emergency-cover-mid-morning",
     name: "Emergency cover mid-morning",
     category: "Cover",
+    role: "a cover supervisor",
+    gate: false,
     job: "A plan for a colleague going home at break. Who takes the next period, where the work lives, what to tell the class.",
   },
 ];

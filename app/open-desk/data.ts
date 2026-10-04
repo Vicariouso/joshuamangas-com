@@ -1,4 +1,5 @@
 import { contextBlock, sharedPreamble } from "./preamble";
+export { contextBlock, sharedPreamble };
 import { deskItemsA } from "./items-a";
 import { deskItemsB } from "./items-b";
 import { deskItemsC } from "./items-c";
