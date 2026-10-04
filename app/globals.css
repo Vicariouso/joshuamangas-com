@@ -44,6 +44,39 @@
   --font-display: var(--display);
 }
 
+@theme {
+  --color-bg-deep: #0c0a08;
+  --color-panel: #262017;
+  --color-panel-2: #33291f;
+  --color-line: #4a3e32;
+  --color-brass: #c6a36a;
+  --color-brass-deep: #8a6a38;
+  --color-cream: #f4ecdf;
+  --color-cream-dim: #ddcfc0;
+  --color-mute: #a89884;
+  --color-warn: #e7a090;
+  --color-set: #ffe14a;
+  --color-loose: #ff5ad8;
+  --color-gem-ember: #ff3b30;
+  --color-gem-ember-light: #ffd2ce;
+  --color-gem-ember-deep: #c4121a;
+  --color-gem-honey: #ffd000;
+  --color-gem-honey-light: #fff3b0;
+  --color-gem-honey-deep: #c89600;
+  --color-gem-pine: #22d36b;
+  --color-gem-pine-light: #c9f8dc;
+  --color-gem-pine-deep: #0d8a40;
+  --color-gem-ink: #4c94ff;
+  --color-gem-ink-light: #d7e7ff;
+  --color-gem-ink-deep: #1456c8;
+  --color-gem-clay: #ff7a14;
+  --color-gem-clay-light: #ffe0c2;
+  --color-gem-clay-deep: #c45100;
+  --color-gem-mist: #3ee0ff;
+  --color-gem-mist-light: #e6fbff;
+  --color-gem-mist-deep: #0aa8cc;
+}
+
 * { box-sizing: border-box; }
 html {
   height: 100%;

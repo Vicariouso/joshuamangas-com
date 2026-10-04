@@ -200,6 +200,32 @@ export default function Home() {
         </section>
 
         <section
+          id="locket"
+          aria-labelledby="locket-heading"
+          className="section-ghost"
+        >
+          <p className="ghost-word" aria-hidden="true">LOCKET</p>
+          <div className="shell-prose px-6 py-10 sm:px-8 sm:py-14">
+          <p className="meta text-accent">A free daily puzzle</p>
+          <h2 id="locket-heading" className="type-h2 mt-3 text-text">
+            Four gems. One seal. Midnight.
+          </h2>
+          <p className="prose-copy">
+            Locket is a small puzzle I made to play. Place four gems. The
+            reading counts how many are set and how many are loose. It does
+            not say which socket. Easy is 15 tries, Intermediate is 10, Hard
+            is 6. The same seal for everyone, from midnight UTC. It stays on
+            this device.
+          </p>
+          <p className="mt-8">
+            <a href="/locket/" className="btn-ghost">
+              Play Locket
+            </a>
+          </p>
+          </div>
+        </section>
+
+        <section
           id="writing"
           className="section-ghost"
           aria-labelledby="writing-heading"

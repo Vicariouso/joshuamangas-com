@@ -1,0 +1,425 @@
+/* Locket board. Color tokens are registered in globals.css. Rules stay under .locket-root. */
+
+.locket-stage {
+  background:
+    radial-gradient(
+      ellipse 90% 42% at 50% -8%,
+      color-mix(in oklab, var(--color-brass) 16%, transparent),
+      transparent 62%
+    ),
+    #16130f;
+  color: var(--color-cream);
+  color-scheme: dark;
+}
+
+.locket-stage :focus-visible {
+  outline: 2px solid var(--color-brass);
+  outline-offset: 3px;
+}
+
+.locket-stage section,
+main.locket-stage section + section {
+  border-top: 0;
+}
+
+.locket-root {
+  --radius-lock: 1.35rem;
+}
+
+.locket-root.locket-play {
+  height: calc(100dvh - var(--locket-top, 4rem));
+  max-height: calc(100dvh - var(--locket-top, 4rem));
+  overflow: hidden;
+}
+
+.locket-root.locket-rest {
+  min-height: calc(100dvh - var(--locket-top, 4rem));
+}
+
+.locket-root .mast {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr 5.5rem;
+  align-items: center;
+}
+
+.locket-root .key-hint {
+  display: none;
+}
+
+@media (min-width: 720px) {
+  .locket-root .key-hint {
+    display: block;
+  }
+}
+
+.locket-root .plate {
+  background:
+    linear-gradient(180deg, color-mix(in oklab, var(--color-brass) 9%, transparent), transparent 34%),
+    var(--color-panel);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-lock);
+  box-shadow:
+    inset 0 1px 0 color-mix(in oklab, var(--color-cream) 14%, transparent),
+    0 18px 40px color-mix(in oklab, black 35%, transparent);
+}
+
+.locket-root .socket {
+  position: relative;
+  display: grid;
+  width: 3.25rem;
+  height: 3.25rem;
+  place-items: center;
+  border-radius: 999px;
+  border: 1.5px solid color-mix(in oklab, var(--color-brass) 68%, var(--color-line));
+  background: color-mix(in oklab, var(--color-bg-deep) 78%, var(--color-brass));
+  box-shadow: inset 0 2px 5px color-mix(in oklab, black 65%, transparent);
+}
+
+.locket-root .socket.is-next {
+  animation: socket-wait 1.6s ease-in-out infinite;
+}
+
+.locket-root .socket:has([data-gem="ember"]) {
+  --socket: var(--color-gem-ember);
+}
+.locket-root .socket:has([data-gem="honey"]) {
+  --socket: var(--color-gem-honey);
+}
+.locket-root .socket:has([data-gem="pine"]) {
+  --socket: var(--color-gem-pine);
+}
+.locket-root .socket:has([data-gem="ink"]) {
+  --socket: var(--color-gem-ink);
+}
+.locket-root .socket:has([data-gem="clay"]) {
+  --socket: var(--color-gem-clay);
+}
+.locket-root .socket:has([data-gem="mist"]) {
+  --socket: var(--color-gem-mist);
+}
+.locket-root .socket:has([data-gem]) {
+  border-color: var(--socket);
+  border-width: 2.5px;
+  background: color-mix(in oklab, var(--socket) 24%, var(--color-bg-deep));
+  box-shadow:
+    inset 0 2px 5px color-mix(in oklab, black 45%, transparent),
+    0 0 12px color-mix(in oklab, var(--socket) 48%, transparent);
+}
+
+.locket-root .reading {
+  display: flex;
+  width: 2.6rem;
+  min-height: 2.4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.locket-root .gem {
+  display: block;
+  width: 2.65rem;
+  height: 2.65rem;
+}
+
+.locket-root .reading-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.28rem;
+}
+
+.locket-root .reading-line {
+  display: flex;
+  align-items: center;
+  gap: 0.28rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.locket-root .pip {
+  width: 0.85rem;
+  height: 0.85rem;
+  box-sizing: border-box;
+  flex: none;
+  border-radius: 999px;
+}
+
+.locket-root .pip-set {
+  background: var(--color-set);
+  box-shadow:
+    inset 0 0 0 1px color-mix(in oklab, var(--color-set) 70%, black),
+    0 0 8px color-mix(in oklab, var(--color-set) 75%, transparent);
+}
+
+.locket-root .pip-loose {
+  background: transparent;
+  border: 2.5px solid var(--color-loose);
+  box-shadow: 0 0 8px color-mix(in oklab, var(--color-loose) 65%, transparent);
+}
+
+.locket-root .pip-empty {
+  background: color-mix(in oklab, var(--color-bg-deep) 70%, transparent);
+  border: 2px solid color-mix(in oklab, var(--color-line) 90%, transparent);
+}
+
+.locket-root .icon-btn {
+  display: grid;
+  width: 2.75rem;
+  height: 2.75rem;
+  place-items: center;
+  border-radius: 999px;
+  color: var(--color-cream);
+  touch-action: manipulation;
+}
+
+.locket-root .icon-btn:hover {
+  background: color-mix(in oklab, var(--color-cream) 8%, transparent);
+}
+
+.locket-root .tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.25rem;
+  padding: 0.25rem;
+  border: 1px solid var(--color-line);
+  border-radius: 999px;
+  background: var(--color-bg-deep);
+}
+
+.locket-root .tab {
+  min-height: 2.75rem;
+  border-radius: 999px;
+  color: var(--color-mute);
+  font-weight: 600;
+}
+
+.locket-root .tab[aria-selected="true"] {
+  background: var(--color-panel-2);
+  color: var(--color-cream);
+  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--color-brass) 50%, transparent);
+}
+
+.locket-root .level-tabs {
+  display: grid;
+  grid-template-columns: 0.8fr 1.45fr 0.8fr;
+  gap: 0.25rem;
+  padding: 0.25rem;
+  border: 1px solid var(--color-line);
+  border-radius: 999px;
+  background: var(--color-bg-deep);
+}
+
+.locket-root .level-tab {
+  min-height: 2.75rem;
+  border-radius: 999px;
+  color: var(--color-mute);
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.locket-root .level-tab[aria-selected="true"] {
+  background: var(--color-panel-2);
+  color: var(--color-cream);
+  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--color-brass) 50%, transparent);
+}
+
+.locket-root .level-tries {
+  margin-left: 0.3rem;
+  color: var(--color-mute);
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.locket-root .level-tab[aria-selected="true"] .level-tries {
+  color: var(--color-brass);
+}
+
+.locket-root .btn {
+  min-height: 3rem;
+  border-radius: 999px;
+  padding: 0 1.25rem;
+  font-weight: 600;
+  touch-action: manipulation;
+}
+
+.locket-root .btn-primary {
+  background: var(--color-brass);
+  color: var(--color-bg-deep);
+}
+
+.locket-root .btn-primary:hover {
+  background: color-mix(in oklab, var(--color-brass) 86%, white);
+}
+
+.locket-root .btn-ghost {
+  border: 1px solid var(--color-line);
+  background: transparent;
+  color: var(--color-cream);
+}
+
+.locket-root .btn-ghost:hover {
+  border-color: color-mix(in oklab, var(--color-brass) 55%, var(--color-line));
+}
+
+.locket-root .btn.is-dim {
+  opacity: 0.45;
+}
+
+.locket-root .tray-gem {
+  position: relative;
+  display: flex;
+  min-height: 4.75rem;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  border-radius: 0.9rem;
+  touch-action: manipulation;
+}
+
+.locket-root .tray-gem:has([data-gem="ember"]) {
+  --socket: var(--color-gem-ember);
+}
+.locket-root .tray-gem:has([data-gem="honey"]) {
+  --socket: var(--color-gem-honey);
+}
+.locket-root .tray-gem:has([data-gem="pine"]) {
+  --socket: var(--color-gem-pine);
+}
+.locket-root .tray-gem:has([data-gem="ink"]) {
+  --socket: var(--color-gem-ink);
+}
+.locket-root .tray-gem:has([data-gem="clay"]) {
+  --socket: var(--color-gem-clay);
+}
+.locket-root .tray-gem:has([data-gem="mist"]) {
+  --socket: var(--color-gem-mist);
+}
+.locket-root .tray-gem:has([data-gem]) {
+  background: color-mix(in oklab, var(--socket) 16%, transparent);
+}
+
+.locket-root .tray-gem:hover {
+  background: color-mix(in oklab, var(--color-cream) 6%, transparent);
+}
+
+.locket-root .tray-gem:active {
+  transform: scale(0.96);
+}
+
+.locket-root .tray-gem.is-out {
+  opacity: 0.32;
+  filter: grayscale(0.75);
+}
+
+.locket-root .row-won {
+  border-radius: 999px;
+  background: color-mix(in oklab, var(--color-brass) 10%, transparent);
+  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--color-brass) 45%, transparent);
+}
+
+.locket-root .switch {
+  position: relative;
+  width: 2.75rem;
+  height: 1.7rem;
+  flex: none;
+  border: 1px solid var(--color-line);
+  border-radius: 999px;
+  background: var(--color-bg-deep);
+}
+
+.locket-root .switch span {
+  position: absolute;
+  top: 0.15rem;
+  left: 0.15rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 999px;
+  background: var(--color-mute);
+  transition: transform 160ms ease;
+}
+
+.locket-root .switch.on {
+  border-color: var(--color-brass);
+  background: color-mix(in oklab, var(--color-brass) 35%, var(--color-bg-deep));
+}
+
+.locket-root .switch.on span {
+  transform: translateX(1.05rem);
+  background: var(--color-brass);
+}
+
+.locket-root .share-text {
+  user-select: text;
+  -webkit-user-select: text;
+  white-space: pre;
+}
+
+.locket-root .locket-rattle {
+  animation: locket-rattle 360ms ease;
+}
+
+.locket-root .pip-in {
+  animation: pip-in 220ms ease backwards;
+}
+
+@keyframes locket-rattle {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-4px);
+  }
+  40% {
+    transform: translateX(4px);
+  }
+  60% {
+    transform: translateX(-3px);
+  }
+  80% {
+    transform: translateX(3px);
+  }
+}
+
+@keyframes pip-in {
+  from {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes socket-wait {
+  0%,
+  100% {
+    border-color: color-mix(in oklab, var(--color-brass) 32%, transparent);
+  }
+  50% {
+    border-color: var(--color-brass);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .locket-root .locket-rattle,
+  .locket-root .pip-in,
+  .locket-root .socket.is-next {
+    animation: none;
+  }
+
+  .locket-root .socket.is-next {
+    border-color: var(--color-brass);
+  }
+
+  .locket-root .switch span,
+  .locket-root .tray-gem:active {
+    transition: none;
+    transform: none;
+  }
+}

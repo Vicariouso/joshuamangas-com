@@ -16,8 +16,9 @@ export function SiteHeader() {
     pathname === "/open-desk/" ||
     pathname === "/free-school-ai" ||
     pathname === "/free-school-ai/";
+  const onLocket = pathname === "/locket" || pathname === "/locket/";
   const [current, setCurrent] = useState<string>(
-    onWorkshop ? "workshop" : onLibrary ? "free-school-ai" : "work",
+    onWorkshop ? "workshop" : onLibrary ? "free-school-ai" : onLocket ? "locket" : "work",
   );
 
   useEffect(() => {
@@ -27,6 +28,10 @@ export function SiteHeader() {
     }
     if (onLibrary) {
       setCurrent("free-school-ai");
+      return;
+    }
+    if (onLocket) {
+      setCurrent("locket");
       return;
     }
 
@@ -51,7 +56,7 @@ export function SiteHeader() {
 
     elements.forEach((el) => observer.observe(el));
     return () => observer.disconnect();
-  }, [onWorkshop, onLibrary]);
+  }, [onWorkshop, onLibrary, onLocket]);
 
   return (
     <header className="site-header">
@@ -71,7 +76,7 @@ export function SiteHeader() {
               key={item.id}
               href={item.href}
               aria-current={
-                !onWorkshop && !onLibrary && current === item.id
+                !onWorkshop && !onLibrary && !onLocket && current === item.id
                   ? "true"
                   : undefined
               }
@@ -84,6 +89,9 @@ export function SiteHeader() {
             aria-current={onWorkshop ? "true" : undefined}
           >
             How I build
+          </a>
+          <a href="/locket/" aria-current={onLocket ? "true" : undefined}>
+            Locket
           </a>
           <a
             href="/free-school-ai/"
