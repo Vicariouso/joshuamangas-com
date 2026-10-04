@@ -10,6 +10,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Schemes",
     role: "a teacher writing a scheme",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A Year 9 into Year 10 scheme from the pasted GCSE spec. What Year 9 must secure so Year 10 is not a restart. Name the gaps if the user listed them. Do not add topics that are not in the spec.",
   },
   {
@@ -19,6 +20,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Schemes",
     role: "a teacher writing a scheme",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Two versions of a scheme from the same pasted spec: blocked units, then an interleaved version. Say which weeks change. The teacher picks one.",
   },
   {
@@ -28,6 +30,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Schemes",
     role: "a teacher writing a scheme",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A scheme for a mixed-ability GCSE class from the pasted spec. Core route and stretch route in the same lesson sequence. Foundation and Higher only where the spec actually splits.",
   },
   {
@@ -37,6 +40,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Schemes",
     role: "a teacher writing a scheme",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A scheme for the set the user names, from the pasted spec and tier. What this set will skip or meet later. Do not write a different spec for them.",
   },
   {
@@ -46,6 +50,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Schemes",
     role: "a teacher writing a scheme",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A scheme from the mock date to the first paper date. Built from the pasted spec and the weak topics the user listed. Class time and home time split.",
   },
   {
@@ -55,6 +60,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Schemes",
     role: "a teacher writing a scheme",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A six to eight week catch-up from mock question-level data the user pastes. Highest-tariff gaps first. No invented marks or grade boundaries.",
   },
   {
@@ -64,6 +70,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Schemes",
     role: "a teacher writing a scheme",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A scheme for a small GCSE intervention group. Minutes per week as given. Three or four high-value moves from the pasted spec, not a second full course.",
   },
   {
@@ -73,6 +80,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Schemes",
     role: "a teacher writing a scheme",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A one-year resit or November-entry scheme from the pasted spec. What to reteach, what to practise. Post-16 or Year 12 if the user said so.",
   },
   {
@@ -82,6 +90,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Schemes",
     role: "a teacher writing a scheme",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A calendar of required practicals from the pasted science spec. Rooms, equipment the user named, write-up checkpoints. Skip any practical not listed in the spec.",
   },
   {
@@ -91,6 +100,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Schemes",
     role: "a teacher writing a scheme",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A two-year map that protects both NEA deadlines and exam content from the pasted spec. Weeks that cannot slip. What the teacher may and may not do on the NEA.",
   },
   {
@@ -100,6 +110,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Schemes",
     role: "a teacher writing a scheme",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A half-term homework cycle that matches the scheme. Retrieval plus one exam-style task. Work a pupil can do without a specialist adult at home.",
   },
   {
@@ -109,6 +120,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Schemes",
     role: "a teacher writing a scheme",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Add a retrieval spine to an existing scheme the user pastes. What is revisited in week 3, week 8, week 16. Do not invent extra content.",
   },
   {
@@ -118,6 +130,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Schemes",
     role: "a teacher writing a scheme",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Rewrite a scheme so a cover supervisor can run the non-specialist lessons. Flag any lesson that must not run without the specialist (practical, speaking exam, NEA).",
   },
   {
@@ -127,6 +140,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Schemes",
     role: "a teacher writing a scheme",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A workable year for a teacher who has Year 10 and Year 11 in the same subject. Shared prep where it is honest. Exam class protected in the spring.",
   },
   {
@@ -136,6 +150,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Schemes",
     role: "a teacher writing a scheme",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "An assessment calendar from the pasted spec and the school's mock windows. What each assessment actually samples. No fake grade boundaries.",
   },
   {
@@ -145,6 +160,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A six-week countdown to the first paper date named. One weekly focus from the pasted spec. Class, form time and home. Stop adding new content in the last ten days unless the user insists.",
   },
   {
@@ -154,6 +170,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A twelve-week revision programme from today to the first paper. Cycle through papers or topics as the spec splits them. Built-in rest weeks if the calendar has them.",
   },
   {
@@ -163,6 +180,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A one or two page knowledge organiser for the unit named, using only the pasted spec and the teacher's notes. Definitions, must-know items, one worked example if the subject needs it. No extra facts.",
   },
   {
@@ -172,6 +190,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A retrieval grid for a lesson or a week. Last lesson, last month, last term. Answers on a second page. Only content from the spec or notes pasted.",
   },
   {
@@ -181,6 +200,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A pupil-facing RAG list from the pasted spec topic headings. Space for the pupil to mark red, amber, green. Teacher version with the high-tariff topics flagged if the spec weighting is given.",
   },
   {
@@ -190,6 +210,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A walking talking mock plan for the paper the user names. Timing, which questions to model, when pupils work in silence. Use a real paper only if they pasted one. Do not invent questions that pretend to be the board.",
   },
   {
@@ -199,6 +220,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A clinic structure for a past paper the user has. Which questions to reteach, how to mark, what to set next. If they did not paste a paper, ask for it. Do not write a fake paper.",
   },
   {
@@ -208,6 +230,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A plan to secure a standard pass from the pasted spec and the gaps given. High-frequency, lower-tariff content first. Say when this is the wrong plan because the pupil is already beyond it.",
   },
   {
@@ -217,6 +240,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A plan for pupils aiming at 7 to 9 from the pasted spec. Higher-tier only content marked. Extended response and multi-step practice. No invented grade boundaries.",
   },
   {
@@ -226,6 +250,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Home revision that does not need a quiet study, a printer or a parent who did the subject. Short sessions. Phone off. From the pasted spec only.",
   },
   {
@@ -235,6 +260,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A one-page note for families. What helps, what does not, dates of papers if given. No claim that a bought pack will raise a grade.",
   },
   {
@@ -244,6 +270,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A 15 or 20 minute form-time revision slot a non-specialist tutor can run. One subject per day if the user listed a rota. Cards or questions only from what they paste.",
   },
   {
@@ -253,6 +280,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A must-know pack for the subject named: quotations, formulae, dates, case studies or vocabulary, but only items the user supplied or that sit in the pasted spec list. Leave blanks as [NEED] rather than invent.",
   },
   {
@@ -262,6 +290,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "One page of exam technique for the paper named. Timing, command words from the pasted spec or mark scheme, what the last five minutes are for. No folklore about how examiners think.",
   },
   {
@@ -271,6 +300,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A common-mistakes sheet from the errors the user listed or from a marked paper they pasted. If they gave nothing, ask. Do not invent a national list of how pupils fail.",
   },
   {
@@ -280,6 +310,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A Saturday and Sunday plan before the first paper. Sleep, short retrieval, one timed section. Not a 14-hour cram.",
   },
   {
@@ -289,6 +320,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "What to do in the next lesson after a paper. What to stop talking about. What the next paper still needs. No post-mortem that spreads panic.",
   },
   {
@@ -298,6 +330,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A PLC from the pasted spec headings. Pupil self-RAG plus a column for evidence. Teacher can filter to the group they named.",
   },
   {
@@ -307,6 +340,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "One week that mixes three or four already-taught topics from the spec. Daily mix, Friday check. Do not introduce new content unless the user asked.",
   },
   {
@@ -316,6 +350,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A short year-group brief on how to revise this term. Concrete. No growth-mindset sermon. Dates only if supplied.",
   },
   {
@@ -325,6 +360,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A reusable Language revision template. Paper by paper from the pasted spec. Reading steps, writing plans, timings. Practice tasks that match those papers. No invented inserts or mark schemes.",
   },
   {
@@ -334,6 +370,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A reusable Literature revision template. One sheet per set text the user named. Plot beats, characters, themes, a quotation bank only from lines they paste. Comparison grid if the spec asks for it.",
   },
   {
@@ -343,6 +380,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A reusable Maths revision template. Topic RAG from the pasted spec. Calculator and non-calculator lists. Five-a-day starters. Weak-topic first if mock data was given. Foundation or Higher as named.",
   },
   {
@@ -352,6 +390,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A reusable Combined Science template. Biology, chemistry, physics columns from the pasted spec. Required practicals only if listed. Paper split as the spec states. Trilogy or Synergy as named.",
   },
   {
@@ -361,6 +400,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A reusable template for separate Biology, Chemistry or Physics as named. Topics, equations and practicals from that pasted spec only. Do not pull Combined Science content across.",
   },
   {
@@ -370,6 +410,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A reusable History template. One sheet per study the user named. Timeline, second-order concepts, question stems from the pasted spec. No extra periods or sites.",
   },
   {
@@ -379,6 +420,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A reusable Geography template. Themes, fieldwork and issue evaluation from the pasted spec. Case-study sheets only for places the user named.",
   },
   {
@@ -388,6 +430,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A reusable language revision template. Listening, speaking, reading, writing as that spec sets them. Vocabulary and grammar only from lists the user pastes. For French, German and Spanish awards after June 2026 use the new lists if provided.",
   },
   {
@@ -397,6 +440,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A reusable Computer Science template. Theory topics and programming from the pasted spec. Trace-table and pseudocode practice. Language only if the centre named one.",
   },
   {
@@ -406,6 +450,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A reusable RS template. Beliefs and practices for the religions named, plus themes from the pasted spec. Short course if they said so. No invented teachings.",
   },
   {
@@ -415,6 +460,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A reusable template for Business or Economics as named. Calculations, case-study habits and units from the pasted spec. No invented paper.",
   },
   {
@@ -424,6 +470,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A reusable PE template. Theory papers from the pasted spec. NEA and sports only as this centre assesses them. Do not invent practical marks.",
   },
   {
@@ -433,6 +480,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A reusable template for Art, Drama, Music, Dance, Food or D and T as named. Theory revision plus an NEA checkpoint list from the pasted spec. Not a way to produce the pupil work.",
   },
   {
@@ -442,6 +490,7 @@ export const deskItemsH: DeskItem[] = [
     category: "Revision",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A reusable template for Sociology, Psychology, Citizenship or Media as named. Topics and named studies or CSPs only if the user listed them. Research methods from the spec.",
   },
   {
@@ -451,6 +500,7 @@ export const deskItemsH: DeskItem[] = [
     category: "GCSE",
     role: "a GCSE teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Scheme and revision map for Economics. Units and quantitative skills from the pasted spec. Case-study practice without inventing a paper.",
   },
   {
@@ -460,6 +510,7 @@ export const deskItemsH: DeskItem[] = [
     category: "GCSE",
     role: "a GCSE teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Scheme and revision map for Film Studies. Set films only if the user named them. Components and NEA from the pasted spec.",
   },
   {
@@ -469,6 +520,7 @@ export const deskItemsH: DeskItem[] = [
     category: "GCSE",
     role: "a GCSE teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Scheme and revision map for Engineering. Theory and NEA from the pasted spec. Workshop tasks only where the spec and this centre allow them.",
   },
   {
@@ -478,6 +530,7 @@ export const deskItemsH: DeskItem[] = [
     category: "GCSE",
     role: "a GCSE teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Scheme and revision map for Electronics. Systems, circuits and NEA from the pasted spec. No invented component lists.",
   },
   {
@@ -487,6 +540,7 @@ export const deskItemsH: DeskItem[] = [
     category: "GCSE",
     role: "a GCSE teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Scheme and revision map for Environmental Science. Topics and any practical or fieldwork requirement from the pasted spec.",
   },
   {
@@ -496,6 +550,7 @@ export const deskItemsH: DeskItem[] = [
     category: "GCSE",
     role: "a GCSE teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Scheme and revision map for Geology only. Topics and fieldwork from the pasted spec. Do not mix in Astronomy.",
   },
   {
@@ -505,6 +560,7 @@ export const deskItemsH: DeskItem[] = [
     category: "GCSE",
     role: "a GCSE teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Scheme and revision map for Astronomy only. Topics and observational requirements from the pasted spec. Do not mix in Geology.",
   },
   {
@@ -514,6 +570,7 @@ export const deskItemsH: DeskItem[] = [
     category: "GCSE",
     role: "a GCSE teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Scheme and revision map for Classical Greek. Language and set texts from the pasted spec only. No invented passages.",
   },
   {
@@ -523,6 +580,7 @@ export const deskItemsH: DeskItem[] = [
     category: "GCSE",
     role: "a GCSE teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Scheme and revision map for Biblical Hebrew. Language and set texts from the pasted spec only.",
   },
   {
@@ -532,6 +590,7 @@ export const deskItemsH: DeskItem[] = [
     category: "GCSE",
     role: "a GCSE teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Scheme and revision map for British Sign Language. Build only from the pasted spec and the centre's actual teaching model. This qualification is new. Do not copy spoken-MFL habits over it.",
   },
   {
@@ -541,6 +600,7 @@ export const deskItemsH: DeskItem[] = [
     category: "GCSE",
     role: "a GCSE teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Scheme and revision map for Chinese (Mandarin). Skills and tiers from the pasted spec. Character and vocabulary lists only if the user pasted them.",
   },
   {
@@ -550,6 +610,7 @@ export const deskItemsH: DeskItem[] = [
     category: "GCSE",
     role: "a GCSE teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Scheme and revision map for Italian. Themes and skills from the pasted spec. Vocabulary only from lists supplied.",
   },
   {
@@ -559,6 +620,7 @@ export const deskItemsH: DeskItem[] = [
     category: "GCSE",
     role: "a GCSE teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Scheme and revision map for Urdu. Themes and skills from the pasted spec. Script and vocabulary only from lists supplied.",
   },
   {
@@ -568,6 +630,7 @@ export const deskItemsH: DeskItem[] = [
     category: "GCSE",
     role: "a GCSE teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Scheme and revision map for a short-course GCSE the user names (often RS or PE). Content from that short-course spec only. Do not fill it with the full-course extras.",
   },
   {
@@ -577,6 +640,7 @@ export const deskItemsH: DeskItem[] = [
     category: "GCSE",
     role: "a GCSE teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Scheme and revision map for a GCSE the shelves do not name. Subject, board and spec code from the user. Build only from the pasted spec. If they did not paste one, stop and ask.",
   },
 ];

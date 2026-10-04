@@ -9,6 +9,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A Year 7 to Year 9 scheme from the pasted programme of study or the school's own curriculum. What must be secure by the end of Year 9. Do not smuggle GCSE topics in unless the school already does that and said so.",
   },
   {
@@ -18,6 +19,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A Year 7 and Year 8 scheme when Year 9 starts the GCSE. What cannot be dropped. What Year 9 will still need if the GCSE assumes it. Build only from what the user pasted.",
   },
   {
@@ -27,6 +29,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "One year of Year 7 from the pasted curriculum. First half term that settles the class. Assessment points that are not mini-GCSEs. Homework a family can support without a textbook.",
   },
   {
@@ -36,6 +39,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "One year of Year 8 from the pasted curriculum. What Year 7 left unfinished if the user named it. Harder thinking, not just more content.",
   },
   {
@@ -45,6 +49,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "One year of Year 9 from the pasted curriculum. If this year is still KS3, keep it KS3. If the school has started the GCSE, say so and use the pasted spec instead.",
   },
   {
@@ -54,6 +59,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A first half term that uses the KS2 information the user pasted. Reading ages, what they can already do, what Year 6 did not finish. No invented SATs scores.",
   },
   {
@@ -63,6 +69,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A scheme for a mixed-ability KS3 class. Core and stretch in the same sequence. Support that is not a different curriculum in disguise.",
   },
   {
@@ -72,6 +79,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "An assessment calendar for the key stage. What each checkpoint actually samples from the pasted curriculum. No fake GCSE grades unless the school already uses them and the user said so.",
   },
   {
@@ -81,6 +89,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A retrieval spine across Years 7 to 9 from the pasted curriculum. What returns in the next year. Do not add extra facts.",
   },
   {
@@ -90,6 +99,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A half-term homework cycle. Short. Retrieval or practice. Work that does not need a specialist adult or a printer.",
   },
   {
@@ -99,6 +109,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A catch-up plan from the reading or writing evidence the user pasted. Minutes per week as given. Phonics or fluency only if that is what the data points to. No invented reading ages.",
   },
   {
@@ -108,6 +119,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A catch-up plan from the number gaps the user listed. Secure the prerequisites before the Year 8 or Year 9 topic that needs them.",
   },
   {
@@ -117,6 +129,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A parent and pupil brief for Year 8 or Year 9 options. What this school actually offers. EBacc only if the school uses that language. No career fortune-telling.",
   },
   {
@@ -126,6 +139,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A handover note from the KS3 teacher to the GCSE teacher. What is secure, what was skimmed, who will struggle with the first unit. Facts only.",
   },
   {
@@ -135,6 +149,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A one-page organiser for the unit named, from the pasted curriculum only. Definitions and must-know items. No extra GCSE content dressed up as stretch.",
   },
   {
@@ -144,6 +159,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "One unit or enquiry from the question the user named. Lessons that fit the periods given. Outcome that a Year 7 or Year 8 can actually produce.",
   },
   {
@@ -153,6 +169,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A KS3 English map from the pasted programme of study and the texts the school actually teaches. Reading, writing, oracy. Do not invent a set text list.",
   },
   {
@@ -162,6 +179,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A KS3 Maths map from the pasted programme of study. Number, algebra, geometry, ratio, probability, statistics in an order this department can teach. Gaps from KS2 only if listed.",
   },
   {
@@ -171,6 +189,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A KS3 Science map from the pasted programme of study. Biology, chemistry, physics. Working scientifically. Practicals only if the department named the equipment they have.",
   },
   {
@@ -180,6 +199,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A KS3 History map from the pasted programme of study and the enquiries this department teaches. Chronology across the key stage. No extra periods.",
   },
   {
@@ -189,6 +209,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A KS3 Geography map from the pasted programme of study. Locational knowledge, places, human and physical, fieldwork only if the school named the sites.",
   },
   {
@@ -198,6 +219,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A KS3 map for the language named. Phonics, vocabulary, grammar from the lists or scheme the user pasted. Do not invent a word list.",
   },
   {
@@ -207,6 +229,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A KS3 Computing map from the pasted programme of study. Computer science, IT and digital literacy as the school splits them. Software only if named.",
   },
   {
@@ -216,6 +239,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A KS3 D and T map from the pasted programme of study and the materials this workshop actually uses. Cooking and nutrition if that sits here.",
   },
   {
@@ -225,6 +249,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A KS3 Art map from the pasted curriculum. Disciplines this department teaches. Artists only if the user named them.",
   },
   {
@@ -234,6 +259,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A KS3 Music map from the pasted curriculum. Performing, composing, listening. Instruments and software only if the school has them.",
   },
   {
@@ -243,6 +269,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A KS3 PE map from the pasted programme of study and the sports this site can actually run. Indoor backup. No invented fixtures.",
   },
   {
@@ -252,6 +279,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A KS3 Citizenship map from the pasted programme of study. Politics, law, media, volunteering as the document sets them. No party line.",
   },
   {
@@ -261,6 +289,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A KS3 RE map from the locally agreed syllabus or the academy curriculum the user pasted. Religions and worldviews only as listed. Do not invent beliefs.",
   },
   {
@@ -270,6 +299,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A KS3 Drama or oracy map from what the school actually teaches. If drama sits inside English, say so. Texts and productions only if named.",
   },
   {
@@ -279,6 +309,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A map for relationships, sex and health education from the school's policy and the statutory content the user pasted. Age-appropriate. Right to withdraw flagged where it applies. Not a biology lesson in disguise unless that is the slot.",
   },
   {
@@ -288,6 +319,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "How subjects other than English will teach reading of their own texts, from the approach the school named. Vocabulary and a short text type per subject if listed.",
   },
   {
@@ -297,6 +329,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "How subjects will get writing done without turning every book into an English exercise. Sentence-level habits if the school uses them.",
   },
   {
@@ -306,6 +339,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Rewrite a KS3 scheme so a cover supervisor can run the desk lessons. Flag practicals, performances and anything that must not run without the specialist.",
   },
   {
@@ -315,6 +349,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Adapt a pasted KS3 scheme for the needs listed. Same curriculum. Access, not a parallel course. No invented diagnoses.",
   },
   {
@@ -324,6 +359,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "The first three weeks in this subject. Routines, how books work, one early win. Content from the pasted Year 7 unit only.",
   },
   {
@@ -333,6 +369,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A moderation pack for a KS3 assessment the department already uses. What good looks like from the criteria pasted. No invented grade descriptors.",
   },
   {
@@ -342,6 +379,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A plain note for families on what this year of the subject covers and how they can help at home. No shopping list of revision guides.",
   },
   {
@@ -351,6 +389,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Stretch for pupils who are ready for harder thinking in this subject. Depth and disciplinary habit, not a Year 10 booklet in Year 8, unless the user asked for that and pasted the spec.",
   },
   {
@@ -360,6 +399,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A calendar of practicals, performances or fieldwork from what the department can actually staff and fund. Risk checks the user must confirm.",
   },
   {
@@ -369,6 +409,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Two versions of a KS3 year from the same pasted curriculum: blocked, then interleaved. The teacher picks one.",
   },
   {
@@ -378,6 +419,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A 15 minute tutor slot that supports this subject's retrieval. A non-specialist can run it. Cards only from what the user pastes.",
   },
   {
@@ -387,6 +429,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A structure for an end-of-year exam from the year's curriculum. What it should sample. Timing. Do not write a fake paper unless they asked and supplied the content.",
   },
   {
@@ -396,6 +439,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A short comment bank for this subject at KS3. Strength, next step, how to help at home. No invented pupils. Teacher still picks the line.",
   },
   {
@@ -405,6 +449,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A one-page intent for this subject at KS3 from what the department already believes and the programme of study pasted. Plain English. Not an Ofsted performance.",
   },
   {
@@ -414,6 +459,7 @@ export const deskItemsI: DeskItem[] = [
     category: "KS3",
     role: "a KS3 teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A scheme and unit map for a KS3 subject the shelf does not name. Build only from the pasted curriculum. If they did not paste one, stop and ask.",
   },
 ];

@@ -31,8 +31,12 @@ const CATEGORIES = [
 const PAGE_SIZE = 40;
 
 function buildPrompt(item: DeskItem) {
+  const guidance = item.guidance.length
+    ? `\nGuidance the user should paste before you draft:\n${item.guidance.map((line) => `- ${line}`).join("\n")}\n`
+    : "";
   return (
     sharedPreamble(item.role, item.gate) +
+    guidance +
     `\nJob: ${item.name}\n\nWhat good looks like:\n${item.job}\n` +
     contextBlock
   );

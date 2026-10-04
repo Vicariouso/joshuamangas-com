@@ -9,6 +9,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "Plan one lesson for the class described. Objective, prior knowledge, the task, adaptive teaching, how you will know it landed. Time it so it fits the period. No invented pupils.",
   },
   {
@@ -18,6 +19,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "A five-lesson sequence for the unit named. What gets harder each lesson. Retrieval from last time. Assessment point. Workload-honest resources.",
   },
   {
@@ -27,6 +29,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "Work a cover teacher or cover supervisor can run without the specialist. Clear instructions, timing, what to collect, what 'finished' looks like.",
   },
   {
@@ -36,6 +39,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "A short briefing for the teaching assistant before the lesson. Who to sit with, the scaffold, what not to do for the pupil, how to feed back at the end.",
   },
   {
@@ -45,6 +49,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "How this lesson changes for the pupils named, from facts given. Scaffold, adult support, alternative task. Not three worksheets labelled bronze silver gold unless that is how this school works.",
   },
   {
@@ -54,6 +59,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Build a scaffold for the task pasted: sentence stems, worked example, checklist. Say when the scaffold comes off.",
   },
   {
@@ -63,6 +69,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "An extension that is harder thinking, not more of the same. Tied to this lesson's objective.",
   },
   {
@@ -72,6 +79,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "Language support for this lesson from the pupil's stage as described. Key vocabulary, visuals, what the pupil will say or write. No invented proficiency level.",
   },
   {
@@ -81,6 +89,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: ["The plan and the school's SEND policy. Do not treat the 2015 SEND code of practice as if this pack had rewritten it."],
     job: "What this teacher will actually change this week for the pupils listed. From the plan or EHCP excerpts pasted. Classroom-level. Not a rewrite of the plan.",
   },
   {
@@ -90,6 +99,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "A short retrieval quiz from the content taught. Mix of last lesson, last week, last term if the user says so. Answers on a second block.",
   },
   {
@@ -99,6 +109,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "One page. Core knowledge for the unit. Definitions a pupil can revise. No wallpaper quotes.",
   },
   {
@@ -108,6 +119,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "A model response at the standard named, with a short 'why this works' for the class. Age-appropriate. Mark the bits that are non-negotiable.",
   },
   {
@@ -117,6 +129,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Feedback from a set of books or papers as described. What most got, three misconceptions, the reteach task. No fake quotes from pupils.",
   },
   {
@@ -126,6 +139,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "Short comments for this assignment. Strength, next step. Specific to the criteria. Not 'good work keep it up'.",
   },
   {
@@ -135,6 +149,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "A small code sheet this teacher can use while circulating. Few codes. What the pupil does when they see each one.",
   },
   {
@@ -144,6 +159,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "Homework this class can do without a specialist adult at home. Time estimate. How it will be checked. What happens if it is not done.",
   },
   {
@@ -153,6 +169,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "A short intervention for the gap named. Who, how often, the resource, how you will know after six weeks. Do not invent a published programme.",
   },
   {
@@ -162,6 +179,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "Questions for the text named, in the order you would ask them. Retrieval, inference, vocabulary. Age given by the user.",
   },
   {
@@ -171,6 +189,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "Notes for a phonics group from the code and stage the user names. Revisit, teach, practise, apply. No invented scheme steps.",
   },
   {
@@ -180,6 +199,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "Hazards and controls for THIS practical, from the activity described. Do not invent CLEAPSS codes or chemical quantities.",
   },
   {
@@ -189,6 +209,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A script for walking a class through a paper. Timing, where marks hide, common traps. Use only the paper or mark scheme pasted.",
   },
   {
@@ -198,6 +219,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "A revision plan for this class between now and the date given. What to revisit, what to drop, a realistic homework load.",
   },
   {
@@ -207,6 +229,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "A short rationale for a predicted or working-at grade from the evidence listed. Honest. No comfort grades.",
   },
   {
@@ -216,6 +239,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "What this teacher has seen in class that may support an access arrangements file. Facts only. The SENCo owns the application.",
   },
   {
@@ -225,6 +249,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "A handover for the next teacher. What works, what does not, reading ages or groups if supplied. No gossip. No diagnoses you were not given.",
   },
   {
@@ -234,6 +259,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "Five minutes of talking points for each pupil listed, from the notes pasted. Start with strength. One precise next step. No surprises that should have been a call.",
   },
   {
@@ -243,6 +269,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "A short class update. What we learned, what is coming, how families can help without buying a laminator.",
   },
   {
@@ -252,6 +279,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "A specific postcard or note home. Name the behaviour or the piece of work. Not a personality prize.",
   },
   {
@@ -261,6 +289,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "Prepare a call home. Opening line, the fact, the ask, close. Warm if it is good news. Calm if it is not.",
   },
   {
@@ -270,6 +299,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "A conversation after something went wrong in this teacher's lesson. Facts, impact, what happens tomorrow. Not a script to trap the pupil.",
   },
   {
@@ -279,6 +309,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "A factual note from break, lunch or corridor duty. What was seen, who was told, first aid if given. Do not invent witnesses.",
   },
   {
@@ -288,6 +319,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: ["Keeping children safe in education 2026 (in force 1 September 2026, England), the section you are using."],
     job: "Help a teacher write a concern for the DSL from facts they give. Child's words in quotation marks if supplied. No analysis beyond what was seen or said. Do not investigate. The DSL owns next steps.",
   },
   {
@@ -297,6 +329,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "A card for the teacher leading a group on a visit. Headcount, meeting point, who to call, medical notes only if the user pasted them.",
   },
   {
@@ -306,6 +339,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "A short risk note for a walk in the locality described. Roads, ratios, weather. Do not invent the school's visits policy.",
   },
   {
@@ -315,6 +349,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "A weekly reflection an ECT can take to their mentor. What they taught, what landed, one thing to try. Their voice, not a polished essay.",
   },
   {
@@ -324,6 +359,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "Turn the teacher's notes into an evidence log against the objectives given. Dates and artefacts only if supplied.",
   },
   {
@@ -333,6 +369,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "A one-side note a teacher can use before a walk: the focus, what is already in books, the question they hope is asked. Honest about the weak bit.",
   },
   {
@@ -342,6 +379,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "A self-check against the school's book expectations, from what the teacher says is in the books. Gaps to fix this week, not a defence.",
   },
   {
@@ -351,6 +389,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "A lesson plan a trainee can defend. Mentor notes in the margin: what to watch, when to step in. Do not write it as if the trainee already taught it.",
   },
   {
@@ -360,6 +399,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Classroom",
     role: "a teacher",
     gate: false,
+    guidance: [],
     job: "One club session. Arrival, activity, how it ends, ratios. Fun that still has an adult in charge.",
   },
   {
@@ -369,6 +409,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Form tutor",
     role: "a form tutor",
     gate: false,
+    guidance: [],
     job: "A two-week form-time sequence that fits the minutes you actually have. Register, notices, one useful activity. No fake PSHE scheme.",
   },
   {
@@ -378,6 +419,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Form tutor",
     role: "a form tutor",
     gate: false,
+    guidance: ["Working together to improve school attendance (DfE, July 2026, England). Do not use an older edition unless you paste it."],
     job: "Prepare a tutor conversation about attendance with the pupil or family facts given. Curious, not shaming. One next step.",
   },
   {
@@ -387,6 +429,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Form tutor",
     role: "a form tutor",
     gate: false,
+    guidance: [],
     job: "Short lesson-by-lesson comments for a daily report card. Factual. What improved.",
   },
   {
@@ -396,6 +439,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Form tutor",
     role: "a form tutor",
     gate: false,
+    guidance: ["Working together to improve school attendance (DfE, July 2026, England). Do not use an older edition unless you paste it."],
     job: "Notes for a tutor evening: attendance, conduct, the story across subjects from the data pasted. One family action.",
   },
   {
@@ -405,6 +449,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Form tutor",
     role: "a form tutor",
     gate: false,
+    guidance: [],
     job: "An assembly a tutor can deliver to a year group. Short enough to stand up and do. Tied to the theme given.",
   },
   {
@@ -414,6 +459,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Form tutor",
     role: "a form tutor",
     gate: false,
+    guidance: [],
     job: "A leaver comment or yearbook line from what the tutor actually knows. Specific. No empty 'will go far'.",
   },
   {
@@ -423,6 +469,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Form tutor",
     role: "a form tutor",
     gate: false,
+    guidance: ["Working together to improve school attendance (DfE, July 2026, England). Do not use an older edition unless you paste it."],
     job: "One tutor paragraph for the report cycle. Attendance, attitude, the person in the form. Age-appropriate.",
   },
   {
@@ -432,6 +479,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Form tutor",
     role: "a form tutor",
     gate: false,
+    guidance: [],
     job: "A short charter the form can live with. Few lines. Written so pupils could have said them.",
   },
   {
@@ -441,6 +489,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Form tutor",
     role: "a form tutor",
     gate: false,
+    guidance: [],
     job: "A tutor note or message when homework keeps not arriving. Check barriers first. Then the school sanction if that is the policy.",
   },
   {
@@ -450,6 +499,7 @@ export const deskItemsE: DeskItem[] = [
     category: "Form tutor",
     role: "a form tutor",
     gate: false,
+    guidance: [],
     job: "The first fortnight for a pupil new to the form. Buddy, map, who to eat with, what the tutor checks on day three and day ten.",
   },
 ];

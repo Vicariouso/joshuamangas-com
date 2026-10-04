@@ -9,6 +9,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A Year 1 and Year 2 scheme from the pasted programme of study or the school's own curriculum. What must be secure by the end of Year 2. Do not turn Year 1 into a SAT year.",
   },
   {
@@ -18,6 +19,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A Year 3 to Year 6 scheme from the pasted programme of study. Lower and upper KS2 marked. What must be secure before Year 6 tests if this school sits them.",
   },
   {
@@ -27,6 +29,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A Year 3 and Year 4 scheme from the pasted curriculum. The jump from KS1 named if the user listed it. Fluency before complexity.",
   },
   {
@@ -36,6 +39,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A Year 5 and Year 6 scheme from the pasted curriculum. Test technique only in the window the school actually uses. The rest of the curriculum still exists.",
   },
   {
@@ -45,6 +49,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "One year of Year 1 from the pasted curriculum. First half term that settles them after Reception. Phonics as the school names the programme. Play and desks in a ratio this class can bear.",
   },
   {
@@ -54,6 +59,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "One year of Year 2 from the pasted curriculum. Optional KS1 tests only if the school uses them and said so. Writing that is not a genre conveyor belt.",
   },
   {
@@ -63,6 +69,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "One year of Year 3 from the pasted curriculum. What Year 2 left unfinished if named. Independence without pretending they are Year 5.",
   },
   {
@@ -72,6 +79,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "One year of Year 4 from the pasted curriculum. Multiplication tables check only as this school runs it. The rest of the year is still a curriculum.",
   },
   {
@@ -81,6 +89,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "One year of Year 5 from the pasted curriculum. Depth before Year 6 acceleration. New content the programme of study actually places here.",
   },
   {
@@ -90,6 +99,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "One year of Year 6 from the pasted curriculum. What is taught before May and what is taught after. Secondary-ready habits, not a three-month test camp unless the user asked for that.",
   },
   {
@@ -99,6 +109,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A scheme for the mixed-age class the user named (for example Year 3/4). Same lessons, two pitch points. Cycle A and cycle B if they said the school uses them.",
   },
   {
@@ -108,6 +119,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "The first half term of Year 1 from what Reception actually did. Continuous provision that shrinks on purpose. Phonics as named. No invented ELG scores.",
   },
   {
@@ -117,6 +129,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A first half term in Year 3 that uses the Year 2 handover the user pasted. Reading stamina, number facts, how they write. Do not invent KS1 results.",
   },
   {
@@ -126,6 +139,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A handover note from the Year 6 teacher to secondary. Reading, writing, maths, how they learn, what must not be lost. Facts only. No predicted KS3 pathway.",
   },
   {
@@ -135,6 +149,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A KS1 or KS2 English map from the pasted programme of study and the texts this school actually uses. Reading, writing, spoken language. Do not invent a reading spine.",
   },
   {
@@ -144,6 +159,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A phonics sequence from the SSP the school named and any overview they pasted. Revisit, teach, practise, apply. Do not invent programme steps or alien words.",
   },
   {
@@ -153,6 +169,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "One reading lesson from the text and focus the user named. Vocabulary, a stretch of text, talk, a short written or oral response. Age of the class as given.",
   },
   {
@@ -162,6 +179,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A writing unit from the purpose and audience the user named. Model, shared, independent. Grammar only as it serves this piece. No invented WAGOLL if they did not paste one.",
   },
   {
@@ -171,6 +189,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A short grammar sequence from the year-group content pasted. Taught so it turns up in writing, not only in a test booklet.",
   },
   {
@@ -180,6 +199,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A parent note on the Year 1 phonics screening check. What it is, when it is, what happens if they retake in Year 2. No score predictions.",
   },
   {
@@ -189,6 +209,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A half-term plan that protects reading for pleasure. Class reader, library time, how adults talk about books. Titles only if the user listed them.",
   },
   {
@@ -198,6 +219,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A KS1 or KS2 maths map from the pasted programme of study. Number first. The year-group objectives in an order this school can teach.",
   },
   {
@@ -207,6 +229,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "One maths unit from the objectives pasted. Fluency, reasoning, problem solving. Concrete and pictorial only as this classroom actually has them.",
   },
   {
@@ -216,6 +239,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A Year 4 plan for the multiplication tables check from how this school already practises tables. Short, frequent. The rest of maths still happens.",
   },
   {
@@ -225,6 +249,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A KS1 or KS2 science map from the pasted programme of study. Working scientifically. Practicals this classroom can actually run.",
   },
   {
@@ -234,6 +259,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A primary history map from the pasted programme of study and the periods this school teaches. Chronology across the years. No extra topics.",
   },
   {
@@ -243,6 +269,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A primary geography map from the pasted programme of study. Locational knowledge, places, fieldwork only if the school named the sites.",
   },
   {
@@ -252,6 +279,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A primary art map from the pasted curriculum. Disciplines and artists only if named. Materials this stock cupboard has.",
   },
   {
@@ -261,6 +289,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A primary music map from the pasted curriculum. Singing, listening, composing. Instruments only if the school has them.",
   },
   {
@@ -270,6 +299,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A primary PE map from the pasted programme of study, including swimming if the school runs it. Indoor backup. No invented fixtures.",
   },
   {
@@ -279,6 +309,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A primary computing map from the pasted programme of study. Computer science, IT and digital literacy as the school splits them. Software only if named.",
   },
   {
@@ -288,6 +319,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A primary D and T map from the pasted programme of study. Cooking and nutrition if that sits here. Tools this school actually lets children use.",
   },
   {
@@ -297,6 +329,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A KS2 languages map for the language this school teaches. From the pasted programme of study or scheme. Do not invent a word list. KS1 only if they asked.",
   },
   {
@@ -306,6 +339,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A primary RE map from the locally agreed syllabus or the academy curriculum pasted. Religions and worldviews only as listed. Right of withdrawal flagged.",
   },
   {
@@ -315,6 +349,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A map for relationships and health education from the school's policy and the statutory content pasted. Age-appropriate. Sex education only if this school teaches it and the user said so.",
   },
   {
@@ -324,6 +359,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "An assessment calendar for the year named. Phonics check, MTC, KS2 tests only if this school sits them. Teacher assessment that is not a spreadsheet religion.",
   },
   {
@@ -333,6 +369,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A moderation pack for writing from the criteria and samples the user pasted. What good looks like this year. No invented TAFs.",
   },
   {
@@ -342,6 +379,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A staff brief for KS2 test week from the timetable pasted. Rooms, readers, rest breaks, who is calm. Access arrangements only as listed. Check current STA guidance.",
   },
   {
@@ -351,6 +389,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A parent note that explains scaled scores from the results the school will actually send. What the number means. What it does not. No league-table commentary.",
   },
   {
@@ -360,6 +399,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A one-page organiser for the unit named, from the pasted curriculum only. Vocabulary children will actually say. No extra facts for show.",
   },
   {
@@ -369,6 +409,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A half-term homework cycle. Reading, number facts, one short task. Work that does not need a craft shop or a parent who trained as a teacher.",
   },
   {
@@ -378,6 +419,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Adapt a pasted primary scheme for the needs listed. Same curriculum. Access, not a parallel course. No invented diagnoses.",
   },
   {
@@ -387,6 +429,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "Rewrite a primary scheme so another adult can run the desk lessons. Flag practicals, swimming, trips and anything that must not run without the class teacher.",
   },
   {
@@ -396,6 +439,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A catch-up plan from the reading evidence pasted. Minutes per week as given. Keep it inside the school's phonics or reading programme if named. No invented reading ages.",
   },
   {
@@ -405,6 +449,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A catch-up plan from the number gaps listed. Secure the facts the next unit needs. Short, daily if the timetable allows.",
   },
   {
@@ -414,6 +459,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A plain note for families on what this term covers and how they can help at home. No shopping list of workbooks.",
   },
   {
@@ -423,6 +469,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A short comment bank for this year group and subject. Strength, next step, how to help at home. No invented children. Teacher still picks the line.",
   },
   {
@@ -432,6 +479,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "One enquiry or theme from the question the user named. Subject contributions only where they are honest. Outcome a child this age can actually make.",
   },
   {
@@ -441,6 +489,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A plan for outdoor learning or a trip from the site and aims given. Risks the user must confirm. Learning that is not a worksheet on a clipboard.",
   },
   {
@@ -450,6 +499,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A one-page intent for this subject from what the school already believes and the programme of study pasted. Plain English. Not an Ofsted performance.",
   },
   {
@@ -459,6 +509,7 @@ export const deskItemsK: DeskItem[] = [
     category: "Primary",
     role: "a primary teacher",
     gate: false,
+    guidance: ["The programme of study, specification, or JCQ or awarding-body instruction. The model must not invent a topic list or a paper."],
     job: "A scheme and unit map for a primary subject the shelf does not name. Build only from the pasted curriculum. If they did not paste one, stop and ask.",
   },
 ];

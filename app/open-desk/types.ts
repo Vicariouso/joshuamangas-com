@@ -5,6 +5,7 @@ export type DeskItem = {
   category: string;
   role: string;
   gate: boolean;
+  guidance: string[];
   job: string;
 };
 
