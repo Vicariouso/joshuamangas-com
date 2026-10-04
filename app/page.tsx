@@ -75,8 +75,10 @@ export default function Home() {
         <section
           id="sgaf"
           aria-labelledby="sgaf-heading"
-          className="shell-prose px-6 py-10 sm:px-8 sm:py-14"
+          className="section-ghost"
         >
+          <p className="ghost-word" aria-hidden="true">SGAF</p>
+          <div className="shell-prose px-6 py-10 sm:px-8 sm:py-14">
           <p className="meta text-accent">SGAF</p>
           <h2 id="sgaf-heading" className="type-h2 mt-3 text-text">
             The governance record boards were missing.
@@ -97,13 +99,16 @@ export default function Home() {
               See SGAF
             </ExtLink>
           </p>
+          </div>
         </section>
 
         <section
           id="netcall"
           aria-labelledby="netcall-heading"
-          className="shell-prose px-6 py-10 sm:px-8 sm:py-14"
+          className="section-ghost"
         >
+          <p className="ghost-word" aria-hidden="true">NETCALL</p>
+          <div className="shell-prose px-6 py-10 sm:px-8 sm:py-14">
           <p className="meta text-accent">NetCall</p>
           <h2 id="netcall-heading" className="type-h2 mt-3 text-text">
             Courtside netball, without the paperwork pile.
@@ -123,13 +128,16 @@ export default function Home() {
               Visit NetCall
             </ExtLink>
           </p>
+          </div>
         </section>
 
         <section
           id="free-tools"
           aria-labelledby="free-heading"
-          className="shell-prose px-6 py-10 sm:px-8 sm:py-14"
+          className="section-ghost"
         >
+          <p className="ghost-word" aria-hidden="true">TOOLS</p>
+          <div className="shell-prose px-6 py-10 sm:px-8 sm:py-14">
           <p className="meta text-accent">Free board tools</p>
           <h2 id="free-heading" className="type-h2 mt-3 text-text">
             Checks a board can run today.
@@ -160,13 +168,16 @@ export default function Home() {
               Open the library
             </a>
           </p>
+          </div>
         </section>
 
         <section
           id="build"
           aria-labelledby="build-heading"
-          className="shell-prose px-6 py-10 sm:px-8 sm:py-14"
+          className="section-ghost"
         >
+          <p className="ghost-word" aria-hidden="true">WORKSHOP</p>
+          <div className="shell-prose px-6 py-10 sm:px-8 sm:py-14">
           <p className="meta text-accent">Workshop</p>
           <h2 id="build-heading" className="type-h2 mt-3 text-text">
             How these were built.
@@ -185,13 +196,16 @@ export default function Home() {
             Serving chair of governors. Previously on a senior leadership team.
             Nearly 500 schools informed the model.
           </p>
+          </div>
         </section>
 
         <section
           id="writing"
-          className="shell-prose px-6 py-10 sm:px-8 sm:py-14"
+          className="section-ghost"
           aria-labelledby="writing-heading"
         >
+          <p className="ghost-word" aria-hidden="true">WRITING</p>
+          <div className="shell-prose px-6 py-10 sm:px-8 sm:py-14">
           <h2 id="writing-heading" className="type-h2 text-text">
             A few pieces
           </h2>
@@ -210,13 +224,16 @@ export default function Home() {
               </li>
             ))}
           </ul>
+          </div>
         </section>
 
         <section
           id="contact"
-          className="shell-prose px-6 py-10 sm:px-8 sm:py-16"
+          className="section-ghost"
           aria-labelledby="contact-heading"
         >
+          <p className="ghost-word" aria-hidden="true">CONTACT</p>
+          <div className="shell-prose px-6 py-10 sm:px-8 sm:py-16">
           <h2 id="contact-heading" className="type-h2 text-text">
             Contact
           </h2>
@@ -238,6 +255,7 @@ export default function Home() {
               X
             </ExtLink>
             <EmailMe className="btn-ghost cursor-pointer" />
+          </div>
           </div>
         </section>
       </main>

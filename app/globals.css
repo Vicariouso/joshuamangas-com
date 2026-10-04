@@ -158,3 +158,30 @@ a { color: inherit; }
 .bio-line { margin-top: 2.75rem; padding-top: 1.25rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.9375rem; line-height: 1.55; }
 main section + section { border-top: 1px solid var(--border); }
 button, input, textarea, select { font-family: inherit; font-synthesis: none; -webkit-font-smoothing: antialiased; }
+
+.section-ghost {
+  position: relative;
+  overflow: hidden;
+}
+.ghost-word {
+  position: absolute;
+  z-index: 0;
+  top: -0.12em;
+  left: -0.03em;
+  margin: 0;
+  pointer-events: none;
+  user-select: none;
+  white-space: nowrap;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: clamp(8rem, 32vw, 22rem);
+  line-height: 0.78;
+  letter-spacing: -0.045em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--bg) 58%, var(--border-strong) 42%);
+  filter: blur(3px);
+}
+.section-ghost .shell-prose {
+  position: relative;
+  z-index: 1;
+}
